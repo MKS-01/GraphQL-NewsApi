@@ -1,16 +1,24 @@
-FROM node:14.15.5
+# syntax=docker/dockerfile:1
 
+FROM node:14.16.1 
 ENV NODE_ENV=production
 
 WORKDIR /app
 
 COPY ["package.json", "package-lock.json*", "./"]
 
-RUN yarn install --production
+RUN npm install --production
+# RUN npm install 
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 4000 
 
+# CMD [ "npm", "start" ]
 # CMD [ "node", "src/server.js" ]
-CMD [ "yarn", "start" ]
+# CMD [ "npm", "run", "start-pm2" ]
+
+RUN npm install pm2 -g
+
+CMD ["pm2-runtime", "src/server.js"]
+

@@ -1,26 +1,36 @@
 const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
+// const compression = require("compression");
+// const cors = require("cors");
 const typeDefs = require("./schema");
 const resolvers = require("./resolvers");
+const { SERVER_PORT } = require("../config");
 
 async function startApolloServer() {
   const app = express();
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    // introspection: true,
+    // playground: true,
+    // debug: true,
   });
+
   await server.start();
+
+  // app.use("*", cors());
+  // app.use(compression());
 
   server.applyMiddleware({ app });
 
-  app.use((req, res) => {
-    res.status(200);
-    res.send("Hello!");
-    res.end();
-  });
-
-  await new Promise((resolve) => app.listen({ port: 4000 }, resolve));
-  console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`);
+  await new Promise((resolve) =>
+    app.listen({ port: `${process.env.SERVER_PORT || SERVER_PORT}` }, resolve)
+  );
+  console.log(
+    `🚀 Server ready at http://localhost:${
+      process.env.SERVER_PORT || SERVER_PORT
+    }${server.graphqlPath}`
+  );
   return { server, app };
 }
 

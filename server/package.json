@@ -4,23 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/server.js",
+    "start": "node src/server.js",
+    "start-pm2": "pm2 start",
+    "dev": "nodemon --exec babel-node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.12.17",
-    "@babel/node": "^7.12.17",
-    "@babel/preset-env": "^7.12.17",
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "apollo-server": "^2.24.0",
-    "apollo-server-express": "^2.24.0",
-    "dotenv": "^8.2.0",
-    "graphql": "^15.5.0",
-    "mongoose": "^5.12.7"
+    "apollo-server-express": "^2.24.1",
+    "compression": "^1.7.4",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0"
   }
 }
