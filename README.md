@@ -29,10 +29,17 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 - Docker
 
 ### Initial UI - React - Native
-
+<div>
 <img src="./screenshots/mobile-rn/home.png" alt="home" width="277" height="508">
 <img src="./screenshots/mobile-rn/details.png" alt="details" width="277" height="508">
-<img src="./screenshots/mobile-rn/bookmark.png" alt="bookmark" width="277" height="508">
+  <img src="./screenshots/mobile-rn/bookmark.png" alt="bookmark" width="277" height="508">
+</div>
+  <div>
+
 <img src="./screenshots/mobile-rn/search.png" alt="search" width="277" height="508">
-<img src="./screenshots/mobile-rn/inAppBrowser.png" alt="inAppBrowser" width="277" height="508">
+  <img src="./screenshots/mobile-rn/inAppBrowser.png" alt="inAppBrowser" width="277" height="508">
 <img src="./screenshots/mobile-rn/settings.png" alt="settings" width="277" height="508">
+  </div>
+
+
+
