@@ -1,8 +1,8 @@
-import React from 'react';
-import {View, Text} from 'react-native';
-import {useQuery, gql} from '@apollo/client';
-import Loader from '_components/common/Loader';
-import Error from '_components/common/Error';
+import React from "react";
+import { View, Text } from "react-native";
+import { useQuery, gql } from "@apollo/client";
+import Loader from "_components/common/Loader";
+import Error from "_components/common/Error";
 
 const EXCHANGE_RATES = gql`
   query GetExchangeRates {
@@ -14,13 +14,19 @@ const EXCHANGE_RATES = gql`
 `;
 
 const HomeScreen = () => {
-  const {loading, error, data} = useQuery(EXCHANGE_RATES);
+  const { loading, error, data } = useQuery(EXCHANGE_RATES);
 
   if (loading) return <Loader />;
   if (error) return <Error error={error} />;
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       {/* {data.rates.map(({currency, rate}) =>
         console.log(`${currency + ':' + rate}`),
       )} */}
