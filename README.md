@@ -14,7 +14,7 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 
 ###### Tech Stack
 
-- Expo (React-Native) - TypeScript
+- Expo (React-Native) - JavaScript
 - GraphQL Client - [Apollo Client](https://github.com/apollographql/apollo-client)
 - CSS - [Styled-Components](https://styled-components.com)
 
