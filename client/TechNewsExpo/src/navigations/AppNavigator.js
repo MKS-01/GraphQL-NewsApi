@@ -2,7 +2,8 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
 import HomeScreen from "_scenes/Home";
-import SavedScreen from "_scenes/Saved";
+import BookmarksScreen from "_scenes/Bookmarks";
+import SearchScreen from "_scenes/Search";
 import { BACKGROUND_COLOR } from "_styles/";
 
 const RootTabs = createBottomTabNavigator();
@@ -16,14 +17,12 @@ const AppNavigator = () => {
 
           if (route.name === "Home") {
             iconName = focused ? "home" : "home-outline";
-          } else if (route.name === "Bookmark") {
+          } else if (route.name === "Bookmarks") {
             iconName = focused ? "bookmarks" : "bookmarks";
           } else if (route.name === "Search") {
-            // iconName = focused ? "ios-list-box" : "ios-list";
             iconName = focused ? "ios-search" : "ios-search";
           }
 
-          // You can return any component that you like here!
           return <Ionicons name={iconName} size={size} color={color} />;
         },
       })}
@@ -34,21 +33,17 @@ const AppNavigator = () => {
 
         style: {
           backgroundColor: `${BACKGROUND_COLOR}`,
-          shadowOffset: {
-            width: 0,
-            height: 0,
-          },
           borderTopColor: "#2c2c2e",
+          elevation: 0,
         },
       }}
       sceneContainerStyle={{
         backgroundColor: `${BACKGROUND_COLOR}`,
-        border: 0,
       }}
     >
       <RootTabs.Screen name="Home" component={HomeScreen} />
-      <RootTabs.Screen name="Bookmark" component={SavedScreen} />
-      <RootTabs.Screen name="Search" component={SavedScreen} />
+      <RootTabs.Screen name="Bookmarks" component={BookmarksScreen} />
+      <RootTabs.Screen name="Search" component={SearchScreen} />
     </RootTabs.Navigator>
   );
 };

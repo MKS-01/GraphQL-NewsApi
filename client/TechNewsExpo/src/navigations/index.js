@@ -1,31 +1,31 @@
-import * as React from 'react';
-import {Button, Text, TextInput, View} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
+import * as React from "react";
+import { Button, Text, TextInput, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
 // import {createStackNavigator} from '@react-navigation/stack';
-import {navigationRef} from './RootNavigation';
-import AuthNavigator from './AuthNavigator';
-import AppNavigator from './AppNavigator';
-import SplashScreen from '_scenes/Splash';
+import { navigationRef } from "./RootNavigation";
+import AuthNavigator from "./AuthNavigator";
+import AppNavigator from "./AppNavigator";
+import SplashScreen from "_scenes/Splash";
 
 export const AuthContext = React.createContext();
 
-export default function App({navigation}) {
+export default function App({ navigation }) {
   const [state, dispatch] = React.useReducer(
     (prevState, action) => {
       switch (action.type) {
-        case 'RESTORE_TOKEN':
+        case "RESTORE_TOKEN":
           return {
             ...prevState,
             userToken: action.token,
             isLoading: false,
           };
-        case 'SIGN_IN':
+        case "SIGN_IN":
           return {
             ...prevState,
             isSignout: false,
             userToken: action.token,
           };
-        case 'SIGN_OUT':
+        case "SIGN_OUT":
           return {
             ...prevState,
             isSignout: true,
@@ -37,7 +37,7 @@ export default function App({navigation}) {
       isLoading: true,
       isSignout: false,
       userToken: null,
-    },
+    }
   );
 
   React.useEffect(() => {
@@ -56,7 +56,7 @@ export default function App({navigation}) {
 
       // This will switch to the App screen or Auth screen and this loading
       // screen will be unmounted and thrown away.
-      dispatch({type: 'RESTORE_TOKEN', token: userToken});
+      dispatch({ type: "RESTORE_TOKEN", token: userToken });
     };
 
     bootstrapAsync();
@@ -64,37 +64,39 @@ export default function App({navigation}) {
 
   const authContext = React.useMemo(
     () => ({
-      signIn: async data => {
+      signIn: async (data) => {
         // In a production app, we need to send some data (usually username, password) to server and get a token
         // We will also need to handle errors if sign in failed
         // After getting token, we need to persist the token using `SecureStore` or any other encrypted storage
         // In the example, we'll use a dummy token
 
-        dispatch({type: 'SIGN_IN', token: 'dummy-auth-token'});
+        dispatch({ type: "SIGN_IN", token: "dummy-auth-token" });
       },
-      signOut: () => dispatch({type: 'SIGN_OUT'}),
-      signUp: async data => {
+      signOut: () => dispatch({ type: "SIGN_OUT" }),
+      signUp: async (data) => {
         // In a production app, we need to send user data to server and get a token
         // We will also need to handle errors if sign up failed
         // After getting token, we need to persist the token using `SecureStore` or any other encrypted storage
         // In the example, we'll use a dummy token
 
-        dispatch({type: 'SIGN_IN', token: 'dummy-auth-token'});
+        dispatch({ type: "SIGN_IN", token: "dummy-auth-token" });
       },
     }),
-    [],
+    []
   );
 
   return (
     <AuthContext.Provider value={authContext}>
       <NavigationContainer ref={navigationRef}>
-        {state.isLoading ? (
+        {/* {state.isLoading ? (
           <SplashScreen />
         ) : state.userToken == null ? (
           <AuthNavigator />
         ) : (
           <AppNavigator />
-        )}
+        )} */}
+
+        <AppNavigator />
       </NavigationContainer>
     </AuthContext.Provider>
   );

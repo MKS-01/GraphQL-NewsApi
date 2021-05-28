@@ -1,6 +1,6 @@
-import * as React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
-import SignInScreen from '_scenes/SignIn';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
+import SignInScreen from "_scenes/SignIn";
 
 const Stack = createStackNavigator();
 
@@ -9,7 +9,8 @@ function AuthNavigatorConfig() {
     <Stack.Navigator
       screenOptions={{
         headerShown: false,
-      }}>
+      }}
+    >
       <Stack.Screen name="Login" component={SignInScreen} />
     </Stack.Navigator>
   );

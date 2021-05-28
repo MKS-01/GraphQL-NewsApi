@@ -1,28 +1,37 @@
 import React from "react";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import AppLoading from "expo-app-loading";
+import {
+  useFonts,
+  WorkSans_400Regular,
+  WorkSans_600SemiBold,
+  WorkSans_700Bold,
+} from "@expo-google-fonts/dev";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { ApolloProvider } from "@apollo/client";
 import Navigator from "_navigations";
-// import NetworkConnection from "_utils/NetworkConnection";
-import client from "_services/GraphQL";
 import { StatusBar } from "expo-status-bar";
-// import Error from "_components/common/Error";
+import client from "_services/GraphQL";
+import { BACKGROUND_COLOR } from "_styles/colors";
 
 const App = () => {
-  // let network = NetworkConnection();
+  let [fontsLoaded] = useFonts({
+    WorkSans_400Regular,
+    WorkSans_600SemiBold,
+    WorkSans_700Bold,
+  });
 
-  // if (network === false) {
-  //   return <Error network={true} />;
-  // }
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  }
 
   return (
     <SafeAreaView
       style={{
         flex: 1,
-
-        backgroundColor: "#1c1c1e",
+        backgroundColor: `${BACKGROUND_COLOR}`,
       }}
     >
-      <StatusBar style="dark" />
+      <StatusBar style="inverted" />
       <ApolloProvider client={client}>
         <Navigator />
       </ApolloProvider>

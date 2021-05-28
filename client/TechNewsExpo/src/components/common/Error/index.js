@@ -1,11 +1,30 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React from "react";
+import { Container } from "_styles/RootView";
+import { ErrorText, ErrorContainer, ErrorImage } from "_styles/NetworkMessage";
 
-const Error = props => {
+const NetworkMessage = () => (
+  <ErrorContainer>
+    <ErrorImage
+      source={{
+        uri: "https://reactnative.dev/img/tiny_logo.png",
+      }}
+      source={require("_assets/images/no-wifi.png")}
+    />
+    <ErrorText>
+      Please check your network connectivity and try again !
+    </ErrorText>
+  </ErrorContainer>
+);
+
+const Error = (props) => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      {props.network ? <Text>s</Text> : <Text>{props.error}</Text>}
-    </View>
+    <Container>
+      {props.network ? (
+        <NetworkMessage />
+      ) : (
+        <ErrorText>{props.error}</ErrorText>
+      )}
+    </Container>
   );
 };
 
