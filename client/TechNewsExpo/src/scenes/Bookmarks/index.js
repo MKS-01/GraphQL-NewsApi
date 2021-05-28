@@ -1,7 +1,8 @@
 import React from "react";
-import { View, Text } from "react-native";
 import NetworkConnection from "_utils/NetworkConnection";
 import Error from "_components/common/Error";
+import { Container } from "_styles/RootView";
+import Title from "_components/common/Header";
 
 const BookmarksScreen = () => {
   let network = NetworkConnection();
@@ -11,9 +12,9 @@ const BookmarksScreen = () => {
   }
 
   return (
-    <View>
-      <Text></Text>
-    </View>
+    <Container>
+      <Title title={"Bookmark"} type="title" />
+    </Container>
   );
 };
 

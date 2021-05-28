@@ -3,7 +3,9 @@ import { BACKGROUND_COLOR } from "./colors";
 import { scaleSize } from "./mixins";
 
 export const RootScrollView = styled.ScrollView`
-  padding: ${scaleSize(15)}px;
+  flex: 1;
+  padding: ${scaleSize(10)}px;
+  background-color: ${BACKGROUND_COLOR};
 `;
 
 export const RootView = styled.View`
@@ -15,6 +17,6 @@ export const RootView = styled.View`
 
 export const Container = styled.View`
   flex: 1;
-  justify-content: center;
-  align-items: center;
+  padding: ${scaleSize(10)}px;
+  background-color: ${BACKGROUND_COLOR};
 `;

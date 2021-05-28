@@ -1,7 +1,9 @@
 import React from "react";
-import { View, Text } from "react-native";
+
 import NetworkConnection from "_utils/NetworkConnection";
 import Error from "_components/common/Error";
+import { Container } from "_styles/RootView";
+import Title from "_components/common/Header";
 
 const SearchScreen = () => {
   let network = NetworkConnection();
@@ -11,9 +13,9 @@ const SearchScreen = () => {
   }
 
   return (
-    <View>
-      <Text></Text>
-    </View>
+    <Container>
+      <Title title={"Search"} type="title" />
+    </Container>
   );
 };
 

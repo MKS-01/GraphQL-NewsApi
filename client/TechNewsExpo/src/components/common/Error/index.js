@@ -1,6 +1,11 @@
 import React from "react";
-import { Container } from "_styles/RootView";
-import { ErrorText, ErrorContainer, ErrorImage } from "_styles/NetworkMessage";
+
+import {
+  ErrorText,
+  ErrorContainer,
+  ErrorImage,
+  Container,
+} from "_styles/NetworkMessage";
 
 const NetworkMessage = () => (
   <ErrorContainer>
