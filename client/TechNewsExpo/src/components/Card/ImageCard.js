@@ -27,7 +27,7 @@ const ImageCard = ({ data, type }) => {
           height: type === "headline" ? scaleSize(250) : CategoryTypeHeight,
           width: type === "headline" ? scaleSize(250) : CategoryTypeWidth,
         }}
-        // onPress={() => console.log("test.....")}
+        // onPress={() => console.log("test.....")}   //navigation
       >
         <ImageBackground
           source={{

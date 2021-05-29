@@ -4,9 +4,9 @@ import { useQuery, gql } from "@apollo/client";
 import NetworkConnection from "_utils/NetworkConnection";
 import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
-import Title from "_components/common/Header";
 import { RootScrollView } from "_styles/RootView";
-import ImageCard from "_components/Card/ImageCard";
+import Headline from "_components/Home/Headline";
+import Category from "_components/Home/Category";
 import { headline } from "../../json/topHeadlines";
 import { apple } from "../../json/apple";
 
@@ -45,46 +45,4 @@ const HomeScreen = () => {
   );
 };
 
-const Headline = ({ data }) => {
-  const renderCard = ({ item }) => <ImageCard data={item} type="headline" />;
-  return (
-    <>
-      <Title title={"Top Headlines"} type="title" />
-      <FlatList
-        style={{ marginTop: 10 }}
-        data={data}
-        initialNumToRender={3}
-        renderItem={renderCard}
-        keyExtractor={(_, index) => index.toString()}
-        horizontal={true}
-        showsHorizontalScrollIndicator={false}
-        ItemSeparatorComponent={() => <View style={{ padding: 7 }} />}
-      />
-    </>
-  );
-};
-
-const Category = ({ data, type, title }) => {
-  const renderCard = ({ item }) => <ImageCard data={item} type={type} />;
-  return (
-    <>
-      <Title title={title} type="sub-title" />
-      <FlatList
-        style={{ marginTop: 10 }}
-        data={data}
-        renderItem={renderCard}
-        initialNumToRender={3}
-        keyExtractor={(_, index) => index.toString()}
-        horizontal={true}
-        showsHorizontalScrollIndicator={false}
-        ItemSeparatorComponent={() => <View style={{ padding: 7 }} />}
-      />
-    </>
-  );
-};
-
 export default HomeScreen;
-
-{
-  /* <Title title={"Top Headlines"} type="sub-title" /> */
-}

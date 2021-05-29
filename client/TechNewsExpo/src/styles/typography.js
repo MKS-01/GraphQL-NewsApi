@@ -5,13 +5,6 @@ export const FONT_FAMILY_REGULAR = "WorkSans_400Regular";
 export const FONT_FAMILY_SEMIBOLD = "WorkSans_600SemiBold";
 export const FONT_FAMILY_BOLD = "WorkSans_700Bold";
 
-// export const FONT_FAMILY_EXTRABOLD = "WorkSans-ExtraBold";
-// export const FONT_FAMILY_EXTRALIGHT = "WorkSans-ExtraLight";
-// export const FONT_FAMILY_LIGHT = "WorkSans-Light";
-// export const FONT_FAMILY_MEDIUM = "WorkSans-Medium";
-
-// export const FONT_FAMILY_THIN = "WorkSans-Thin";
-
 // FONT SIZE
 export const FONT_SIZE_16 = scaleFont(16);
 export const FONT_SIZE_14 = scaleFont(14);
