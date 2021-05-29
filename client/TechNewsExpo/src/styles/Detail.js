@@ -33,7 +33,7 @@ export const ReadMoreTouchable = styled.TouchableOpacity`
 
 export const ReadMoreText = styled.Text`
   font-size: ${scaleFont(14)}px;
-  color: #2962ff;
+  color: #3373fa;
 `;
 
 export const HeaderContainer = styled.View`

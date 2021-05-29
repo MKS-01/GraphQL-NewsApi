@@ -2,6 +2,8 @@ import React from "react";
 import { ImageBackground } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
+import * as Linking from "expo-linking";
+import * as WebBrowser from "expo-web-browser";
 import { scaleSize } from "_styles/mixins";
 import { WHITE } from "_styles/colors";
 import {
@@ -53,9 +55,11 @@ const Details = ({ data }) => {
       <BodyContainer>
         <DescriptionText type={"desc"}>{description} </DescriptionText>
         <DescriptionText type={"content"}>{content} </DescriptionText>
-
         <ReadMoreTouchable
-        //  onPress={() => this.openLink(url)}
+          onPress={() =>
+            // Linking.openURL(url)
+            WebBrowser.openBrowserAsync(url)
+          }
         >
           <ReadMoreText>Read More</ReadMoreText>
         </ReadMoreTouchable>
