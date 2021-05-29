@@ -2,7 +2,7 @@
 
 A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL. As well practice [React Native's Animated library](https://github.com/software-mansion/react-native-reanimated).
 
-<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="220" height="440">
+<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="597">
 
 ###### Concept Covers:
 
@@ -10,7 +10,8 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 - Pagination
 - Optimise Search
 - Animation on client side.
-- App running @60FPS
+
+<!-- - App running @60FPS -->
 
 #### CLIENT
 
@@ -44,4 +45,5 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 
 <div>
 <img src="./screenshots/mobile-rn/webview.png" alt="inAppBrowser" width="277" height="508">
+<img src="./screenshots/mobile-rn/error.png" alt="error" width="277" height="508">
 </div>
