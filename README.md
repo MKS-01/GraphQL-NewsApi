@@ -1,4 +1,4 @@
-#GraphQL-Practice
+# GraphQL-Practice
 
 A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL. As well practice [React Native's Animated library](https://github.com/software-mansion/react-native-reanimated).
 
