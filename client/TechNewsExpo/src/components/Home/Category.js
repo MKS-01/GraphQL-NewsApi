@@ -16,7 +16,7 @@ const Category = ({ data, type, title }) => {
         keyExtractor={(_, index) => index.toString()}
         horizontal={true}
         showsHorizontalScrollIndicator={false}
-        ItemSeparatorComponent={() => <View style={{ padding: 7 }} />}
+        ItemSeparatorComponent={() => <View style={{ margin: 7 }} />}
       />
     </>
   );

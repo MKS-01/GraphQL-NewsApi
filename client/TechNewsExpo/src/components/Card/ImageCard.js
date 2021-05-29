@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigation } from "@react-navigation/native";
 import { ImageBackground, Pressable, View } from "react-native";
 import {
   TextContainer,
@@ -9,6 +10,8 @@ import {
 import { scaleSize, WINDOW_WIDTH } from "_styles/mixins";
 
 const ImageCard = ({ data, type }) => {
+  const navigation = useNavigation();
+
   const { urlToImage, title } = data;
 
   const CategoryTypeWidth =
@@ -27,7 +30,9 @@ const ImageCard = ({ data, type }) => {
           height: type === "headline" ? scaleSize(250) : CategoryTypeHeight,
           width: type === "headline" ? scaleSize(250) : CategoryTypeWidth,
         }}
-        // onPress={() => console.log("test.....")}   //navigation
+        onPress={() => {
+          navigation.navigate("Detail", { data: data });
+        }}
       >
         <ImageBackground
           source={{

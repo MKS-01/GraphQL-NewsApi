@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   Card,
   Title,
@@ -6,7 +7,6 @@ import {
   ImageContainer,
   ImageCard,
 } from "_styles/SearchCard";
-import { useNavigation } from "@react-navigation/native";
 
 const SearchCard = ({ data }) => {
   const navigation = useNavigation();

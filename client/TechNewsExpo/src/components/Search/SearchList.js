@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, FlatList } from "react-native";
+import { View, FlatList } from "react-native";
 import SearchCard from "_components/Card/SearchCard";
 
 const SearchList = ({ data }) => {
@@ -12,7 +12,7 @@ const SearchList = ({ data }) => {
         initialNumToRender={10}
         renderItem={renderCard}
         keyExtractor={(_, index) => index.toString()}
-        ItemSeparatorComponent={() => <View style={{ padding: 5 }} />}
+        ItemSeparatorComponent={() => <View style={{ margin: 5 }} />}
       />
     </>
   );
