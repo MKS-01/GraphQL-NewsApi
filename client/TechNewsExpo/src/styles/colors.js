@@ -16,5 +16,6 @@ export const BACKGROUND_COLOR_SEC = "#18181a";
 
 export const TEXT_PRIMARY = "#f2f2f2";
 export const TEXT_SECONDARY = "#fafafa";
+export const TEXT_THIRD = "#e0e0e0";
 
 export const PLACEHOLDER = "#424242";

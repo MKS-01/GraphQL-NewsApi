@@ -1,10 +1,10 @@
 import React from "react";
-import { FlatList, View } from "react-native";
+import { View } from "react-native";
 import { useQuery, gql } from "@apollo/client";
 import NetworkConnection from "_utils/NetworkConnection";
 import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
-import { RootScrollView } from "_styles/RootView";
+import { RootScrollView, RootSafeArea } from "_styles/RootView";
 import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
 import { headline } from "../../json/topHeadlines";
@@ -32,16 +32,18 @@ const HomeScreen = () => {
   if (error) return <Error error={error} />;
 
   return (
-    <RootScrollView
-      showsVerticalScrollIndicator={false}
-      contentContainerStyle={{ paddingBottom: 25 }}
-    >
-      <Headline data={articles} />
-      <View style={{ margin: 10 }} />
-      <Category data={apple.articles} type="category" title="Apple" />
-      <View style={{ margin: 10 }} />
-      <Category data={apple.articles} type="category2" title="Apple" />
-    </RootScrollView>
+    <RootSafeArea>
+      <RootScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{ paddingBottom: 25 }}
+      >
+        <Headline data={articles} />
+        <View style={{ margin: 10 }} />
+        <Category data={apple.articles} type="category" title="Apple" />
+        <View style={{ margin: 10 }} />
+        <Category data={apple.articles} type="category2" title="Apple" />
+      </RootScrollView>
+    </RootSafeArea>
   );
 };
 

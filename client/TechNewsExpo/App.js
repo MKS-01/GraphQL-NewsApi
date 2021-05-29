@@ -6,12 +6,13 @@ import {
   WorkSans_600SemiBold,
   WorkSans_700Bold,
 } from "@expo-google-fonts/dev";
-import { SafeAreaView } from "react-native-safe-area-context";
+// import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { ApolloProvider } from "@apollo/client";
 import Navigator from "_navigations";
 import { StatusBar } from "expo-status-bar";
 import client from "_services/GraphQL";
 import { BACKGROUND_COLOR } from "_styles/colors";
+import { View } from "react-native";
 
 const App = () => {
   let [fontsLoaded] = useFonts({
@@ -25,7 +26,7 @@ const App = () => {
   }
 
   return (
-    <SafeAreaView
+    <View
       style={{
         flex: 1,
         backgroundColor: `${BACKGROUND_COLOR}`,
@@ -35,7 +36,7 @@ const App = () => {
       <ApolloProvider client={client}>
         <Navigator />
       </ApolloProvider>
-    </SafeAreaView>
+    </View>
   );
 };
 

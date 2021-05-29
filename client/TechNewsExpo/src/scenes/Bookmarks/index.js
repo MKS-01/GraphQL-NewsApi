@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NetworkConnection from "_utils/NetworkConnection";
 import Error from "_components/common/Error";
-import { Container } from "_styles/RootView";
+import { Container, RootSafeArea } from "_styles/RootView";
 import Title from "_components/common/Header";
 import Search from "_components/common/Search";
 import BookmarkList from "_components/Bookmark/BookmarkList";
@@ -17,15 +17,17 @@ const BookmarksScreen = () => {
   }
 
   return (
-    <Container>
-      <Title title={"Bookmark"} type="title" />
-      <Search
-        placeholder={"Browse News"}
-        value={search}
-        onChangeText={(text) => setSearch(text)}
-      />
-      <BookmarkList data={apple.articles} />
-    </Container>
+    <RootSafeArea>
+      <Container>
+        <Title title={"Bookmark"} type="title" />
+        <Search
+          placeholder={"Browse News"}
+          value={search}
+          onChangeText={(text) => setSearch(text)}
+        />
+        <BookmarkList data={apple.articles} />
+      </Container>
+    </RootSafeArea>
   );
 };
 

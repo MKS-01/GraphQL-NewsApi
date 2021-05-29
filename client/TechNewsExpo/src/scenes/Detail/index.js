@@ -1,10 +1,14 @@
 import React from "react";
+import { ScrollView } from "react-native";
+import Detail from "_components/Detail";
 import { RootScrollView } from "_styles/RootView";
 
-const DetailScreen = () => {
+const DetailScreen = ({ route }) => {
+  const { data } = route.params;
+
   return (
-    <RootScrollView showsVerticalScrollIndicator={false}>
-      {/* <DetailsPage data={data} /> */}
+    <RootScrollView showsVerticalScrollIndicator={false} type="detail">
+      <Detail data={data} />
     </RootScrollView>
   );
 };
