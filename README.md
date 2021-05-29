@@ -2,6 +2,8 @@
 
 A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL. As well practice [React Native's Animated library](https://github.com/software-mansion/react-native-reanimated).
 
+<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="220" height="440">
+
 ###### Concept Covers:
 
 - Auth Using JWT
@@ -28,11 +30,11 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 - ORM - [Prisma](https://github.com/prisma/prisma)
 - Docker
 
-### Initial UI - React - Native
+### EXPO
 
 <div>
 <img src="./screenshots/mobile-rn/home.png" alt="home" width="277" height="508">
-<img src="./screenshots/mobile-rn/details.png" alt="details" width="277" height="508">
+<img src="./screenshots/mobile-rn/detail.png" alt="detail" width="277" height="508">
 </div>
 
 <div>
@@ -41,6 +43,5 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 </div>
 
 <div>
-<img src="./screenshots/mobile-rn/inAppBrowser.png" alt="inAppBrowser" width="277" height="508">
-<img src="./screenshots/mobile-rn/settings.png" alt="settings" width="277" height="508">
+<img src="./screenshots/mobile-rn/webview.png" alt="inAppBrowser" width="277" height="508">
 </div>
