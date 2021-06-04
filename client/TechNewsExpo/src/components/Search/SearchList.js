@@ -7,7 +7,7 @@ const SearchList = ({ data }) => {
   return (
     <>
       <FlatList
-        style={{ marginTop: 10 }}
+        contentContainerStyle={{ marginTop: 10 }}
         data={data}
         initialNumToRender={10}
         renderItem={renderCard}

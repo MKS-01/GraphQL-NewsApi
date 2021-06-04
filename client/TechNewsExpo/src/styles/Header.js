@@ -8,7 +8,6 @@ import {
 } from "./typography";
 
 export const TitleText = styled.Text`
-  /* padding: ${scaleSize(15)}px; */
   /* margin: ${scaleSize(12)}px 0; */
   font-family: ${FONT_FAMILY_BOLD};
   color: ${TEXT_PRIMARY};
@@ -17,4 +16,6 @@ export const TitleText = styled.Text`
       ? `${TITLE_FONT_SIZE}px`
       : `${SUBTITLE_FONT_SIZE}px`};
   text-transform: uppercase;
+
+  padding-left: ${(props) => (props.paddingLeft ? `${scaleSize(10)}px` : 0)};
 `;

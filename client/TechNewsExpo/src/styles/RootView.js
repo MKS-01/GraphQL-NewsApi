@@ -10,7 +10,7 @@ export const RootScrollView = styled.ScrollView`
 
 export const Container = styled.View`
   flex: 1;
-  padding: ${scaleSize(10)}px;
+  padding: 0 ${scaleSize(10)}px;
   background-color: ${BACKGROUND_COLOR};
 `;
 

@@ -7,9 +7,9 @@ const Headline = ({ data }) => {
   const renderCard = ({ item }) => <ImageCard data={item} type="headline" />;
   return (
     <>
-      <Title title={"Top Headlines"} type="title" />
+      <Title title={"Top Headlines"} type="title" paddingLeft={true} />
       <FlatList
-        style={{ marginTop: 10 }}
+        contentContainerStyle={{ marginTop: 10, paddingHorizontal: 10 }}
         data={data}
         initialNumToRender={3}
         renderItem={renderCard}

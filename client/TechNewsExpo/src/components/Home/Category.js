@@ -7,9 +7,9 @@ const Category = ({ data, type, title }) => {
   const renderCard = ({ item }) => <ImageCard data={item} type={type} />;
   return (
     <>
-      <Title title={title} type="sub-title" />
+      <Title title={title} type="sub-title" paddingLeft={true} />
       <FlatList
-        style={{ marginTop: 10 }}
+        contentContainerStyle={{ marginTop: 10, paddingHorizontal: 10 }}
         data={data}
         renderItem={renderCard}
         initialNumToRender={3}

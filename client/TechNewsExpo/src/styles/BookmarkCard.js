@@ -4,7 +4,7 @@ import { scaleFont, scaleSize } from "./mixins";
 
 export const Card = styled.TouchableOpacity`
   flex: 1;
-  margin: ${scaleSize(5)}px;
+  margin: ${scaleSize(4)}px;
   flex-direction: column;
 `;
 

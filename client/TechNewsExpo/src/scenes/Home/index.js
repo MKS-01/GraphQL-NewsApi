@@ -34,9 +34,11 @@ const HomeScreen = () => {
   return (
     <RootSafeArea>
       <RootScrollView
+        type={"detail"}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 25 }}
       >
+        {/* <View style={{ margin: 5 }} /> */}
         <Headline data={articles} />
         <View style={{ margin: 10 }} />
         <Category data={apple.articles} type="category" title="Apple" />

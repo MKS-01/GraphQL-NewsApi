@@ -7,13 +7,12 @@ const BookmarkList = ({ data }) => {
   return (
     <>
       <FlatList
-        style={{
+        contentContainerStyle={{
           marginTop: 10,
         }}
         data={data}
         initialNumToRender={10}
         numColumns={2}
-        columnWrapperStyle={() => <View style={{ margin: 7, backgroundCol }} />}
         renderItem={renderCard}
         keyExtractor={(_, index) => index.toString()}
         ItemSeparatorComponent={() => <View style={{ margin: 2 }} />}
