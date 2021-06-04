@@ -1,6 +1,5 @@
 const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
-// const compression = require("compression");
 // const cors = require("cors");
 const typeDefs = require("./schema");
 const resolvers = require("./resolvers");
@@ -11,9 +10,9 @@ async function startApolloServer() {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    // introspection: true,
-    // playground: true,
-    // debug: true,
+    introspection: true,
+    playground: true,
+    debug: true,
   });
 
   await server.start();
