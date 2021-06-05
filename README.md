@@ -33,7 +33,8 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 
 ### Initial WireFrame
 
-<img src="./screenshots/wireframe/initial1.jpg" alt="home" width="277" height="508">
+<img src="./screenshots/wireframe/initial1.jpg" alt="wireframe" width="320" height="320">
+<img src="./screenshots/wireframe/initial2.jpg" alt="wireframe" width="320" height="320">
 ### EXPO
 
 <div>
