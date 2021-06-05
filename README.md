@@ -31,6 +31,9 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 - ORM - [Prisma](https://github.com/prisma/prisma)
 - Docker
 
+### Initial WireFrame
+
+<img src="./screenshots/wireframe/initial1.jpg" alt="home" width="277" height="508">
 ### EXPO
 
 <div>
