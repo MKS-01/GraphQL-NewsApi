@@ -18,7 +18,6 @@ async function startApolloServer() {
   await server.start();
 
   // app.use("*", cors());
-  // app.use(compression());
 
   server.applyMiddleware({ app });
 
