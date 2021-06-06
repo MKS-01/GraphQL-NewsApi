@@ -2,7 +2,7 @@
 
 A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL. As well practice [React Native's Animated library](https://github.com/software-mansion/react-native-reanimated).
 
-<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="597">
+<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
 
 ###### Concept Covers:
 
@@ -27,14 +27,18 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 
 - Node.js
 - [Apollo Server](https://github.com/apollographql/apollo-server)
-- DB - Postgres
-- ORM - [Prisma](https://github.com/prisma/prisma)
 - Docker
+<!-- - DB - Postgres -->
+<!-- - ORM - [Prisma](https://github.com/prisma/prisma) -->
+
 
 ### Initial WireFrame
 
+<div>
 <img src="./screenshots/wireframe/initial1.jpg" alt="wireframe" width="320" height="320">
 <img src="./screenshots/wireframe/initial2.jpg" alt="wireframe" width="320" height="320">
+</div>
+
 ### EXPO
 
 <div>
