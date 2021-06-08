@@ -8,12 +8,7 @@ import {
 
 const NetworkMessage = () => (
   <ErrorContainer>
-    <ErrorImage
-      source={{
-        uri: "https://reactnative.dev/img/tiny_logo.png",
-      }}
-      source={require("_assets/images/no-wifi.png")}
-    />
+    <ErrorImage source={require("_assets/images/no-wifi.png")} />
     <ErrorText>
       Please check your network connectivity and try again !
     </ErrorText>

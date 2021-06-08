@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 1000,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Giovanni Colantonio",
+      "title": "Pokémon with guns: Indie game Palworld has players up in arms - Digital Trends",
+      "description": "A new Pokémon-style indie game called Palworld has some fans baffled following its gun-filled debut trailer.",
+      "url": "https://www.digitaltrends.com/gaming/palworld-trailer-reaction/",
+      "urlToImage": "https://icdn.digitaltrends.com/image/digitaltrends/ss_d6f27d5c3476fd66c0cca94e804252af7198fafa.jpg",
+      "publishedAt": "2021-06-07T14:25:00Z",
+      "content": "A new game revealed during this weekend’s Indie Live Expo has some players scratching their heads. Palworld is a Pokémon-like game scheduled to release in 2022 that’s filled with cute monsters … and … [+2005 chars]"
+    },
+    {
+      "source": {
+        "id": "cbc-news",
+        "name": "CBC News"
+      },
+      "author": null,
+      "title": "Scientists use gene-splicing tool to ID endangered salmon in California - CBC.ca",
+      "description": "A gene-editing tool that has led to new cancer therapies and a rapid test for COVID-19 is now helping scientists find endangered species of salmon in the San Francisco Bay.",
+      "url": "https://www.cbc.ca/news/science/gene-splicing-tool-endangered-salmon-california-1.6055968",
+      "urlToImage": "https://i.cbc.ca/1.6055975.1623074867!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_620/world-ocean-day-crispr-conservation.JPG",
+      "publishedAt": "2021-06-07T14:23:01Z",
+      "content": "A gene-editing tool that has led to new cancer therapies and a rapid test for COVID-19 is now helping scientists find endangered species of salmon in the San Francisco Bay.\r\nThe CRISPR-based Sherlock… [+2197 chars]"
+    },
+    {
+      "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+      },
+      "author": "Abigail Opiah",
+      "title": "Email marketing guru iContact acquires Moz for undisclosed sum - Techradar",
+      "description": "iContact plans to make SEO its top priority after Moz purchase",
+      "url": "https://www.techradar.com/news/email-marketing-guru-icontact-acquires-moz-for-undisclosed-sum",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/gRGQM5skMxtdbxor76NXnZ-1200-80.jpg",
+      "publishedAt": "2021-06-07T14:14:37Z",
+      "content": "Popular SEO tool\r\n provider Moz has been acquired by J2 Global subsidiary iContact Marketing Corp, in a bid to help both companies expand their user bases and engage with customers more effectively.\r… [+1480 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Apple AirTags review: The Find My revolution - TNW",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9M0dwbXRvMmVvcm_SAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2021-06-07T14:10:41Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "DIE WELT"
+      },
+      "author": "Gerhard Hegmann",
+      "title": "Bayraktar TB2: Warum die türkische Killerdrohne zum Exportschlager wird - WELT",
+      "description": "Drohnen können aus der Luft selbst millionenteure Panzer ausschalten. Lange dominierten die USA und Israel den westlichen Markt für Killer-Drohnen. Doch das ändert sich jetzt – durch eine deutlich günstigere Alternative aus der Türkei. Die kam bereits im Syri…",
+      "url": "https://www.welt.de/wirtschaft/article231640723/Bayraktar-TB2-Warum-die-tuerkische-Killerdrohne-zum-Exportschlager-wird.html",
+      "urlToImage": "https://img.welt.de/img/wirtschaft/mobile231640717/2801358757-ci16x9-w1200/The-Turkish-made-Bayraktar-TB2-drone-is-2.jpg",
+      "publishedAt": "2021-06-07T13:58:34Z",
+      "content": "Wenn Militärexperten von Drohnen sprechen, verwenden sie häufig den Ausdruck Gamechanger. Sie verstehen darunter, dass unbemannte Flugobjekte unterschiedlicher Größe die bisherigen Spielregeln für de… [+5769 chars]"
+    },
+    {
+      "source": {
+        "id": "spiegel-online",
+        "name": "Spiegel Online"
+      },
+      "author": "DER SPIEGEL",
+      "title": "Veraltetes Mobilfunknetz: Teléfonica beginnt im Juli mit 3G-Abschaltung - DER SPIEGEL",
+      "description": "Kundinnen und Kunden von O2 können bald nicht mehr im 3G-Netz surfen: An 16.000 Standorten wird auf den moderneren Standard 4G umstellt. In Wolfsburg und Potsdam geschieht das früher als in Berlin.",
+      "url": "https://www.spiegel.de/netzwelt/netzpolitik/3g-telefonica-will-sein-netz-bald-abschalten-a-e617b9af-a1e4-4cb1-9a19-b9e34ada86b9",
+      "urlToImage": "https://cdn.prod.www.spiegel.de/images/8a1bde3b-2c70-457d-ace1-3e19ffb4bf6b_w1280_r1.77_fpx33.93_fpy46.99.jpg",
+      "publishedAt": "2021-06-07T13:56:00Z",
+      "content": "Das Ende des Mobilfunkstandards 3G auch UMTS genannt rückt näher. Am Montag gab Telefónica bekannt, mit der Abschaltung in den ersten Regionen im Juli zu beginnen. Bis Dezember sollen die Umstellunge… [+2912 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Frandroid"
+      },
+      "author": "Noémie Koskas",
+      "title": "Grâce à une ODR, la TV Samsung Neo QLED QE50QN90A revient à moins de 1 300 € - Frandroid",
+      "description": "C'est pour contrer l'OLED que Samsung a introduit la technologie mini LED en présentant sa gamme de TV Neo QLED. Cette dernière, qui présente une qualité d'image améliorée, a en plus l'avantage d'être taillée pour le gaming. En ce moment, la référence QE50QN9…",
+      "url": "https://www.frandroid.com/bons-plans/965077_grace-a-une-odr-la-tv-samsung-neo-qled-qe50qn90a-revient-a-moins-de-1-300-e",
+      "urlToImage": "https://images.frandroid.com/wp-content/uploads/2021/06/samsung-neo-qled-qe50qn90a.jpg",
+      "publishedAt": "2021-06-07T13:54:37Z",
+      "content": "C'est pour contrer l'OLED que Samsung a introduit la technologie mini LED en présentant sa gamme de TV Neo QLED. Cette dernière, qui présente une qualité d'image améliorée, a en plus l'avantage d'êtr… [+3412 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Gordon Kelly",
+      "title": "New Warning Issued For Millions Of iPhone 12 Users - Forbes",
+      "description": "Owners of Apple's iPhone 12 range need to know about a significant new health warning...",
+      "url": "https://www.forbes.com/sites/gordonkelly/2021/06/07/apple-iphone-12-pro-max-magsafe-health-warning-pacemaker-cied-new-iphone-update/",
+      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f960f4dfffddf07fd19dfe0%2F0x0.jpg%3FcropX1%3D41%26cropX2%3D1297%26cropY1%3D22%26cropY2%3D806",
+      "publishedAt": "2021-06-07T13:54:04Z",
+      "content": "07/06 Update below. This post was originally published on June 5\r\nApples iPhone 12 range continues to break sales records, but now a major new study has warned that the phones present a significant h… [+4570 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cryptonaute.fr"
+      },
+      "author": "Christophe Auffray",
+      "title": "Dogecoin: Les géants du Dogecoin sont de nouveau à la manœuvre - CryptoNaute",
+      "description": "",
+      "url": "https://cryptonaute.fr/les-geants-du-dogecoin-sont-de-nouveau-a-la-manoeuvre/",
+      "urlToImage": "https://cryptonaute.fr/wp-content/uploads/2021/02/jeune-investisseur.jpg",
+      "publishedAt": "2021-06-07T13:51:06Z",
+      "content": "Qui sont les grands gagnants de la cotation de Dogecoin sur Coinbase ? Sans doute avant tout les principaux détenteurs de DOGE, cest-à-dire les baleines, souvent à la manuvre lors des phases de hauss… [+2081 chars]"
+    },
+    {
+      "source": {
+        "id": "infobae",
+        "name": "Infobae"
+      },
+      "author": "anónimo",
+      "title": "Empleados de Apple le escribieron una carta a Tim Cook diciendo que quieren continuar con el trabajo remoto - infobae",
+      "description": "El comunicado llegó luego de que la compañía anunciara la implementación de una modalidad híbrida que implicaría ir a la oficina 3 veces por semana",
+      "url": "https://www.infobae.com/america/tecno/2021/06/07/empleados-de-apple-le-escribieron-una-carta-a-tim-cook-diciendo-que-quieren-continuar-con-el-trabajo-remoto/",
+      "urlToImage": "https://www.infobae.com/new-resizer/6yb5NecBAGahvGxTRYhi8dZZoAE=/1200x628/filters:format(jpg):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/PD4SUY7JSBCBXHMR3ESMZ6T3OE.jpg",
+      "publishedAt": "2021-06-07T13:46:03Z",
+      "content": "Se dijo muchas veces que el home office que se aceleró de la mano de la pandemia llegó para quedarse. Y si bien es cierto que eso está ocurriendo en algunos sectores, también es cierto que algunas co… [+12758 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "heise online"
+      },
+      "author": "Axel Kannenberg",
+      "title": "Webshop immer noch offline: Pearl spricht von \"Hackerangriff\" - heise online",
+      "description": "Ein Angriff von Cyberkriminellen habe dafür gesorgt, dass Pearl seinen Shop von Netz nehmen musste, teilte der Onlinehändler mit.",
+      "url": "https://www.heise.de/news/Webshop-offline-Pearl-spricht-von-Hackerangriff-6063922.html",
+      "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/1/1/6/9/9/1/pearltv-ad6bc98647beff5c.jpeg",
+      "publishedAt": "2021-06-07T13:44:00Z",
+      "content": "Seit dem Wochenende ist der Onlineshop des Anbieters Pearl offline Schuld daran sei ein \"Hackerangriff\", wie das Unternehmen am Montag mitteilte. Demnach sei es am 5. Juni zur Attacke auf die IT-Syst… [+1888 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livecoins.com.br"
+      },
+      "author": "https://www.facebook.com/gustavobertolu4",
+      "title": "Bitcoin saindo de corretoras no ritmo mais alto desde novembro de 2020, entenda - Livecoins",
+      "description": "De acordo com dados da Glassnode, o Bitcoin sai das corretoras de criptomoedas na taxa mais alta desde novembro de 2020, traders acompanham.",
+      "url": "https://livecoins.com.br/bitcoin-saindo-de-corretoras-entenda/",
+      "urlToImage": "https://livecoins.com.br/wp-content/uploads/2021/06/Cofre-vermelho-de-Bitcoin.jpg",
+      "publishedAt": "2021-06-07T13:34:25Z",
+      "content": "De acordo com dados da Glassnode, o Bitcoin está saindo das corretoras de criptomoedas na taxa mais alta desde novembro de 2020. Essa movimentação, que diminui a liquidez do mercado, indica que a que… [+2599 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Showbiz Cheat Sheet"
+      },
+      "author": "Produced by Digital Editors",
+      "title": "The 'Sims 4' Pack Made Especially for Players Who Spend Hours Designing Their Houses - Showbiz Cheat Sheet",
+      "description": "'Sims 4' launched a new pack at the beginning of June and home decor fans are going to spend hours loving this one.",
+      "url": "https://www.cheatsheet.com/entertainment/sims-4-pack-made-for-players-who-spend-hours-designing-houses.html/",
+      "urlToImage": "https://www.cheatsheet.com/wp-content/uploads/2021/06/Sims-4-1024x682.jpg",
+      "publishedAt": "2021-06-07T13:31:32Z",
+      "content": "It may have been seven years since The Sims 4 was released, but the Sims team is still going strong with updates and expansion packs. For over two decades, video game fans have flocked to The Sims fr… [+3501 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Les Numériques"
+      },
+      "author": "Louis Paillat",
+      "title": "Urbanista lance le Los Angeles, un casque qui tire sa puissance de la lumière - Les Numériques",
+      "description": "Urbanista vient d'ouvrir les précommandes de son nouveau casque sans-fil à réduction de bruit active. Sa particularité ? Pouvoir se recharger grâce à n’importe quelle source de lumière, que ce soit celle du Soleil ou d'une lampe.",
+      "url": "https://www.lesnumeriques.com/casque-nomade/urbanista-lance-le-los-angeles-un-casque-qui-tire-sa-puissance-de-la-lumiere-n164657.html",
+      "urlToImage": "https://dyw7ncnq1en5l.cloudfront.net/optim/news/16/164657/b7193243-urbanista-lance-le-los-angeles-un-casque-qui-tire-sa-puissance-de-la-lumiere_png__908_512__387-215-3451-1943.jpg",
+      "publishedAt": "2021-06-07T13:30:00Z",
+      "content": "Urbanista vient d'ouvrir les précommandes de son nouveau casque sans-fil à réduction de bruit active. Sa particularité ? Pouvoir se recharger grâce à nimporte quelle source de lumière, que ce soit ce… [+2129 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sportskeeda"
+      },
+      "author": "Ny'esha Cooper",
+      "title": "5 best Minecraft Java Edition Modpacks for single-player survival in 2021 - Sportskeeda",
+      "description": "In Minecraft, modpacks are downloadable items that players can install to get new items in the game. These are items that players would never have seen in the default vanilla version of the game.",
+      "url": "https://www.sportskeeda.com/minecraft/5-best-minecraft-java-edition-modpacks-single-player-survival-2021",
+      "urlToImage": "https://staticg.sportskeeda.com/editor/2021/06/1b52f-16230697034382.png",
+      "publishedAt": "2021-06-07T13:25:38Z",
+      "content": "In Minecraft, modpacks are downloadable items that players can install to get new items in the game. These are items that players would never have seen in the default vanilla version of the game.\r\nMo… [+3587 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "heise online"
+      },
+      "author": "Leo Becker",
+      "title": "Intime Aufnahmen bei iPhone-Reparatur hochgeladen: Apple zahlt Millionenbetrag - heise online",
+      "description": "Apple hat die Klage einer Kundin, deren iPhone-Fotos von Mitarbeitern eines Reparaturzentrums veröffentlicht wurden, außergerichtlich beigelegt.",
+      "url": "https://www.heise.de/news/Intime-Aufnahmen-bei-iPhone-Reparatur-hochgeladen-Apple-zahlt-Millionenbetrag-6064031.html",
+      "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/1/1/7/0/6/7/shutterstock_784587802-e4a83066a5c30d73.jpeg",
+      "publishedAt": "2021-06-07T13:25:00Z",
+      "content": "Apple hat eine Klage wegen Zugriffs auf persönliche Fotos und Videos bei einer iPhone-Reparatur nun außergerichtlich beigelegt: Der Konzern zahlte einer Studentin angeblich mehrere Millionen US-Dolla… [+1696 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MonPetitForfait"
+      },
+      "author": null,
+      "title": "SFR révolutionne l’abonnement internet fibre avec le prix de sa SFR Box 7 - MonPetitForfait",
+      "description": "Avec l'offre limitée Mes Jours Fibre, le FAI SFR propose du jamais vu, avec un prix défiant toute concurrence sur sa box internet fibre.",
+      "url": "https://www.monpetitforfait.com/comparateur-box-internet/offres-box/70029-sfr-revolutionne-abonnement-internet-fibre-avec-prix-sfr-box-7",
+      "urlToImage": "https://www.monpetitforfait.com/comparateur-box-internet/wp-content/uploads/2021/06/sfr-box-7-fibre.png",
+      "publishedAt": "2021-06-07T13:23:00Z",
+      "content": "Cela faisait longtemps que l'on n'avait pas vu de la nouveauté sur le marché des box internet. Les mêmes fournisseurs d'accès internet campent le peloton de tête, avec les mêmes prix et les mêmes off… [+4750 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MobileSyrup"
+      },
+      "author": null,
+      "title": "New leak suggests Twitter may launch 'Super Follows' feature soon - MobileSyrup",
+      "description": "Twitter might be close to launching its paid Super Follows feature, according to a new leak from reverse app engineer Jane Manchun Wong.",
+      "url": "https://mobilesyrup.com/2021/06/07/new-leak-suggests-twitter-may-launch-super-follows-feature-soon/",
+      "urlToImage": "https://cdn.mobilesyrup.com/wp-content/uploads/2020/11/twitter-1-scaled.jpg",
+      "publishedAt": "2021-06-07T13:16:00Z",
+      "content": "Twitter might be close to launching its paid Super Follows feature, according to a new leak from reverse app engineer Jane Manchun Wong.\r\nWong posted screenshots of what the feature may look like on … [+1590 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Otempo.com.br"
+      },
+      "author": "Da Redação",
+      "title": "Apple paga R$ 25 mi a jovem que teve nudes vazados ao deixar iPhone no conserto - O Tempo",
+      "description": "Mulher de 21 anos levou aparelho para reparo, mas teve dez fotos de nudez e um vídeo de sexo postados em seu Facebook",
+      "url": "https://www.otempo.com.br/mundo/apple-paga-r-25-mi-a-jovem-que-teve-nudes-vazados-ao-deixar-iphone-no-conserto-1.2495422",
+      "urlToImage": "https://www.otempo.com.br/image/contentid/policy:1.2495437:1623071662/apple-iphone-acordo.jpg?f=3x2&w=620&$p$f$w=545de7e",
+      "publishedAt": "2021-06-07T13:15:00Z",
+      "content": "A Apple fez um acordo e pagou uma quantia milionária a uma mulher que teve suas fotos íntimas expostas em uma rede social após deixar seu aparelho iPhone para conserto em uma loja. O valor exato do a… [+785 chars]"
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Opening Bell: Zoom Video, Peloton, Nvidia, Plug Power, Biogen, Tesla, Bitcoin, Microsoft - DER AKTIONÄR TV",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WkR5b0ZjTVlKSW_SAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2021-06-07T13:14:38Z",
+      "content": null
+    }
+  ]
+}
