@@ -4,14 +4,6 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 
 <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
 
-###### Concept Covers:
-
-- Auth Using JWT
-- Pagination
-- Optimise Search
-- Animation on client side.
-
-<!-- - App running @60FPS -->
 
 #### CLIENT
 
@@ -26,7 +18,8 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 ###### Tech Stack
 
 - Node.js
-- [Apollo Server](https://github.com/apollographql/apollo-server)
+- GraphQL
+- [Apollo Server Express](https://www.apollographql.com/docs/apollo-server/integrations/middleware/)
 - Docker
   <!-- - DB - Postgres -->
   <!-- - ORM - [Prisma](https://github.com/prisma/prisma) -->
