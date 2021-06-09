@@ -1,11 +1,11 @@
 const { RESTDataSource } = require("apollo-datasource-rest");
 
-const { NEWSAPI_KEY } = require("../../../config");
+const { NEWSAPI_URL, NEWSAPI_KEY } = require("../../../config");
 
 class NewsAPI extends RESTDataSource {
   constructor() {
     super();
-    this.baseURL = "http://newsapi.org/v2/";
+    this.baseURL = NEWSAPI_URL;
   }
 
   willSendRequest(request) {
@@ -25,8 +25,18 @@ class NewsAPI extends RESTDataSource {
     };
   }
 
-  async getTopHeadlines() {
-    const response = await this.get(`top-headlines\?sources\=techcrunch`);
+  async getTopHeadlines(requestBody) {
+    const { language, category, query } = JSON.parse(
+      JSON.stringify(requestBody.input)
+    );
+
+    const reqBody = {
+      language: language ? language.toLowerCase() : "en",
+      category: category ? category.toLowerCase() : "technology",
+      q: query ? query : "",
+    };
+
+    const response = await this.get(`top-headlines`, reqBody);
 
     const articles = response.articles;
 

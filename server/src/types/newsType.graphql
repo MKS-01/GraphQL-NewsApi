@@ -1,7 +1,3 @@
-type Query {
-  topHeadlines: [News]!
-}
-
 type News {
   id: ID!
   author: String
@@ -11,4 +7,46 @@ type News {
   urlToImage: String
   publishedAt: String
   content: String
+}
+
+type Query {
+  topHeadlines(input: NewsAPIInput): [News]!
+  # bookmark: [News!]
+}
+
+type Mutation {
+  addBookmark(input: AddBookmarkInput): Boolean!
+  removeBookmark(id: ID!): Boolean!
+}
+
+input NewsAPIInput {
+  language: Language
+  category: Category
+  query: String
+}
+
+input AddBookmarkInput {
+  title: String!
+  author: String
+  description: String
+  url: String!
+  urlToImage: String
+  publishedAt: String
+  content: String
+}
+
+enum Language {
+  EN
+  FR
+  RU
+  IT
+}
+
+enum Category {
+  TECHNOLOGY
+  BUSINESS
+  SCIENCE
+  GENERAL
+  HEALTH
+  SPORTS
 }

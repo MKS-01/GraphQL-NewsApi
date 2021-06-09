@@ -2,7 +2,7 @@ const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
 // const cors = require("cors");
 
-const NewsAPI = require("./dataSources/REST/NewsAPI");
+const NewsAPI = require("./dataSources/REST/newsAPI");
 
 const { buildSchema } = require("./schema.js");
 
