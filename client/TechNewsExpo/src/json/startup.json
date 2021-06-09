@@ -1,20 +1,7 @@
 {
     "status": "ok",
-    "totalResults": 12891,
+    "totalResults": 13064,
     "articles": [
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Richard Dal Porto",
-            "title": "Betting on upcoming startup markets",
-            "description": "Welcome back to The TechCrunch Exchange, a weekly startups-and-markets newsletter for your weekend enjoyment.",
-            "url": "http://techcrunch.com/2021/05/07/betting-on-upcoming-startup-markets/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/NSussman_Techcrunch_Exchange-multicolor.jpg?w=533",
-            "publishedAt": "2021-05-07T22:21:17Z",
-            "content": "Welcome back to The TechCrunch Exchange, a weekly startups-and-markets newsletter. Its broadly based on the daily column that appears on Extra Crunch, but free, and made for your weekend reading. \r\nR… [+7913 chars]"
-        },
         {
             "source": {
                 "id": "techcrunch",
@@ -86,25 +73,12 @@
                 "name": "TechCrunch"
             },
             "author": "Ingrid Lunden",
-            "title": "Snap acquires AR startup WaveOptics, which provides tech for Spectacles, for over $500M",
-            "description": "Snap yesterday announced the latest iteration of its Spectacles augmented reality glasses, and today the company revealed a bit more news: it is also acquiring the startup that supplied the technology that helps power them. The Snapchat parent is snapping up …",
-            "url": "http://techcrunch.com/2021/05/21/snap-acquires-ar-startup-waveoptics-which-provides-tech-for-spectacles-for-over-500m/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/spectacles.jpg?w=764",
-            "publishedAt": "2021-05-21T14:30:14Z",
-            "content": "Snap yesterday announced the latest iteration of its Spectacles augmented reality glasses, and today the company revealed a bit more news: it is also acquiring the startup that supplied the technolog… [+2897 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Natasha Lomas",
-            "title": "Security startup Tessian, which uses AI to fight social engineering, trousers $65M",
-            "description": "In the latest chunky funding round out of Europe, UK-based email security startup, Tessian, has closed $65 million in Series C funding. The startup applies machine learning to build individual behavior models for enterprise email use that aims to combat human…",
-            "url": "http://techcrunch.com/2021/05/25/security-startup-tessian-which-uses-ai-to-fight-social-engineering-trousers-65m/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/06/Tessian-Co-founders-L-R-Tim-Sadler-CEO_-Ed-Bishop-CTO_-Tom-Adams-Head-of-Client-side-engineering.jpg?w=600",
-            "publishedAt": "2021-05-25T13:31:25Z",
-            "content": "In the latest chunky funding round out of Europe, UK-based email security startup, Tessian, has closed $65 million in Series C funding. The startup applies machine learning to build individual behavi… [+2953 chars]"
+            "title": "Styra, the startup behind Open Policy Agent, nabs $40M to expand its cloud-native authorization tools",
+            "description": "As cloud-native apps continue to become increasingly central to how organizations operate, a startup founded by the creators of a popular open-source tool to manage authorization for cloud-native application environments is announcing some funding to expand i…",
+            "url": "http://techcrunch.com/2021/05/18/styra-the-startup-behind-open-policy-agent-nabs-40m-to-expand-its-cloud-native-authorization-tools/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/01/GettyImages-813176546.jpg?w=599",
+            "publishedAt": "2021-05-18T13:31:42Z",
+            "content": "As cloud-native apps continue to become increasingly central to how organizations operate, a startup founded by the creators of a popular open-source tool to manage authorization for cloud-native app… [+2978 chars]"
         },
         {
             "source": {
@@ -124,19 +98,6 @@
                 "id": "techcrunch",
                 "name": "TechCrunch"
             },
-            "author": "Ingrid Lunden",
-            "title": "Styra, the startup behind Open Policy Agent, nabs $40M to expand its cloud-native authorization tools",
-            "description": "As cloud-native apps continue to become increasingly central to how organizations operate, a startup founded by the creators of a popular open-source tool to manage authorization for cloud-native application environments is announcing some funding to expand i…",
-            "url": "http://techcrunch.com/2021/05/18/styra-the-startup-behind-open-policy-agent-nabs-40m-to-expand-its-cloud-native-authorization-tools/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/01/GettyImages-813176546.jpg?w=599",
-            "publishedAt": "2021-05-18T13:31:42Z",
-            "content": "As cloud-native apps continue to become increasingly central to how organizations operate, a startup founded by the creators of a popular open-source tool to manage authorization for cloud-native app… [+2978 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
             "author": "Romain Dillet",
             "title": "Finary wants to create the wealth management dashboard for the next generation",
             "description": "Meet Finary, a new French startup that wants to change how you manage your savings, investments, mortgage, real estate assets and cryptocurrencies. The company lets you aggregate all your accounts across various banks and financial institutions so that you ca…",
@@ -144,19 +105,6 @@
             "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/Finary-Plateforme-Web-2.png?w=533",
             "publishedAt": "2021-05-18T16:53:38Z",
             "content": "Meet Finary, a new French startup that wants to change how you manage your savings, investments, mortgage, real estate assets and cryptocurrencies. The company lets you aggregate all your accounts ac… [+3084 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ron Miller",
-            "title": "Unbounce snags Snazzy.ai to add automated copywriting to platform",
-            "description": "Unbounce, a Vancouver startup best known for helping marketers create automated landing pages, added a new wrinkle this morning when it announced it has acquired Snazzy.ai, an early stage automated copywriting startup. The two companies did not share the term…",
-            "url": "http://techcrunch.com/2021/05/19/unbounce-snags-snazzy-ai-to-add-automated-copywriting-to-platform/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1032165070.jpg?w=554",
-            "publishedAt": "2021-05-19T13:00:36Z",
-            "content": "Unbounce, a Vancouver startup best known for helping marketers create automated landing pages, added a new wrinkle this morning when it announced it has acquired Snazzy.ai, an early stage automated c… [+2564 chars]"
         },
         {
             "source": {
@@ -189,13 +137,13 @@
                 "id": "techcrunch",
                 "name": "TechCrunch"
             },
-            "author": "Devin Coldewey",
-            "title": "OpenAI’s $100M startup fund will make ‘big early bets’ with Microsoft as partner",
-            "description": "OpenAI is launching a $100 million startup fund, which it calls the OpenAI Startup Fund, though which it and its partners will invest in early-stage AI companies tackling major problems (and productivity). Among those partners and investors in the fund is Mic…",
-            "url": "http://techcrunch.com/2021/05/26/openais-100m-startup-fund-will-make-big-early-bets-with-microsoft-as-partner/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/03/lp-logo-3.jpg?w=591",
-            "publishedAt": "2021-05-26T17:22:01Z",
-            "content": "OpenAI is launching a $100 million startup fund, which it calls the OpenAI Startup Fund, though which it and its partners will invest in early-stage AI companies tackling major problems (and producti… [+2114 chars]"
+            "author": "Ron Miller",
+            "title": "Unbounce snags Snazzy.ai to add automated copywriting to platform",
+            "description": "Unbounce, a Vancouver startup best known for helping marketers create automated landing pages, added a new wrinkle this morning when it announced it has acquired Snazzy.ai, an early stage automated copywriting startup. The two companies did not share the term…",
+            "url": "http://techcrunch.com/2021/05/19/unbounce-snags-snazzy-ai-to-add-automated-copywriting-to-platform/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1032165070.jpg?w=554",
+            "publishedAt": "2021-05-19T13:00:36Z",
+            "content": "Unbounce, a Vancouver startup best known for helping marketers create automated landing pages, added a new wrinkle this morning when it announced it has acquired Snazzy.ai, an early stage automated c… [+2564 chars]"
         },
         {
             "source": {
@@ -215,6 +163,19 @@
                 "id": "techcrunch",
                 "name": "TechCrunch"
             },
+            "author": "Devin Coldewey",
+            "title": "OpenAI’s $100M startup fund will make ‘big early bets’ with Microsoft as partner",
+            "description": "OpenAI is launching a $100 million startup fund, which it calls the OpenAI Startup Fund, though which it and its partners will invest in early-stage AI companies tackling major problems (and productivity). Among those partners and investors in the fund is Mic…",
+            "url": "http://techcrunch.com/2021/05/26/openais-100m-startup-fund-will-make-big-early-bets-with-microsoft-as-partner/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/03/lp-logo-3.jpg?w=591",
+            "publishedAt": "2021-05-26T17:22:01Z",
+            "content": "OpenAI is launching a $100 million startup fund, which it calls the OpenAI Startup Fund, though which it and its partners will invest in early-stage AI companies tackling major problems (and producti… [+2114 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
             "author": "Manish Singh",
             "title": "Tata Digital to invest $75 million in CureFit",
             "description": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and chief executive Mukesh Bansal will join Tata Digital as Presi…",
@@ -222,6 +183,32 @@
             "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/curefit.jpg?w=681",
             "publishedAt": "2021-06-07T12:59:50Z",
             "content": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and c… [+907 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Natasha Lomas",
+            "title": "Security startup Tessian, which uses AI to fight social engineering, trousers $65M",
+            "description": "In the latest chunky funding round out of Europe, UK-based email security startup, Tessian, has closed $65 million in Series C funding. The startup applies machine learning to build individual behavior models for enterprise email use that aims to combat human…",
+            "url": "http://techcrunch.com/2021/05/25/security-startup-tessian-which-uses-ai-to-fight-social-engineering-trousers-65m/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/06/Tessian-Co-founders-L-R-Tim-Sadler-CEO_-Ed-Bishop-CTO_-Tom-Adams-Head-of-Client-side-engineering.jpg?w=600",
+            "publishedAt": "2021-05-25T13:31:25Z",
+            "content": "In the latest chunky funding round out of Europe, UK-based email security startup, Tessian, has closed $65 million in Series C funding. The startup applies machine learning to build individual behavi… [+2953 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Ingrid Lunden",
+            "title": "Snap acquires AR startup WaveOptics, which provides tech for Spectacles, for over $500M",
+            "description": "Snap yesterday announced the latest iteration of its Spectacles augmented reality glasses, and today the company revealed a bit more news: it is also acquiring the startup that supplied the technology that helps power them. The Snapchat parent is snapping up …",
+            "url": "http://techcrunch.com/2021/05/21/snap-acquires-ar-startup-waveoptics-which-provides-tech-for-spectacles-for-over-500m/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/spectacles.jpg?w=764",
+            "publishedAt": "2021-05-21T14:30:14Z",
+            "content": "Snap yesterday announced the latest iteration of its Spectacles augmented reality glasses, and today the company revealed a bit more news: it is also acquiring the startup that supplied the technolog… [+2897 chars]"
         },
         {
             "source": {
@@ -254,13 +241,26 @@
                 "id": "techcrunch",
                 "name": "TechCrunch"
             },
-            "author": "Ingrid Lunden",
-            "title": "Shauntel Garvey of Reach Capital will join us to judge this year’s Startup Battlefield",
-            "description": "TechCrunch’s Startup Battlefield is one of the most popular parts of our annual TechCrunch Disrupt conference which is happening on September 21-23 this year. Now we’re very excited to reveal one of the fine people who will be judging Startup Battlefield at t…",
-            "url": "http://techcrunch.com/2021/05/06/shauntel-garvey-of-reach-capital-will-join-us-to-judge-this-years-startup-battlefield/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/disrupt-2021-garvey.jpg?w=764",
-            "publishedAt": "2021-05-06T17:51:54Z",
-            "content": "TechCrunch’s Startup Battlefield is one of the most popular parts of our annual TechCrunch Disrupt conference which is happening on September 21-23 this year. Now we’re very excited to reveal one of … [+2512 chars]"
+            "author": "Manish Singh",
+            "title": "Paytm, India’s most valuable startup, confirms plan for an IPO",
+            "description": "Paytm, India’s most valuable startup, confirmed to its shareholders and employees on Monday that it plans to file for an IPO. In a letter to shareholders and employees, Paytm said that it plans to raise money by issuing fresh equity in the IPO, and also sell …",
+            "url": "http://techcrunch.com/2021/06/07/paytm-ipo-shareholders/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/09/GettyImages-631364290.jpg?w=600",
+            "publishedAt": "2021-06-07T16:23:23Z",
+            "content": "Paytm, India’s most valuable startup, confirmed to its shareholders and employees on Monday that it plans to file for an IPO.\r\nIn a letter to shareholders and employees, Paytm said that it plans to r… [+1742 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Neesha A. Tambe",
+            "title": "36 hours left to apply to Startup Battlefield at TC Disrupt 2021",
+            "description": "Do you and your early-stage startup have what it takes to be a modern-day gladiator and compete in Startup Battlefield at TechCrunch Disrupt 2021? You won’t know unless you apply, and time is running out. You have only 48 hours left to throw your helmet into …",
+            "url": "http://techcrunch.com/2021/05/12/36-hours-left-to-apply-to-startup-battlefield-at-tc-disrupt-2021/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/10/30671212518_01bb4c8a1d_o.jpg?w=601",
+            "publishedAt": "2021-05-12T19:33:40Z",
+            "content": "Do you and your early-stage startup have what it takes to be a modern-day gladiator and compete in Startup Battlefield at TechCrunch Disrupt 2021? You wont know unless you apply, and time is running … [+2031 chars]"
         }
     ]
 }

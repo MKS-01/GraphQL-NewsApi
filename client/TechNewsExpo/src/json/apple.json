@@ -1,6 +1,6 @@
 {
     "status": "ok",
-    "totalResults": 69118,
+    "totalResults": 72569,
     "articles": [
         {
             "source": {
@@ -14,6 +14,19 @@
             "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/8ff66ae0-ba3b-11eb-a4bf-d4b770016e51",
             "publishedAt": "2021-05-21T14:18:09Z",
             "content": "Spotify on your Apple Watch finally lives up to its potential. The streaming music service has updated its Apple Watch app with the ability to download songs to your wrist, giving you true offline pl… [+1032 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Monica Chin",
+            "title": "Apple introduces Siri for third-party devices",
+            "description": "Apple announced at its WWDC keynote that HomeKit accessory makers can now integrate Siri voice control into their devices. Apple also announced a number of new smart home features for the HomePod Mini, Apple TV, and Apple Watch.",
+            "url": "https://www.theverge.com/2021/6/7/22523045/apple-wwdc-siri-third-party-devices-ecobee-watch-tvos-tv",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/5SGRzHkHDDnMw6NuNSC0VQ9Eg9Y=/0x40:2000x1087/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22643336/lcimg_bdd5a604_baa2_4518_a03e_bf828a525d3e.jpg",
+            "publishedAt": "2021-06-07T18:39:36Z",
+            "content": "Plus, new features for the HomePod Mini and Apple Watch\r\nSiri is finally coming to third-party devices. Apple announced at its WWDC keynote that HomeKit accessory makers will be able to integrate Sir… [+1266 chars]"
         },
         {
             "source": {
@@ -95,6 +108,32 @@
         },
         {
             "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Sarah Perez",
+            "title": "Apple Music launches Spatial Audio and Lossless Audio, adds Spatial Audio playlists",
+            "description": "Last month, Apple announced it would soon add lossless audio streaming and Spatial Audio with support for Dolby Atmos to its Apple Music subscription at no extra charge. That upgrade has now gone live, Apple announced this morning — though many noticed the ad…",
+            "url": "http://techcrunch.com/2021/06/08/apple-music-launches-spatial-audio-and-lossless-audio-adds-spatial-audio-playlists/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/09/apple-music-icon-ios-2020.jpg?w=711",
+            "publishedAt": "2021-06-08T15:11:54Z",
+            "content": "Last month, Apple announced it would soon add lossless audio streaming and Spatial Audio with support for Dolby Atmos to its Apple Music subscription at no extra charge. That upgrade has now gone liv… [+2712 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Brian Heater",
+            "title": "Apple unveils macOS 12 Monterey",
+            "description": "The past year has seen some of the most dramatic updates to Macs in recent memory. At last year’s WWDC, Apple announced its long-awaited move from Intel chip’s to its own first party silicon. By the end of the year, the company launched the first three M1 Mac…",
+            "url": "http://techcrunch.com/2021/06/07/apple-unveils-macos-12-monterey/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Apple-WWDC-2021-2021-06-07-at-2.21.49-PM.jpg?w=715",
+            "publishedAt": "2021-06-07T18:25:33Z",
+            "content": "The past year has seen some of the most dramatic updates to Macs in recent memory. At last years WWDC, Apple announced its long-awaited move from Intel chips to its own first party silicon. By the en… [+1906 chars]"
+        },
+        {
+            "source": {
                 "id": "the-verge",
                 "name": "The Verge"
             },
@@ -134,6 +173,19 @@
         },
         {
             "source": {
+                "id": null,
+                "name": "Lifehacker.com"
+            },
+            "author": "Claire Lower",
+            "title": "Cynar and Apple Brandy Make a Perfect Nightcap",
+            "description": "For whatever reason, the words “bartender’s handshake” make my skin crawl. I’m not against the concept—I actually love the idea of hospitality folks greeting each other with neat little shots and streamlined cocktails. I just hate the phrase. Read more...",
+            "url": "https://skillet.lifehacker.com/cynar-and-apple-brandy-make-a-perfect-nightcap-1846943299",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/46e42abc7aedc88a4adeb3d503fc5394.jpg",
+            "publishedAt": "2021-05-21T19:30:00Z",
+            "content": "For whatever reason, the words bartenders handshake make my skin crawl. Im not against the conceptI actually love the idea of hospitality folks greeting each other with neat little shots and streamli… [+1573 chars]"
+        },
+        {
+            "source": {
                 "id": "engadget",
                 "name": "Engadget"
             },
@@ -160,29 +212,16 @@
         },
         {
             "source": {
-                "id": null,
-                "name": "Lifehacker.com"
+                "id": "engadget",
+                "name": "Engadget"
             },
-            "author": "Claire Lower",
-            "title": "Cynar and Apple Brandy Make a Perfect Nightcap",
-            "description": "For whatever reason, the words “bartender’s handshake” make my skin crawl. I’m not against the concept—I actually love the idea of hospitality folks greeting each other with neat little shots and streamlined cocktails. I just hate the phrase. Read more...",
-            "url": "https://skillet.lifehacker.com/cynar-and-apple-brandy-make-a-perfect-nightcap-1846943299",
-            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/46e42abc7aedc88a4adeb3d503fc5394.jpg",
-            "publishedAt": "2021-05-21T19:30:00Z",
-            "content": "For whatever reason, the words bartenders handshake make my skin crawl. Im not against the conceptI actually love the idea of hospitality folks greeting each other with neat little shots and streamli… [+1573 chars]"
-        },
-        {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Mitchell Clark",
-            "title": "Apple is updating AirTags to make them less creepy",
-            "description": "Since Apple launched its AirTag trackers, there have been concerns about them being used to surreptitiously track people. Apple seems to be trying to fix that by updating when they play sounds and providing an app for Android users.",
-            "url": "https://www.theverge.com/2021/6/3/22516178/apple-airtags-tracking-devices-update-play-sound-privacy-android-app",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/OSgFFOqae4lBP8DEoaxaYAYStFw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22461476/vpavic_4547_20210421_0131.jpg",
-            "publishedAt": "2021-06-03T20:01:03Z",
-            "content": "An Android app for detecting unwanted trackers is also in the works\r\nPhoto by Vjeran Pavic / The Verge\r\nApple is distributing an AirTags software update that makes it harder for people to use them fo… [+1756 chars]"
+            "author": "https://www.engadget.com/about/editors/jon-fingas",
+            "title": "Tech giants want the US to fund domestic chip production",
+            "description": "Apple, Google, Microsoft and other tech firms have forged an alliance asking the US to fund domestic chip production..",
+            "url": "https://www.engadget.com/semiconductors-in-america-coalition-134524022.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/67fe2270-b253-11eb-968e-cca7cd0ab5b1",
+            "publishedAt": "2021-05-11T13:45:24Z",
+            "content": "American tech companies (not to mention car makers) are feeling the pinch of chip shortages, and they're banding together in hopes of bringing more production to the US. A string of tech giants have … [+1434 chars]"
         },
         {
             "source": {
@@ -202,6 +241,19 @@
                 "id": "the-verge",
                 "name": "The Verge"
             },
+            "author": "Mitchell Clark",
+            "title": "Apple is updating AirTags to make them less creepy",
+            "description": "Since Apple launched its AirTag trackers, there have been concerns about them being used to surreptitiously track people. Apple seems to be trying to fix that by updating when they play sounds and providing an app for Android users.",
+            "url": "https://www.theverge.com/2021/6/3/22516178/apple-airtags-tracking-devices-update-play-sound-privacy-android-app",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/OSgFFOqae4lBP8DEoaxaYAYStFw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22461476/vpavic_4547_20210421_0131.jpg",
+            "publishedAt": "2021-06-03T20:01:03Z",
+            "content": "An Android app for detecting unwanted trackers is also in the works\r\nPhoto by Vjeran Pavic / The Verge\r\nApple is distributing an AirTags software update that makes it harder for people to use them fo… [+1756 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
             "author": "Sean Hollister",
             "title": "Apple’s excuse for no AirTag in Siri Remote: it’s too thick to easily lose in your couch",
             "description": "Apple VP Tim Twerdahl answered the question about why Apple TV 4K’s Siri Remote doesn’t have UWB in a fun but unsatisfactory way: simply, that the new TV remote’s thick enough you shouldn’t need to worry about that anymore.",
@@ -209,58 +261,6 @@
             "urlToImage": "https://cdn.vox-cdn.com/thumbor/hl6FzHpgkZR2uVi_PG28jbISBAs=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22529633/DSCF3923.jpg",
             "publishedAt": "2021-05-22T00:41:25Z",
             "content": "Apple VP Tim Twerdahl says ATV doesnt need UWB\r\nPhoto by Chris Welch / The Verge\r\nWe have poked a considerable amount of fun at the Apple TVs Siri Remote over the years, and were pleased to say its f… [+1778 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/valentina-palladino",
-            "title": "The Apple Watch Series 6 is $60 off at Amazon and B&H Photo",
-            "description": "Save big on the Apple Watch Series 6, which is $60 off at Amazon and B&H Photo..",
-            "url": "https://www.engadget.com/apple-watch-series-6-sale-60-off-amazon-bh-photo-131003787.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2020-09/ac7336e1-f852-11ea-9ca7-6ed95a50b935",
-            "publishedAt": "2021-05-19T13:10:03Z",
-            "content": "A few models of Apple's latest wearable are on sale at Amazon and B&amp;H Photo right now. Both sites have the 40mm blue aluminum Watch with a navy sport band for $339, or $60 off its normal price. A… [+1714 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/mariella-moon",
-            "title": "Apple is reportedly developing an iPad Pro with wireless charging",
-            "description": "Apple is reportedly working on a new iPad Pro with wireless charging and a new iPad mini..",
-            "url": "https://www.engadget.com/apple-ipad-pro-with-wireless-charging-bloomberg-report-080021362.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/16e7e130-c4fc-11eb-a7de-0518f1bf9460",
-            "publishedAt": "2021-06-04T08:00:21Z",
-            "content": "Apple may release an iPad Pro with wireless charging capabilities sometime next year. According to Bloomberg's Mark Gurman, the tech giant is currently working on a new iPad Pro and a new iPad mini. … [+1950 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/jon-fingas",
-            "title": "Tech giants want the US to fund domestic chip production",
-            "description": "Apple, Google, Microsoft and other tech firms have forged an alliance asking the US to fund domestic chip production..",
-            "url": "https://www.engadget.com/semiconductors-in-america-coalition-134524022.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/67fe2270-b253-11eb-968e-cca7cd0ab5b1",
-            "publishedAt": "2021-05-11T13:45:24Z",
-            "content": "American tech companies (not to mention car makers) are feeling the pinch of chip shortages, and they're banding together in hopes of bringing more production to the US. A string of tech giants have … [+1434 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/devindra-hardawar",
-            "title": "Teardown shows the new Apple TV 4K is easy to repair, but Siri Remote is a pain",
-            "description": "The new Apple TV 4K is a cinch to repair, but the Siri Remote is a huge pain..",
-            "url": "https://www.engadget.com/apple-tv-4k-siri-remote-ifixit-teardown-140023036.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/cd298900-be29-11eb-bbf7-f33693527cd1",
-            "publishedAt": "2021-05-26T14:00:23Z",
-            "content": "Given that the revamped Apple TV 4K looks identical to the last model, we figured that it would be similarly easy to repair. And according to iFixit's teardown video, that's precisely the case. The s… [+1442 chars]"
         }
     ]
 }

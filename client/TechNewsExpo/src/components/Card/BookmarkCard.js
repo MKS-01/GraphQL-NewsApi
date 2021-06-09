@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { Image, Card, Text } from "_styles/BookmarkCard";
+import { Image, Card, Text, ImageContainer } from "_styles/BookmarkCard";
 
 const BookmarkCard = ({ data }) => {
   const navigation = useNavigation();
@@ -10,11 +10,15 @@ const BookmarkCard = ({ data }) => {
         navigation.navigate("Detail", { data: data });
       }}
     >
-      <Image
-        source={{
-          uri: data.urlToImage,
-        }}
-      />
+      {data.urlToImage ? (
+        <Image
+          source={{
+            uri: data.urlToImage,
+          }}
+        />
+      ) : (
+        <ImageContainer />
+      )}
       <Text>{data.title}</Text>
     </Card>
   );

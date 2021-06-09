@@ -7,9 +7,7 @@ import Error from "_components/common/Error";
 import { RootScrollView, RootSafeArea } from "_styles/RootView";
 import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
-import headline from "../../json/topHeadlines.json";
-import apple from "../../json/apple.json";
-import startup from "../../json/startup.json";
+import { headline, apple, startup } from "../../json/mockData";
 
 // const EXCHANGE_RATES = gql`
 //   query GetExchangeRates {

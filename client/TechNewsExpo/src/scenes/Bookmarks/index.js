@@ -5,7 +5,7 @@ import { Container, RootSafeArea } from "_styles/RootView";
 import Title from "_components/common/Header";
 import Search from "_components/common/Search";
 import BookmarkList from "_components/Bookmark/BookmarkList";
-import startup from "../../json/startup.json";
+import { startup } from "../../json/mockData";
 
 const BookmarksScreen = () => {
   const [search, setSearch] = useState("");

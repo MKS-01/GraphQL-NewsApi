@@ -8,6 +8,7 @@ import {
   ImageTextBottom,
 } from "_styles/ImageCard";
 import { scaleSize, WINDOW_WIDTH } from "_styles/mixins";
+import { BACKGROUND_COLOR_SEC } from "_styles/colors";
 
 const ImageCard = ({ data, type }) => {
   const navigation = useNavigation();
@@ -25,47 +26,57 @@ const ImageCard = ({ data, type }) => {
         width: type === "headline" ? scaleSize(250) : CategoryTypeWidth,
       }}
     >
-      <Pressable
-        style={{
-          height: type === "headline" ? scaleSize(250) : CategoryTypeHeight,
-          width: type === "headline" ? scaleSize(250) : CategoryTypeWidth,
-        }}
-        onPress={() => {
-          navigation.navigate("Detail", { data: data });
-        }}
-      >
-        <ImageBackground
-          source={{
-            uri: urlToImage,
-          }}
+      {urlToImage ? (
+        <Pressable
           style={{
-            height: "100%",
-            width: "100%",
-            display: "flex",
+            height: type === "headline" ? scaleSize(250) : CategoryTypeHeight,
+            width: type === "headline" ? scaleSize(250) : CategoryTypeWidth,
           }}
-          imageStyle={{
-            borderRadius: type === "headline" ? scaleSize(7) : scaleSize(5),
-            opacity: 0.7,
+          onPress={() => {
+            navigation.navigate("Detail", { data: data });
           }}
-          resizeMode="cover"
         >
-          {type === "headline" ? (
-            <TextContainer type="headline">
-              <ImageText type="headline">{title}</ImageText>
-            </TextContainer>
-          ) : (
-            <View />
-          )}
+          <ImageBackground
+            source={{
+              uri: urlToImage,
+            }}
+            style={{
+              height: "100%",
+              width: "100%",
+              display: "flex",
+            }}
+            imageStyle={{
+              borderRadius: type === "headline" ? scaleSize(7) : scaleSize(5),
+              opacity: 0.7,
+            }}
+            resizeMode="cover"
+          >
+            {type === "headline" ? (
+              <TextContainer type="headline">
+                <ImageText type="headline">{title}</ImageText>
+              </TextContainer>
+            ) : (
+              <View />
+            )}
 
-          {type === "category2" ? (
-            <TextContainer>
-              <ImageText>{title}</ImageText>
-            </TextContainer>
-          ) : (
-            <View />
-          )}
-        </ImageBackground>
-      </Pressable>
+            {type === "category2" ? (
+              <TextContainer>
+                <ImageText>{title}</ImageText>
+              </TextContainer>
+            ) : (
+              <View />
+            )}
+          </ImageBackground>
+        </Pressable>
+      ) : (
+        <View
+          style={{
+            flex: 1,
+            backgroundColor: BACKGROUND_COLOR_SEC,
+            borderRadius: type === "headline" ? scaleSize(7) : scaleSize(5),
+          }}
+        />
+      )}
 
       {type === "category" ? (
         <TextContainerBottom>

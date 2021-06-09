@@ -5,7 +5,7 @@ import { Container, RootSafeArea } from "_styles/RootView";
 import Title from "_components/common/Header";
 import Search from "_components/common/Search";
 import SearchList from "_components/Search/SearchList";
-import headline from "../../json/topHeadlines.json";
+import { apple } from "../../json/mockData";
 
 const SearchScreen = () => {
   const [search, setSearch] = useState("");
@@ -25,7 +25,7 @@ const SearchScreen = () => {
           value={search}
           onChangeText={(text) => setSearch(text)}
         />
-        <SearchList data={headline.articles} />
+        <SearchList data={apple.articles} />
       </Container>
     </RootSafeArea>
   );

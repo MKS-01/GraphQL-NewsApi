@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { BACKGROUND_COLOR_SEC, TEXT_PRIMARY, PLACEHOLDER } from "./colors";
+import { BACKGROUND_COLOR_SEC, TEXT_PRIMARY, BACKGROUND_COLOR } from "./colors";
 import { scaleFont, scaleSize } from "./mixins";
 import { FONT_FAMILY_REGULAR } from "./typography";
 
@@ -30,7 +30,7 @@ export const ImageContainer = styled.View`
   width: 34%;
   margin: ${scaleSize(8)}px 0 ${scaleSize(8)}px ${scaleSize(8)}px;
   background-color: ${(props) =>
-    props.type === "empty" ? PLACEHOLDER : "transparent"};
+    props.type === "empty" ? BACKGROUND_COLOR : "transparent"};
 `;
 
 export const ImageCard = styled.Image`

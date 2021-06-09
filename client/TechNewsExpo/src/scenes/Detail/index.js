@@ -1,5 +1,4 @@
 import React from "react";
-import { ScrollView } from "react-native";
 import Detail from "_components/Detail";
 import { RootScrollView } from "_styles/RootView";
 
