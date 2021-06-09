@@ -28,9 +28,8 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 - Node.js
 - [Apollo Server](https://github.com/apollographql/apollo-server)
 - Docker
-<!-- - DB - Postgres -->
-<!-- - ORM - [Prisma](https://github.com/prisma/prisma) -->
-
+  <!-- - DB - Postgres -->
+  <!-- - ORM - [Prisma](https://github.com/prisma/prisma) -->
 
 ### Initial WireFrame
 
