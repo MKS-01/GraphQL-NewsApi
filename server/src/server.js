@@ -1,18 +1,28 @@
 const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
 // const cors = require("cors");
-const typeDefs = require("./schema");
-const resolvers = require("./resolvers");
+
+const NewsAPI = require("./dataSources/REST/NewsAPI");
+
+const { buildSchema } = require("./schema.js");
+
 const { SERVER_PORT } = require("../config");
 
 async function startApolloServer() {
   const app = express();
   const server = new ApolloServer({
-    typeDefs,
-    resolvers,
+    schema: await buildSchema(),
     introspection: true,
     playground: true,
     debug: true,
+
+    dataSources: () => ({
+      newsAPI: new NewsAPI(),
+    }),
+
+    context: ({ req, res }) => {
+      // models;
+    },
   });
 
   await server.start();

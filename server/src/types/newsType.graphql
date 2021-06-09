@@ -1,0 +1,14 @@
+type Query {
+  topHeadlines: [News]!
+}
+
+type News {
+  id: ID!
+  author: String
+  title: String
+  description: String
+  url: String
+  urlToImage: String
+  publishedAt: String
+  content: String
+}

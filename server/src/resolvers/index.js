@@ -1,18 +1,11 @@
-const books = [
-  {
-    title: "The Awakening",
-    author: "Kate Chopin",
-  },
-  {
-    title: "City of Glass",
-    author: "Paul Auster",
-  },
-];
+const { buildQuery } = require("./query");
+const { buildMutation } = require("./mutation");
 
-const resolvers = {
-  Query: {
-    getBooks: () => books,
-  },
-};
+async function buildResolvers() {
+  return {
+    Query: buildQuery(),
+    Mutation: buildMutation(),
+  };
+}
 
-module.exports = resolvers;
+exports.buildResolvers = buildResolvers;
