@@ -11,6 +11,7 @@ type News {
 
 type Query {
   topHeadlines(input: NewsAPIInput): [News]!
+  searchNews(input: SearchInput): [News]!
   # bookmark: [News!]
 }
 
@@ -23,6 +24,11 @@ input NewsAPIInput {
   language: Language
   category: Category
   query: String
+}
+
+input SearchInput {
+  query: String
+  language: Language
 }
 
 input AddBookmarkInput {

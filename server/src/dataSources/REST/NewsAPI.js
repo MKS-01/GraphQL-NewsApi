@@ -44,6 +44,22 @@ class NewsAPI extends RESTDataSource {
       ? articles.map((news, index) => this.headlines(news, index))
       : [];
   }
+
+  async searchNews(requestBody) {
+    const { query, language } = JSON.parse(JSON.stringify(requestBody.input));
+
+    const reqBody = {
+      language: language ? language.toLowerCase() : "en",
+      q: query ? query : "",
+    };
+    const response = await this.get(`everything`, reqBody);
+
+    const articles = response.articles;
+
+    return Array.isArray(articles)
+      ? articles.map((news, index) => this.headlines(news, index))
+      : [];
+  }
 }
 
 module.exports = NewsAPI;
