@@ -1,15 +1,15 @@
-import React, {useState, useContext} from 'react';
-import {View, Button, TextInput} from 'react-native';
-import {AuthContext} from '_navigations';
+import React, { useState, useContext } from "react";
+import { View, Button, TextInput } from "react-native";
+// import {AuthContext} from '_navigations';
 
 const SignInScreen = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
-  const {signIn} = useContext(AuthContext);
+  // const { signIn } = useContext(AuthContext);
 
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       {/* <TextInput
         placeholder="Username"
         value={username}
@@ -23,10 +23,11 @@ const SignInScreen = () => {
       /> */}
       <Button
         title="Sign in"
-        onPress={() =>
-          signIn({
-            // username, password
-          })
+        onPress={
+          () => {}
+          // signIn({
+          //   // username, password
+          // })
         }
       />
     </View>
