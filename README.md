@@ -41,16 +41,13 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 ### EXPO
 
 <div>
-<img src="./screenshots/mobile-rn/home.png" alt="home" width="277" height="508">
-<img src="./screenshots/mobile-rn/detail.png" alt="detail" width="277" height="508">
+<img src="./screenshots/mobile-rn/home.png" alt="home" width="257" height="488">
+<img src="./screenshots/mobile-rn/detail.png" alt="detail" width="257" height="488">
+<img src="./screenshots/mobile-rn/bookmark.png" alt="bookmark"  width="257" height="488">
+</div>
+<div>
+<img src="./screenshots/mobile-rn/search.png" alt="search" width="257" height="488">
+<img src="./screenshots/mobile-rn/webview.png" alt="inAppBrowser" width="257" height="488">
+<img src="./screenshots/mobile-rn/error.png" alt="error" width="257" height="488">
 </div>
 
-<div>
-<img src="./screenshots/mobile-rn/bookmark.png" alt="bookmark" width="277" height="508">
-<img src="./screenshots/mobile-rn/search.png" alt="search" width="277" height="508">
-</div>
-
-<div>
-<img src="./screenshots/mobile-rn/webview.png" alt="inAppBrowser" width="277" height="508">
-<img src="./screenshots/mobile-rn/error.png" alt="error" width="277" height="508">
-</div>
