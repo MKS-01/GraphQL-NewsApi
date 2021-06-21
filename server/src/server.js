@@ -1,5 +1,7 @@
 const express = require("express");
+
 const { ApolloServer } = require("apollo-server-express");
+
 // const cors = require("cors");
 
 const NewsAPI = require("./dataSources/REST/newsAPI");
@@ -7,6 +9,8 @@ const NewsAPI = require("./dataSources/REST/newsAPI");
 const { buildSchema } = require("./schema.js");
 
 const { SERVER_PORT } = require("../config");
+
+const { models, ConnectDB } = require("./dataSources/models");
 
 async function startApolloServer() {
   const app = express();
@@ -21,7 +25,7 @@ async function startApolloServer() {
     }),
 
     context: ({ req, res }) => {
-      // models;
+      models;
     },
   });
 
@@ -30,6 +34,13 @@ async function startApolloServer() {
   // app.use("*", cors());
 
   server.applyMiddleware({ app });
+  ConnectDB();
+  // await mongoose.connect(process.env.CONNECTIONSTRING || CONNECTIONSTRING, {
+  //   useNewUrlParser: true,
+  //   useUnifiedTopology: true,
+  //   useFindAndModify: false,
+  //   useCreateIndex: true,
+  // });
 
   await new Promise((resolve) =>
     app.listen({ port: `${process.env.SERVER_PORT || SERVER_PORT}` }, resolve)

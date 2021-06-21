@@ -12,11 +12,11 @@ type News {
 type Query {
   topHeadlines(input: NewsAPIInput): [News]!
   searchNews(input: SearchInput): [News]!
-  # bookmark: [News!]
+  getBookmarks: [News!]
 }
 
 type Mutation {
-  addBookmark(input: AddBookmarkInput): Boolean!
+  addBookmark(input: AddBookmarkInput): News!
   removeBookmark(id: ID!): Boolean!
 }
 
