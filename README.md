@@ -1,9 +1,13 @@
 # GraphQL-Practice
 
-A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL. As well practice [React Native's Animated library](https://github.com/software-mansion/react-native-reanimated).
+A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL using React & React-Native (Expo).
 
 <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
 
+### Branch
+
+- [main](https://github.com/MKS-01/GraphQL-Practice) - mock data
+- [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-Practice/tree/NoSQL-mongoDB) - using NoSQL DB
 
 #### CLIENT
 
@@ -43,4 +47,3 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 <img src="./screenshots/mobile-rn/webview.png" alt="inAppBrowser" width="257" height="488">
 <img src="./screenshots/mobile-rn/error.png" alt="error" width="257" height="488">
 </div>
-
