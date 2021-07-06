@@ -7,7 +7,7 @@ import { AuthContext } from "_hooks/AuthHook";
 import { FONT_FAMILY_SEMIBOLD } from "_styles/typography";
 import { RootSafeArea } from "_styles/RootView";
 
-const SignInScreen = () => {
+const ForgotScreen = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -32,29 +32,34 @@ const SignInScreen = () => {
           onChangeText={setUsername}
         />
         <TextInput
-          placeholderText="Password"
+          placeholderText="New Password"
           secureTextEntry
-          title="Password"
+          title="New Password"
+          value={password}
+          onChangeText={setPassword}
+        />
+        <TextInput
+          placeholderText="Confirm Password"
+          secureTextEntry
+          title="Confirm Password"
           value={password}
           onChangeText={setPassword}
         />
 
         <View style={{ marginTop: 10 }} />
         <PressableBtn
-          title="Sign In"
-          onPress={() =>
-            signIn({
-              username,
-              password,
-            })
+          title="Save Password"
+          onPress={
+            () => {}
+            // signIn({
+            //   username,
+            //   password,
+            // })
           }
         />
         <View style={styles.textContainer}>
-          <TouchableOpacity onPress={() => navigation.navigate("SignUp")}>
-            <Text style={styles.text}>Sign Up</Text>
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => navigation.navigate("Forgot")}>
-            <Text style={styles.text}>Forgot Password?</Text>
+          <TouchableOpacity onPress={() => navigation.navigate("SignIn")}>
+            <Text style={styles.text}>Sign In</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -77,4 +82,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SignInScreen;
+export default ForgotScreen;

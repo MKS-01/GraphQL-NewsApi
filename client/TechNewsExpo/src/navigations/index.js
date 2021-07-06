@@ -1,12 +1,10 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-// import {createStackNavigator} from '@react-navigation/stack';
 import { navigationRef } from "./RootNavigation";
 import AuthNavigator from "./AuthNavigator";
 import AppNavigator from "./AppNavigator";
 import SplashScreen from "_scenes/Splash";
-
-export const AuthContext = React.createContext();
+import { AuthContext } from "_hooks/AuthHook";
 
 export default function App({ navigation }) {
   const [state, dispatch] = React.useReducer(
@@ -87,15 +85,15 @@ export default function App({ navigation }) {
   return (
     <AuthContext.Provider value={authContext}>
       <NavigationContainer ref={navigationRef}>
-        {/* {state.isLoading ? (
+        {state.isLoading ? (
           <SplashScreen />
         ) : state.userToken == null ? (
           <AuthNavigator />
         ) : (
           <AppNavigator />
-        )} */}
+        )}
 
-        <AppNavigator />
+        {/* <AppNavigator /> */}
       </NavigationContainer>
     </AuthContext.Provider>
   );

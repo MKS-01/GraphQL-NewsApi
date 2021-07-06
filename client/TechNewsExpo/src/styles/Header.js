@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 import { TEXT_PRIMARY } from "./colors";
-import { scaleSize } from "./mixins";
+import { scaleFont, scaleSize } from "./mixins";
 import {
   TITLE_FONT_SIZE,
   FONT_FAMILY_BOLD,
@@ -8,7 +8,6 @@ import {
 } from "./typography";
 
 export const TitleText = styled.Text`
-  /* margin: ${scaleSize(12)}px 0; */
   font-family: ${FONT_FAMILY_BOLD};
   color: ${TEXT_PRIMARY};
   font-size: ${(props) =>
@@ -18,4 +17,5 @@ export const TitleText = styled.Text`
   text-transform: uppercase;
 
   padding-left: ${(props) => (props.paddingLeft ? `${scaleSize(10)}px` : 0)};
+  letter-spacing: ${scaleFont(2)}px;
 `;
