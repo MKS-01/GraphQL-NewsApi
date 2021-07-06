@@ -8,6 +8,9 @@
             "_components": [
                 "src/components/*"
             ],
+            "_hooks":[
+                "src/hooks/*"
+            ],
             "_navigations": [
                 "src/navigations/*"
             ],
