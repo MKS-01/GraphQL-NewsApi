@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
-import { View, Button, TextInput } from "react-native";
-// import { AuthContext } from "../../navigations";
+import { View, Button } from "react-native";
+import TextInput from "_components/common/TextInput";
 import { AuthContext } from "_hooks/AuthHook";
 import { RootScrollView, RootSafeArea } from "_styles/RootView";
 
@@ -12,18 +12,28 @@ const SignInScreen = () => {
 
   return (
     <RootSafeArea>
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        {/* <TextInput
-        placeholder="Username"
-        value={username}
-        onChangeText={setUsername}
-      />
-      <TextInput
-        placeholder="Password"
-        value={password}
-        onChangeText={setPassword}
-        secureTextEntry
-      /> */}
+      <View
+        style={{
+          flex: 1,
+          justifyContent: "center",
+          // alignItems: "center",
+          paddingHorizontal: 10,
+        }}
+      >
+        <TextInput
+          placeholderText="Username"
+          title="Username"
+          value={username}
+          onChangeText={setUsername}
+        />
+        <TextInput
+          placeholderText="Password"
+          secureTextEntry
+          title="Password"
+          value={password}
+          onChangeText={setPassword}
+        />
+
         <Button
           title="Sign in"
           onPress={() =>

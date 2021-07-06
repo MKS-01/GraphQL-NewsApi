@@ -1,12 +1,27 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { TextInput, TextInputHeader } from "_styles/TextField";
 
-const TextInput = () => {
+const TextField = ({
+  title,
+  value,
+  onChangeText,
+  placeholderText,
+  keyboardType,
+  secureTextEntry,
+}) => {
   return (
-    <View>
-      <Text></Text>
-    </View>
+    <>
+      <TextInputHeader>{title}</TextInputHeader>
+      <TextInput
+        keyboardAppearance={"dark"}
+        onChangeText={onChangeText}
+        value={value}
+        placeholder={placeholderText}
+        keyboardType={keyboardType ? keyboardType : "default"}
+        secureTextEntry={secureTextEntry}
+      />
+    </>
   );
 };
 
-export default TextInput;
+export default TextField;
