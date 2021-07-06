@@ -7,6 +7,7 @@ import BookmarksScreen from "_scenes/Bookmarks";
 import SearchScreen from "_scenes/Search";
 import { BACKGROUND_COLOR } from "_styles/";
 import DetailScreen from "_scenes/Detail";
+import SettingsScreen from "_scenes/Setting";
 
 const RootTabs = createBottomTabNavigator();
 
@@ -16,8 +17,8 @@ const SearchStack = createStackNavigator();
 
 function Home() {
   return (
-    <HomeStack.Navigator initialRouteName="Home" headerMode="none">
-      <HomeStack.Screen name="Home" component={HomeScreen} />
+    <HomeStack.Navigator headerMode="none">
+      <HomeStack.Screen name="Headlines" component={HomeScreen} />
       <HomeStack.Screen name="Detail" component={DetailScreen} />
     </HomeStack.Navigator>
   );
@@ -25,7 +26,7 @@ function Home() {
 
 function Bookmark() {
   return (
-    <BookmarkStack.Navigator initialRouteName="Bookmark" headerMode="none">
+    <BookmarkStack.Navigator headerMode="none">
       <BookmarkStack.Screen name="Bookmark" component={BookmarksScreen} />
       <BookmarkStack.Screen name="Detail" component={DetailScreen} />
     </BookmarkStack.Navigator>
@@ -34,7 +35,7 @@ function Bookmark() {
 
 function Search() {
   return (
-    <SearchStack.Navigator initialRouteName="Search" headerMode="none">
+    <SearchStack.Navigator headerMode="none">
       <SearchStack.Screen name="Search" component={SearchScreen} />
       <SearchStack.Screen name="Detail" component={DetailScreen} />
     </SearchStack.Navigator>
@@ -48,12 +49,14 @@ const AppNavigator = () => {
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
 
-          if (route.name === "Home") {
+          if (route.name === "HomeTab") {
             iconName = focused ? "home" : "home-outline";
-          } else if (route.name === "Bookmarks") {
+          } else if (route.name === "BookmarksTab") {
             iconName = focused ? "bookmarks" : "bookmarks";
-          } else if (route.name === "Search") {
+          } else if (route.name === "SearchTab") {
             iconName = focused ? "ios-search" : "ios-search";
+          } else if (route.name === "SettingTab") {
+            iconName = focused ? "ios-settings" : "ios-settings";
           }
 
           return <Ionicons name={iconName} size={size} color={color} />;
@@ -74,9 +77,10 @@ const AppNavigator = () => {
         backgroundColor: `${BACKGROUND_COLOR}`,
       }}
     >
-      <RootTabs.Screen name="Home" component={Home} />
-      <RootTabs.Screen name="Bookmarks" component={Bookmark} />
-      <RootTabs.Screen name="Search" component={Search} />
+      <RootTabs.Screen name="HomeTab" component={Home} />
+      <RootTabs.Screen name="BookmarksTab" component={Bookmark} />
+      <RootTabs.Screen name="SearchTab" component={Search} />
+      <RootTabs.Screen name="SettingTab" component={SettingsScreen} />
     </RootTabs.Navigator>
   );
 };
