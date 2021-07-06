@@ -20,7 +20,7 @@ export const TextContainer = styled.View`
 
 export const TextContainerBottom = styled.View`
   flex: 1;
-  margin: ${scaleSize(6)}px ${scaleSize(2)}px;
+  margin: ${scaleSize(6.2)}px ${scaleSize(2.5)}px;
   margin-bottom: 0;
   height: ${scaleSize(30)}px;
 `;
@@ -31,4 +31,5 @@ export const ImageTextBottom = styled.Text`
   text-align: justify;
   color: ${WHITE};
   flex-shrink: 1;
+  letter-spacing: ${scaleFont(0.1)}px;
 `;

@@ -3,23 +3,17 @@
     "totalResults": 72569,
     "articles": [
         {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/jon-fingas",
-            "title": "Spotify users can finally download music on Apple Watch",
-            "description": "Spotify on Apple Watch finally supports music downloads, putting offline music on your wrist without requiring Apple Music..",
-            "url": "https://www.engadget.com/spotify-apple-watch-music-download-141809536.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/8ff66ae0-ba3b-11eb-a4bf-d4b770016e51",
-            "publishedAt": "2021-05-21T14:18:09Z",
-            "content": "Spotify on your Apple Watch finally lives up to its potential. The streaming music service has updated its Apple Watch app with the ability to download songs to your wrist, giving you true offline pl… [+1032 chars]"
+            "id": "1",
+            "author": "https://www.engadget.com/about/editors/saqib-shah",
+            "title": "Apple Podcasts subscriptions launch globally",
+            "description": "Apple is rolling out paid subscriptions and channels on its Podcasts app..",
+            "url": "https://www.engadget.com/apple-podcasts-subscriptions-launch-102556622.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/e6c71860-cdbe-11eb-a7b6-362b2e81322f",
+            "publishedAt": "2021-06-15T10:25:56Z",
+            "content": "Following a slight delay, Apple's podcast subscriptions are now live. The service lets you pay for a range of perks from your favorite creators including ad-free listening, early access and bonus epi… [+1885 chars]"
         },
         {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
+            "id": "2",
             "author": "Monica Chin",
             "title": "Apple introduces Siri for third-party devices",
             "description": "Apple announced at its WWDC keynote that HomeKit accessory makers can now integrate Siri voice control into their devices. Apple also announced a number of new smart home features for the HomePod Mini, Apple TV, and Apple Watch.",
@@ -29,88 +23,27 @@
             "content": "Plus, new features for the HomePod Mini and Apple Watch\r\nSiri is finally coming to third-party devices. Apple announced at its WWDC keynote that HomeKit accessory makers will be able to integrate Sir… [+1266 chars]"
         },
         {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/steve-dent",
-            "title": "Apple teases a Music announcement as more 'Lossless' clues appear",
-            "description": "An Apple teaser and newly discovered clues have reinforced the idea that Apple Music is about to launch a new HiFi tier..",
-            "url": "https://www.engadget.com/apple-music-might-soon-include-a-lossless-tier-105520597.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/12721ad0-b6f6-11eb-b7ef-b730e95b4101",
-            "publishedAt": "2021-05-17T10:55:20Z",
-            "content": "An Apple teaser and newly discovered clues have reinforced the idea that Apple Music is about to launch a new HiFi tier, MacRumors has reported. On Apple's Music site, there's a 15-second video (bott… [+1244 chars]"
+            "id": "3",
+            "author": "Lauren Goode",
+            "title": "If You Want to Live in Apple World, Gather All Your iDevices",
+            "description": "This week, Apple doubled down on its vision of a seamlessly integrated ecosystem of products, software, and services. The catch? You need to be all in on Apple.",
+            "url": "https://www.wired.com/story/if-you-want-to-live-in-apple-world-gather-all-your-idevices/",
+            "urlToImage": "https://media.wired.com/photos/60bea64970d107b3e767d5a8/191:100/w_1280,c_limit/Gear-Apple.WWDC21.AppleWatch.jpg",
+            "publishedAt": "2021-06-09T11:00:00Z",
+            "content": "Even a new feature in the iPhones Photos app that arranges your photos into a slideshow with an emotional soundtrack will require a subscription to Apple Music. Accessing new fitness class offerings … [+4019 chars]"
         },
         {
-            "source": {
-                "id": null,
-                "name": "Lifehacker.com"
-            },
-            "author": "David Murphy",
-            "title": "Why Apple Music's 'Lossless Audio' Isn't That Big of a Deal",
-            "description": "I confess, even I got a little excited when I heard that Apple was upping the quality of many of its Apple Music tracks to lossless audio. While that’s not a you-can-listen-now change, as the 75+ million lossless tracks are debuting in June, it’s still someth…",
-            "url": "https://lifehacker.com/why-apple-musics-lossless-audio-isnt-that-big-of-a-deal-1846918028",
-            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/e04f380a02a9a0be6cf1dad109033dfc.jpg",
-            "publishedAt": "2021-05-19T18:15:00Z",
-            "content": "I confess, even I got a little excited when I heard that Apple was upping the quality of many of its Apple Music tracks to lossless audio. While thats not a you-can-listen-now change, as the 75+ mill… [+2568 chars]"
+            "id": "4",
+            "author": "https://www.engadget.com/about/editors/mariella-moon",
+            "title": "iOS 15 lets Siri perform tasks on a locked iPhone, if you own an Apple Watch",
+            "description": "iOS 15 expands the 'Unlock with Apple Watch' feature..",
+            "url": "https://www.engadget.com/i-os-15-siri-unlock-apple-watch-104544940.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/3c71b870-c904-11eb-9fdd-4af50cd953d0",
+            "publishedAt": "2021-06-09T10:45:44Z",
+            "content": "You'll be able to issue voice commands for Siri without having to unlock your phone when iOS 15 comes around so long as you have an Apple Watch. The upcoming mobile platform is now available as a bet… [+1208 chars]"
         },
         {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Tom Warren",
-            "title": "iOS 14.6 now available with new Apple Podcasts subscriptions",
-            "description": "Apple’s new iOS 14.6 is out now and it includes Apple Podcasts subscriptions. This new iOS update also includes lossless Apple Music support, ready for Apple to turn these audio features on in June.",
-            "url": "https://www.theverge.com/2021/5/24/22441743/apple-ios-ipados-14-6-podcasts-subscriptions-music-lossless-support",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/XqWoIWxURC1j93r1ILvVdXn_ACY=/0x148:2050x1221/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22022582/bfarsace_201106_4269_002.0.jpg",
-            "publishedAt": "2021-05-24T17:13:07Z",
-            "content": "Apples latest iOS update is also ready for lossless Apple Music\r\nPhoto by Becca Farsace / The Verge\r\nApple is releasing its latest iOS 14.6 update today, and its largely focused on audio improvements… [+1102 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/engadget",
-            "title": "Omaze is doing an all-Apple sweepstakes",
-            "description": "Omaze is giving away a bundle of Apple products when you enter to win any one of three electric car sweepstakes..",
-            "url": "https://www.engadget.com/omaze-apple-bundle-secondary-promotion-170730573.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2020-11/67873830-225d-11eb-afef-1896b96f9c17",
-            "publishedAt": "2021-05-20T17:07:30Z",
-            "content": "Omaze is sweetening three of its electric car sweepstakes with an add-on opportunity to win a bundle of Apple products. Those who enter to win a Tesla Model S, an Audi e-tron Sportback or a Porsche T… [+1504 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/kris-holt",
-            "title": "Android users can now tap to pay for transit rides in the Bay Area",
-            "description": "Google Pay joins Apple Wallet in supporting Clipper cards..",
-            "url": "https://www.engadget.com/google-pay-android-sf-bay-area-transit-200219298.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/05935670-b8dc-11eb-9f3c-07e17557af8a",
-            "publishedAt": "2021-05-19T20:02:19Z",
-            "content": "San Francisco Bay Area residents and visitors can now use\r\n Android devices to pay for rides on 24 public transit systems across the region. Apple Wallet has supported\r\n the Clipper card on iPhone an… [+1155 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/nathan-ingraham",
-            "title": "Apple TV 4K can use HDMI eARC to play any TV audio on your HomePod",
-            "description": "If you have a HomePod and picked up the new Apple TV 4K, your speaker will make for a better home theater companion than it did before. As noticed by MacRumors, the latest Apple TV 4K supports the ARC (Audio Return Channel) and eARC (enhanced ARC) standards o…",
-            "url": "https://www.engadget.com/apple-tv-4k-homepod-tv-connected-audio-202408196.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/bbe61160-ba71-11eb-ae7b-040f51bb9abb",
-            "publishedAt": "2021-05-21T20:24:08Z",
-            "content": "Apple may have discontinued the original HomePod earlier this year, but fortunately the company is still supporting it with useful new features. If you have a HomePod and picked up the new Apple TV 4… [+1564 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
+            "id": "5",
             "author": "Sarah Perez",
             "title": "Apple Music launches Spatial Audio and Lossless Audio, adds Spatial Audio playlists",
             "description": "Last month, Apple announced it would soon add lossless audio streaming and Spatial Audio with support for Dolby Atmos to its Apple Music subscription at no extra charge. That upgrade has now gone live, Apple announced this morning — though many noticed the ad…",
@@ -120,10 +53,7 @@
             "content": "Last month, Apple announced it would soon add lossless audio streaming and Spatial Audio with support for Dolby Atmos to its Apple Music subscription at no extra charge. That upgrade has now gone liv… [+2712 chars]"
         },
         {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
+            "id": "6",
             "author": "Brian Heater",
             "title": "Apple unveils macOS 12 Monterey",
             "description": "The past year has seen some of the most dramatic updates to Macs in recent memory. At last year’s WWDC, Apple announced its long-awaited move from Intel chip’s to its own first party silicon. By the end of the year, the company launched the first three M1 Mac…",
@@ -133,134 +63,144 @@
             "content": "The past year has seen some of the most dramatic updates to Macs in recent memory. At last years WWDC, Apple announced its long-awaited move from Intel chips to its own first party silicon. By the en… [+1906 chars]"
         },
         {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Catie Keck",
-            "title": "For Apple TV Plus to succeed, it has to be everywhere — even Android TV",
-            "description": "Apple TV Plus will now be on more Android TV devices beyond just the Nvidia Shield and a handful of TVs running the OS. And Apple was smart to widen support when it did, as the expiration date for free trials of Apple TV Plus is swiftly approaching.",
-            "url": "https://www.theverge.com/2021/6/2/22465825/apple-tv-app-android-tv-devices",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/3F58nnK4PqWNJcK2fLG4qMC8GeE=/0x32:1632x886/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15985971/Apple_introduces_apple_tv_plus_03252019_big.jpg.large_2x.jpg",
-            "publishedAt": "2021-06-03T01:10:54Z",
-            "content": "The Apple TV Plus logo. | Image: Apple\r\n\n \n\n This week, Apple brought its Apple TV app to many new Android TV devices — not just the Nvidia Shield. And Apple was smart to widen that support — the exp… [+4353 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
+            "id": "7",
             "author": "https://www.engadget.com/about/editors/igor-bonifacic",
-            "title": "Apple releases iOS 14.6 with support for paid podcast subscriptions",
-            "description": "Apple has started rolling out iOS 14.6 to regular iPhone users..",
-            "url": "https://www.engadget.com/apple-releases-ios-14-6-174420200.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/232478a0-bcb4-11eb-bfef-e74b49166d04",
-            "publishedAt": "2021-05-24T17:44:20Z",
-            "content": "Apple has started rolling out iOS 14.6 to regular iPhone users. The update's headline feature is support for paid Apple Podcasts subscriptions. Starting today, you'll see some of your audio shows off… [+1666 chars]"
+            "title": "Apple hires former BMW and Faraday Future exec to EV team",
+            "description": "Apple has hired former BMW executive Ulrich Kranz to join its automotive team..",
+            "url": "https://www.engadget.com/apple-hires-ulrich-kranz-222301202.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/c1609980-9d75-11eb-befe-ff7ec9a9d691",
+            "publishedAt": "2021-06-10T22:23:01Z",
+            "content": "Apple has hired former BMW executive Ulrich Kranz to join its automotive team. Bloomberg confirmed the news on Thursday, noting he joined the tech giant in recent weeks. Kranz spent 30 years at BMW, … [+1218 chars]"
         },
         {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Russell Brandom",
-            "title": "Apple asks court to rule iOS is not an ‘essential facility’",
-            "description": "Apple has asked the court in Epic v. Apple to dismiss a charge that iOS is an “essential facility” that has a duty to deal with competitors, continuing an ongoing case over whether Apple unfairly banned Fortnite from the App Store.",
-            "url": "https://www.theverge.com/2021/5/19/22443616/apple-requests-court-dismiss-epic-essential-facilities-claim-fortnite-trial",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/A3W8qd3B3ujlB4JDGV7FElcz6F0=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21783860/acastro_20200818_1777_epicApple_0004.0.jpg",
-            "publishedAt": "2021-05-19T14:18:03Z",
-            "content": "At trial, Epic adduced no proof in support of this claim \r\nIllustration by Alex Castro / The Verge\r\nAfter two and a half weeks in court, Apple is taking aim at one of the central elements of Epics an… [+3945 chars]"
+            "id": "8",
+            "author": "Brandon Widder",
+            "title": "The best Prime Day 2021 Apple deals",
+            "description": "Amazon devices aren’t the only products to discounted on Prime Day. Right now, you can save on the AirPods Pro, Apple Watch Series 6, iPads, and most other Apple products, including the M1-equipped MacBook Air.",
+            "url": "https://www.theverge.com/22541660/amazon-prime-day-apple-deals-airpods-macbook-apple-watch-2021",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/wuAhujcB8_RgxGJ3VqMIjbG3AOQ=/0x145:2040x1213/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22048042/vpavic_4291_20201113_0337_Edit.jpg",
+            "publishedAt": "2021-06-21T19:11:46Z",
+            "content": "Filed under:\r\nSave on the Apple Watch, AirPods, and more\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nAmazon Prime Day is an event understandab… [+1914 chars]"
         },
         {
-            "source": {
-                "id": null,
-                "name": "Lifehacker.com"
-            },
-            "author": "Claire Lower",
-            "title": "Cynar and Apple Brandy Make a Perfect Nightcap",
-            "description": "For whatever reason, the words “bartender’s handshake” make my skin crawl. I’m not against the concept—I actually love the idea of hospitality folks greeting each other with neat little shots and streamlined cocktails. I just hate the phrase. Read more...",
-            "url": "https://skillet.lifehacker.com/cynar-and-apple-brandy-make-a-perfect-nightcap-1846943299",
-            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/46e42abc7aedc88a4adeb3d503fc5394.jpg",
-            "publishedAt": "2021-05-21T19:30:00Z",
-            "content": "For whatever reason, the words bartenders handshake make my skin crawl. Im not against the conceptI actually love the idea of hospitality folks greeting each other with neat little shots and streamli… [+1573 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/kris-holt",
-            "title": "Amazon Music Unlimited plans now include HD streaming at no extra cost",
-            "description": "The announcement comes on the heels of Apple introducing high-fidelity streaming..",
-            "url": "https://www.engadget.com/amazon-music-unlimited-plans-hd-streaming-included-135249659.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/a1fba840-b716-11eb-bfb8-244fd4a68229",
-            "publishedAt": "2021-05-17T13:52:49Z",
-            "content": "The high-fidelity music streaming battle has suddenly gotten much more intense. Around the same time Apple Music announced a lossless streaming option, Amazon made its Music HD plan available to Musi… [+1565 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/james-trew",
-            "title": "Apple's SignTime brings up a sign language translator on demand",
-            "description": "A host of new accessibility tools will make using Apple devices easier for all..",
-            "url": "https://www.engadget.com/apples-sign-time-brings-up-a-sign-language-translator-on-demand-172828126.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/5e9dd710-b8c6-11eb-bbe7-4e8128644596",
-            "publishedAt": "2021-05-19T17:28:28Z",
-            "content": "Apple has long taken accessibility seriously. Just spend five minutes in the relevant section of your iPhones settings and youll find a veritable trove of helpful settings many of them useful to ever… [+3594 chars]"
-        },
-        {
-            "source": {
-                "id": "engadget",
-                "name": "Engadget"
-            },
-            "author": "https://www.engadget.com/about/editors/jon-fingas",
-            "title": "Tech giants want the US to fund domestic chip production",
-            "description": "Apple, Google, Microsoft and other tech firms have forged an alliance asking the US to fund domestic chip production..",
-            "url": "https://www.engadget.com/semiconductors-in-america-coalition-134524022.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-05/67fe2270-b253-11eb-968e-cca7cd0ab5b1",
-            "publishedAt": "2021-05-11T13:45:24Z",
-            "content": "American tech companies (not to mention car makers) are feeling the pinch of chip shortages, and they're banding together in hopes of bringing more production to the US. A string of tech giants have … [+1434 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Romain Dillet",
-            "title": "Apple to add lossless audio to Apple Music at no additional cost",
-            "description": "Apple has announced that it is adding some new features to its music streaming service Apple Music. Starting next month, users will find some new options, such as spatial audio with support for Dolby Atmos as well as lossless audio files. Spotify recently ann…",
-            "url": "http://techcrunch.com/2021/05/17/apple-to-add-lossless-audio-at-no-additional-cost/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/09/apple-music-icon-ios-2020.jpg?w=711",
-            "publishedAt": "2021-05-17T13:49:41Z",
-            "content": "Apple has announced that it is adding some new features to its music streaming service Apple Music. Starting next month, users will find some new options, such as spatial audio with support for Dolby… [+2106 chars]"
-        },
-        {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
+            "id": "9",
             "author": "Mitchell Clark",
-            "title": "Apple is updating AirTags to make them less creepy",
-            "description": "Since Apple launched its AirTag trackers, there have been concerns about them being used to surreptitiously track people. Apple seems to be trying to fix that by updating when they play sounds and providing an app for Android users.",
-            "url": "https://www.theverge.com/2021/6/3/22516178/apple-airtags-tracking-devices-update-play-sound-privacy-android-app",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/OSgFFOqae4lBP8DEoaxaYAYStFw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22461476/vpavic_4547_20210421_0131.jpg",
-            "publishedAt": "2021-06-03T20:01:03Z",
-            "content": "An Android app for detecting unwanted trackers is also in the works\r\nPhoto by Vjeran Pavic / The Verge\r\nApple is distributing an AirTags software update that makes it harder for people to use them fo… [+1756 chars]"
+            "title": "Apple Music is missing one major thing: a classic iPod to go with it",
+            "description": "Apple doesn’t have a device that it can point to and say “this is truly the best Apple Music experience you can get.” A new iPod, that’s all about the music, could fill that role.",
+            "url": "https://www.theverge.com/2021/7/4/22561092/apple-bring-back-ipods-2021-music-services",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/7oJ7wtSAHzKTU6RpwBYuikZCLW0=/0x420:5861x3489/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22696675/DSCF2292.jpg",
+            "publishedAt": "2021-07-04T15:00:00Z",
+            "content": "Bring back the iPod\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nEarlier this year, I did something weird: I bought an iPod 5th generation, ori… [+5106 chars]"
         },
         {
-            "source": {
-                "id": "the-verge",
-                "name": "The Verge"
-            },
-            "author": "Sean Hollister",
-            "title": "Apple’s excuse for no AirTag in Siri Remote: it’s too thick to easily lose in your couch",
-            "description": "Apple VP Tim Twerdahl answered the question about why Apple TV 4K’s Siri Remote doesn’t have UWB in a fun but unsatisfactory way: simply, that the new TV remote’s thick enough you shouldn’t need to worry about that anymore.",
-            "url": "https://www.theverge.com/2021/5/21/22448388/apple-tv-4k-siri-remote-no-uwb-u1-couch-thickness",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/hl6FzHpgkZR2uVi_PG28jbISBAs=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22529633/DSCF3923.jpg",
-            "publishedAt": "2021-05-22T00:41:25Z",
-            "content": "Apple VP Tim Twerdahl says ATV doesnt need UWB\r\nPhoto by Chris Welch / The Verge\r\nWe have poked a considerable amount of fun at the Apple TVs Siri Remote over the years, and were pleased to say its f… [+1778 chars]"
+            "id": "10",
+            "author": "https://www.engadget.com/about/editors/igor-bonifacic",
+            "title": "Apple will produce an animated series based on Nathan Pyle's 'Strange Planet' webcomic",
+            "description": "Apple is adapting Nathan Pyle’s Strange Planet webcomic and series of best-selling graphic novels into an animated TV+ series..",
+            "url": "https://www.engadget.com/apple-tv-plus-strange-planet-animated-series-222655000.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/8f93b5e0-d470-11eb-9fbf-7aea297a5ad7",
+            "publishedAt": "2021-06-23T22:26:55Z",
+            "content": "Apple is adapting Nathan Pyles Strange \r\nPlanet\r\n webcomic and series of best-selling graphic novels into an animated TV+ series, according to The Hollywood Reporter\r\n. Started in 2019, Strange Plane… [+851 chars]"
+        },
+        {
+            "id": "11",
+            "author": "Romain Dillet",
+            "title": "Apple is bringing Shortcuts to the Mac and starts transition from Automator",
+            "description": "Apple has announced the next major version of macOS at WWDC 2021 — macOS Monterey. Among other features, Apple is going to release Shortcuts on macOS. It’s going to look and work a lot like Shortcuts on iOS and iPadOS. “The Mac has a long history of automatio…",
+            "url": "http://techcrunch.com/2021/06/07/apple-is-bringing-shortcuts-to-the-mac-and-starts-transition-from-automator/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/wwdc-2021-macOS-shortcuts.jpg?w=711",
+            "publishedAt": "2021-06-07T18:38:33Z",
+            "content": "Apple has announced the next major version of macOS at WWDC 2021  macOS Monterey. Among other features, Apple is going to release Shortcuts on macOS. Its going to look and work a lot like Shortcuts o… [+1126 chars]"
+        },
+        {
+            "id": "12",
+            "author": "Zack Whittaker",
+            "title": "Apple unveils new iOS 15 privacy features at WWDC",
+            "description": "Apple kicked off its global annual developer conference, WWDC, with a ton of new features and technologies. TechCrunch has all the coverage here from the keynote. As with previous years, Apple has dropped a number of new security and privacy features. New pri…",
+            "url": "http://techcrunch.com/2021/06/07/apple-wwdc-2021-privacy-security/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-07-at-1.51.41-PM.jpg?w=640",
+            "publishedAt": "2021-06-07T18:28:22Z",
+            "content": "Apple kicked off its global annual developer conference, WWDC, with a ton of new features and technologies. TechCrunch has all the coverage here from the keynote. As with previous years, Apple has dr… [+1929 chars]"
+        },
+        {
+            "id": "13",
+            "author": "https://www.engadget.com/about/editors/jon-fingas",
+            "title": "Apple employee group rejects planned return to the office",
+            "description": "Apple employees sent a letter objecting to a policy that will require them to return to offices in September, arguing that they should be allowed to work remotely unless necessary..",
+            "url": "https://www.engadget.com/apple-employees-reject-return-to-office-plans-153302337.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2020-12/53410370-3c97-11eb-bdfe-d9f1aae35357",
+            "publishedAt": "2021-06-05T15:33:02Z",
+            "content": "Not everyone is keen on returning to the office once the COVID-19 pandemic subsides, and Apple may be more aware of that than most. The Vergereports that about 80 Apple employees have written and edi… [+1656 chars]"
+        },
+        {
+            "id": "14",
+            "author": "https://www.engadget.com/about/editors/steve-dent",
+            "title": "Apple has reportedly considered launching its own primary healthcare service",
+            "description": "Apple has reportedly considered a plan to launch its own subscription-based healthcare service, according to a report from the Wall Street Journal..",
+            "url": "https://www.engadget.com/apple-considered-launching-its-own-primary-healthcare-service-115504402.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-01/e1f3d6c0-555f-11eb-bed9-e50e2615ca99",
+            "publishedAt": "2021-06-16T11:55:04Z",
+            "content": "Apple has reportedly considered a plan to launch its own subscription-based healthcare service, according to a report from the Wall Street Journal. The idea was conceived in 2016 but has reportedly s… [+1896 chars]"
+        },
+        {
+            "id": "15",
+            "author": "Sarah Perez",
+            "title": "Apple Podcasts Subscriptions go live worldwide",
+            "description": "Apple Podcasts Subscriptions are now live across more than 170 countries and regions, Apple announced this morning. First unveiled this spring, subscriptions allow listeners to unlock additional benefits for their favorite podcasts, including things like ad-f…",
+            "url": "http://techcrunch.com/2021/06/15/apple-podcasts-subscriptions-go-live-worldwide/",
+            "urlToImage": "https://techcrunch.com/wp-content/themes/techcrunch-2017/images/opengraph-default.png",
+            "publishedAt": "2021-06-15T15:33:40Z",
+            "content": "Apple Podcasts Subscriptions are now live across more than 170 countries and regions, Apple announced this morning. First unveiled this spring, subscriptions allow listeners to unlock additional bene… [+5330 chars]"
+        },
+        {
+            "id": "16",
+            "author": "https://www.engadget.com/about/editors/jon-fingas",
+            "title": "How to watch WWDC 2021",
+            "description": "Apple is delivering its WWDC 2021 keynote at 1PM ET — here's how to watch live, and to check out Engadget's post-event stream..",
+            "url": "https://www.engadget.com/how-to-watch-wwdc-2021-140034116.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/4c39f6d0-c78f-11eb-bc9e-29f59bb70d1b",
+            "publishedAt": "2021-06-07T14:00:34Z",
+            "content": "Apple is about to kick off WWDC 2021 with its customary keynote, and expectations are riding high this year. Accordingly, it's giving you plenty of ways to watch the event when it starts at 1PM Easte… [+850 chars]"
+        },
+        {
+            "id": "17",
+            "author": "https://www.engadget.com/about/editors/billy-steele",
+            "title": "Beats Studio Buds review: The Beats for everyone",
+            "description": "With the Studio Buds, Beats covered the basics and added bonuses like hands-free Siri and Dolby Atmos in Apple Music -- for $150..",
+            "url": "https://www.engadget.com/beats-studio-buds-review-150014566.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/b66415d0-cd12-11eb-b1f6-d37d378036c8",
+            "publishedAt": "2021-06-14T15:00:14Z",
+            "content": "Leaks have nearly spoiled a few big earbud announcements this year, and Beats latest was one of those. Even before high-profile athletes\r\nstarted posting pictures\r\non Instagram\r\n wearing the unannoun… [+12333 chars]"
+        },
+        {
+            "id": "18",
+            "author": "https://www.engadget.com/about/editors/jon-fingas",
+            "title": "Apple sets tighter limits on legal requests after Trump DOJ targeted politicians",
+            "description": "Apple says it has set limits on legal requests sometime after the Trump-era DOJ gathered info on Democrat politicians in hopes of finding leakers..",
+            "url": "https://www.engadget.com/apple-limits-legal-requests-after-trump-doj-161020383.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/93722250-cb8d-11eb-b5bf-6179691c9eae",
+            "publishedAt": "2021-06-12T16:10:20Z",
+            "content": "Apple has limited the scope of legal requests in light of a political dust-up. The company told Reuters that it recently capped requests at 25 identifiers each after the Trump-era Justice Department … [+1141 chars]"
+        },
+        {
+            "id": "19",
+            "author": "https://www.engadget.com/about/editors/jon-fingas",
+            "title": "'The Morning Show' season 2 trailer reveals turmoil at the anchor desk",
+            "description": "Apple is premiering 'The Morning Show' season 2 on September 17th, and the teaser trailer shows the turmoil that follows Alex and Bradley's decisions..",
+            "url": "https://www.engadget.com/the-morning-show-season-2-teaser-apple-tv-plus-141241307.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/b89434e0-cd15-11eb-bfbc-878685195520",
+            "publishedAt": "2021-06-14T14:12:41Z",
+            "content": "Apple is finally committing to a release date for the second season of The Morning Show, and it's offering a peek at what to expect in the process. The company has revealed that season two of the App… [+1269 chars]"
+        },
+        {
+            "id": "20",
+            "author": "https://www.engadget.com/about/editors/andrew-tarantola",
+            "title": "Apple's Testflight beta testing service is coming to macOS",
+            "description": "Apple announced that its Testflight tool, which allows developers to share their apps with non-developer beta testers, is finally migrating to MacOS..",
+            "url": "https://www.engadget.com/apples-testflight-beta-testing-service-is-coming-to-mac-os-190550738.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/b05a5390-c7c0-11eb-bfbf-430598a4442d",
+            "publishedAt": "2021-06-07T19:05:50Z",
+            "content": "After nearly two hours of new product announcements, Apple execs wrapped up the WWDC 2021 keynote address with a quick look at some new developer tools that should help make the process of making app… [+1204 chars]"
         }
     ]
 }

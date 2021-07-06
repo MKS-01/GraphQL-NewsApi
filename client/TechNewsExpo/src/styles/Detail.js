@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { FONT_FAMILY_SEMIBOLD } from "./typography";
+import { FONT_FAMILY_REGULAR, FONT_FAMILY_SEMIBOLD } from "./typography";
 import { TEXT_PRIMARY, TEXT_SECONDARY, TEXT_THIRD } from "./colors";
 import { scaleFont, scaleSize } from "./mixins";
 
@@ -18,10 +18,12 @@ export const BodyContainer = styled.View`
 export const DescriptionText = styled.Text`
   color: ${(props) => (props.type === "desc" ? TEXT_SECONDARY : TEXT_THIRD)};
   font-size: ${(props) =>
-    props.type === "desc" ? scaleFont(18) : scaleFont(16)}px;
-  font-family: ${FONT_FAMILY_SEMIBOLD};
+    props.type === "desc" ? scaleFont(16) : scaleFont(14)}px;
+  font-family: ${(props) =>
+    props.type === "desc" ? FONT_FAMILY_SEMIBOLD : FONT_FAMILY_REGULAR};
   font-weight: ${(props) => (props.type === "desc" ? 600 : 400)};
-  line-height: ${scaleSize(22)}px;
+  line-height: ${(props) =>
+    props.type === "desc" ? scaleFont(20) : scaleFont(18)}px;
   text-align: justify;
   flex-shrink: 1;
   margin-bottom: ${scaleSize(5)}px;

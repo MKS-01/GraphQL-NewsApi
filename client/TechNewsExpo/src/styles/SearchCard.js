@@ -13,17 +13,18 @@ export const Card = styled.TouchableOpacity`
 `;
 
 export const Title = styled.Text`
-  font-size: ${scaleFont(16)}px;
+  font-size: ${scaleFont(14)}px;
   font-family: ${FONT_FAMILY_REGULAR};
   text-align: justify;
   color: ${TEXT_PRIMARY};
   flex-shrink: 1;
+  letter-spacing: ${scaleFont(0.1)}px;
 `;
 
 export const TitleView = styled.View`
   flex: 1;
   display: flex;
-  margin: ${scaleSize(8)}px ${scaleSize(12)}px;
+  margin: ${scaleSize(12)}px ${scaleSize(12)}px;
 `;
 
 export const ImageContainer = styled.View`
