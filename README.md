@@ -38,12 +38,23 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 ### EXPO
 
 <div>
-<img src="./screenshots/mobile-rn/home.png" alt="home" width="257" height="488">
-<img src="./screenshots/mobile-rn/detail.png" alt="detail" width="257" height="488">
-<img src="./screenshots/mobile-rn/bookmark.png" alt="bookmark"  width="257" height="488">
+<img src="./screenshots/mobile-rn/signin.png" alt="signin" width="257" height="488">
+<img src="./screenshots/mobile-rn/signup.png" alt="signup" width="257" height="488">
+<img src="./screenshots/mobile-rn/forgot.png" alt="forgot"  width="257" height="488">
 </div>
 <div>
+<img src="./screenshots/mobile-rn/home.png" alt="home" width="257" height="488">
+<img src="./screenshots/mobile-rn/bookmark.png" alt="bookmark"  width="257" height="488">
 <img src="./screenshots/mobile-rn/search.png" alt="search" width="257" height="488">
-<img src="./screenshots/mobile-rn/webview.png" alt="inAppBrowser" width="257" height="488">
-<img src="./screenshots/mobile-rn/error.png" alt="error" width="257" height="488">
+</div>
+<div>
+<img src="./screenshots/mobile-rn/details.png" alt="detail" width="257" height="488">
+<img src="./screenshots/mobile-rn/share.png" alt="share" width="257" height="488">
+<img src="./screenshots/mobile-rn/web.png" alt="inAppBrowser" width="257" height="488">
+</div>
+
+<div>
+<img src="./screenshots/mobile-rn/settings.png" alt="settings" width="257" height="488">
+<img src="./screenshots/mobile-rn/network.png" alt="network" width="257" height="488">
+
 </div>
