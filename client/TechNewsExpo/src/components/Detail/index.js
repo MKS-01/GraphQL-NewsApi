@@ -1,9 +1,10 @@
 import React from "react";
-import { ImageBackground } from "react-native";
+import { ImageBackground, View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Linking from "expo-linking";
 import * as WebBrowser from "expo-web-browser";
+import ShareApi from "_utils/ShareApi";
 import { scaleSize } from "_styles/mixins";
 import { WHITE } from "_styles/colors";
 import {
@@ -16,11 +17,12 @@ import {
   HeaderTouchable,
 } from "_styles/Detail";
 
-const HeaderButton = ({ iconName, type }) => {
+const HeaderButton = ({ iconName, type, onPress }) => {
   const navigation = useNavigation();
+
   return (
     <HeaderTouchable
-      onPress={() => (type === "back" ? navigation.goBack() : "")}
+      onPress={() => (type === "back" ? navigation.goBack() : onPress())}
     >
       <Ionicons name={iconName} size={scaleSize(25)} color={WHITE} />
     </HeaderTouchable>
@@ -49,7 +51,11 @@ const Details = ({ data }) => {
       >
         <HeaderContainer>
           <HeaderButton iconName={"ios-arrow-back"} type={"back"} />
-          <HeaderButton iconName={"ios-bookmark"} type={"bookmark"} />
+          <HeaderButton
+            iconName={"ios-bookmark"}
+            type={"bookmark"}
+            onPress={() => console.log("tets")}
+          />
         </HeaderContainer>
       </ImageBackground>
       <BodyContainer>
@@ -62,6 +68,15 @@ const Details = ({ data }) => {
           }
         >
           <ReadMoreText>Read More</ReadMoreText>
+          <View style={{ flex: 1, alignItems: "flex-end" }}>
+            <HeaderButton
+              iconName={"ios-share-social-sharp"}
+              type={"share"}
+              onPress={() => {
+                ShareApi(url);
+              }}
+            />
+          </View>
         </ReadMoreTouchable>
       </BodyContainer>
     </RootContainer>
