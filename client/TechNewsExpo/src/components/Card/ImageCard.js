@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { ImageBackground, Pressable, View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
 import {
   TextContainer,
   ImageText,
@@ -51,6 +52,15 @@ const ImageCard = ({ data, type }) => {
             }}
             resizeMode="cover"
           >
+            <LinearGradient
+              colors={["transparent", "rgba(0,0,0,0.9)"]}
+              style={{
+                borderRadius: type === "headline" ? scaleSize(7) : scaleSize(5),
+                position: "absolute",
+                height: `100%`,
+                width: `100%`,
+              }}
+            />
             {type === "headline" ? (
               <TextContainer type="headline">
                 <ImageText type="headline">{title}</ImageText>
@@ -58,7 +68,6 @@ const ImageCard = ({ data, type }) => {
             ) : (
               <View />
             )}
-
             {type === "category2" ? (
               <TextContainer>
                 <ImageText>{title}</ImageText>
