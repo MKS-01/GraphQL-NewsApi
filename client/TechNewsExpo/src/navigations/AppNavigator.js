@@ -52,11 +52,11 @@ const AppNavigator = () => {
           if (route.name === "HomeTab") {
             iconName = focused ? "home" : "home-outline";
           } else if (route.name === "BookmarksTab") {
-            iconName = focused ? "bookmarks" : "bookmarks";
+            iconName = focused ? "bookmarks" : "bookmarks-outline";
           } else if (route.name === "SearchTab") {
             iconName = focused ? "ios-search" : "ios-search";
           } else if (route.name === "SettingTab") {
-            iconName = focused ? "ios-settings" : "ios-settings";
+            iconName = focused ? "ios-settings" : "ios-settings-outline";
           }
 
           return <Ionicons name={iconName} size={size} color={color} />;
@@ -64,8 +64,8 @@ const AppNavigator = () => {
       })}
       tabBarOptions={{
         showLabel: false,
-        activeTintColor: "#3373fa",
-        inactiveTintColor: "gray",
+        activeTintColor: "#cacaca",
+        inactiveTintColor: "#8a8a8a",
 
         style: {
           backgroundColor: `${BACKGROUND_COLOR}`,
