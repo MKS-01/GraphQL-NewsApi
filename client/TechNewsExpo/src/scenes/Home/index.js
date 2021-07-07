@@ -4,11 +4,15 @@ import { useQuery, gql } from "@apollo/client";
 import NetworkConnection from "_utils/NetworkConnection";
 import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
+import Topic from "_components/Topic";
+import Title from "_components/common/Header";
+
 import { RootScrollView, RootSafeArea } from "_styles/RootView";
 import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
 import { headline, apple, startup } from "../../json/mockData";
 import { GRAY_LIGHT } from "_styles/colors";
+import { scaleSize } from "_styles/mixins";
 
 // const EXCHANGE_RATES = gql`
 //   query GetExchangeRates {
@@ -53,7 +57,7 @@ const HomeScreen = () => {
       <RootScrollView
         type={"detail"}
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingBottom: 25 }}
+        contentContainerStyle={{ paddingBottom: scaleSize(25) }}
         refreshControl={
           <RefreshControl
             refreshing={refreshing}
@@ -63,11 +67,12 @@ const HomeScreen = () => {
           />
         }
       >
-        <View style={{ margin: 5 }} />
-        <Headline data={articles} />
-        <View style={{ margin: 10 }} />
+        <View style={{ marginTop: scaleSize(10) }} />
+        <Title title={"Home"} type="sub-title" paddingLeft={true} />
+        <Topic />
+        <View style={{ marginTop: scaleSize(10) }} />
+        <Headline data={articles} title={"Top Headlines"} />
         <Category data={apple.articles} type="category" title="Apple" />
-        <View style={{ margin: 10 }} />
         <Category data={startup.articles} type="category2" title="Startup" />
       </RootScrollView>
     </RootSafeArea>

@@ -1,11 +1,12 @@
 import React from "react";
 import { View, Text } from "react-native";
+import { TabContainer, TabText } from "_styles/Tag";
 
-const Tag = () => {
+const Tag = ({ topic }) => {
   return (
-    <View>
-      <Text></Text>
-    </View>
+    <TabContainer onPress={() => console.log("")}>
+      <TabText>{topic}</TabText>
+    </TabContainer>
   );
 };
 
