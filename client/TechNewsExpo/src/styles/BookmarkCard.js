@@ -11,7 +11,7 @@ export const Card = styled.TouchableOpacity`
 
 export const Image = styled.Image`
   height: ${scaleSize(165)}px;
-  border-radius: ${scaleSize(1)}px; ;
+  border-radius: ${scaleSize(4)}px;
 `;
 
 export const Text = styled.Text`
@@ -24,6 +24,6 @@ export const Text = styled.Text`
 
 export const ImageContainer = styled.View`
   height: ${scaleSize(165)}px;
-  border-radius: ${scaleSize(1)}px;
+  border-radius: ${scaleSize(4)}px;
   background-color: ${BACKGROUND_COLOR_SEC};
 `;

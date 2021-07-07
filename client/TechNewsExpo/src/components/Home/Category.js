@@ -1,7 +1,7 @@
 import React from "react";
 import { View, FlatList } from "react-native";
 import Title from "_components/common/Header";
-import ImageCard from "_components/Card/ImageCard";
+import ImageCard from "_components/common/Card/ImageCard";
 
 const Category = ({ data, type, title }) => {
   const renderCard = ({ item }) => <ImageCard data={item} type={type} />;

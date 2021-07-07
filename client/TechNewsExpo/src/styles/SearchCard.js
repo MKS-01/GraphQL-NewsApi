@@ -38,4 +38,5 @@ export const ImageCard = styled.Image`
   height: 100%;
   width: 100%;
   display: flex;
+  border-radius: ${scaleSize(2)}px;
 `;

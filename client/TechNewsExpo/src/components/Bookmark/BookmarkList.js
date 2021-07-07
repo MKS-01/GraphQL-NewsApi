@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { View, FlatList, RefreshControl } from "react-native";
-import BookmarkCard from "_components/Card/BookmarkCard";
+import BookmarkCard from "_components/common/Card/BookmarkCard";
 import { GRAY_LIGHT } from "_styles/colors";
 
 const wait = (timeout) => {
