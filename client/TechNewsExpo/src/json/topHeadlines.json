@@ -3,204 +3,124 @@
   "totalResults": 1000,
   "articles": [
     {
-      "id": "1",
-      "author": "Cale Michael",
-      "title": "Atari restructuring to focus on premium games, scaling down free-to-play and mobile development - Dot Esports",
-      "description": "Console, PC, and support for the Atari VCS are on the horizon for the gaming division of the legacy company.",
-      "url": "https://dotesports.com/news/atari-restructuring-to-focus-on-premium-games-scaling-down-free-to-play-and-mobile-development/",
-      "urlToImage": "https://cdn1.dotesports.com/wp-content/uploads/2020/07/01085254/atari_vcs_hero_group-1-768x432.jpg",
-      "publishedAt": "2021-07-06T00:25:24Z",
-      "content": "Atari announced that the company was going through some big changes back in April when it named a new CEO and essentially split the entire company into two distinct companies, the Atari Gaming and At… [+2018 chars]"
-    },
-    {
-      "id": "2",
-      "author": null,
-      "title": "2004 Shelby Cobra concept car to be auctioned - WhichCar",
-      "description": "The V10 Cobra roadster concept will be auctioned for the second time in 17 years",
-      "url": "https://www.whichcar.com.au/news/2004-shelby-cobra-concept-auction",
-      "urlToImage": "https://assets.whichcar.com.au/image/private/s--iMEG237f--/c_fill,f_auto,g_xy_center,h_630,q_auto:good,w_1200,x_811,y_454/v1/Street%20Machine/News/2004_Shelby_Cobra_Concept_1.png",
-      "publishedAt": "2021-07-06T00:02:05Z",
-      "content": "Snapshot\r\n<ul><li>Debuted at 2004 Detroit motor show</li><li>Powered by 605hp DOHC V10</li><li>Estimated value over $1m</li></ul>\r\nA one-off, 21st-century Shelby Cobra concept car is due to be auctio… [+2772 chars]"
+      "id": "20",
+      "author": "Jon Porter",
+      "title": "Cowboy’s excellent third-generation electric bike gets discounted to €1,990 - The Verge",
+      "description": "The Cowboy 3 has received another discount. Going forward, it will now sell for €1,990, €300 cheaper than its original launch price of €2,290. That price includes mudguards.",
+      "url": "https://www.theverge.com/2021/7/7/22566521/cowboy-3-electric-bike-price-discount",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/mTL7a7S3iLM02h4slQhSF4jvIok=/0x142:2040x1210/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21907037/verge_DSC_0771_2040pxl.jpg",
+      "publishedAt": "2021-07-07T13:00:00Z",
+      "content": "Down from its original launch price of 2,290\r\nPhoto by Thomas Ricker / The Verge\r\nCowboys third generation electric bike, the appropriately named Cowboy 3, has received another discount. Going forwar… [+988 chars]"
     },
     {
       "id": "3",
-      "author": "Luke Plunkett",
-      "title": "Ubisoft Screws Up DRM Servers, Then Somehow Makes Things Worse - Kotaku",
-      "description": "Instead of fixing Might and Magic X's DRM, Ubisoft just pulled it from Steam",
-      "url": "https://kotaku.com/ubisoft-screws-up-drm-servers-then-somehow-makes-thing-1847232712",
-      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/52f8546a0f403a4e3ac6df221055d8fe.jpg",
-      "publishedAt": "2021-07-06T00:00:00Z",
-      "content": "Last month, Ubisoft decided to end online support for a bunch of older games, but in doing so also brought down the DRM servers for Might and Magic X - Legacy, meaning players couldnt access the game… [+1613 chars]"
+      "author": "Editorial Team",
+      "title": "Moroccan cops nab suspected hacker Dr Hex - Finextra",
+      "description": "Moroccan police have arrested a suspected cybercrook, dubbed 'Dr Hex', accused of a string of phishing, carding and malware campaigns.",
+      "url": "https://www.finextra.com/newsarticle/38416/moroccan-cops-nab-suspected-hacker-dr-hex",
+      "urlToImage": "https://www.finextra.com/finextra-images/top_pics/xl/jail-finextra.jpg",
+      "publishedAt": "2021-07-07T14:09:51Z",
+      "content": "Moroccan police have arrested a suspected cybercrook, dubbed 'Dr Hex', accused of a string of phishing, carding and malware campaigns.\r\nLocal police worked with Interpol and security firm Group-IB to… [+769 chars]"
     },
     {
       "id": "4",
-      "author": null,
-      "title": "Ubisoft Screws Up DRM Servers, Then Somehow Makes Things Worse - Kotaku Australia",
-      "description": "Last month, Ubisoft decided to end online support for a bunch of older games, but in doing so also brought...",
-      "url": "https://www.kotaku.com.au/2021/07/ubisoft-screws-up-drm-servers-then-somehow-makes-things-worse/",
-      "urlToImage": "https://imgix.kotaku.com.au/content/uploads/sites/3/2021/07/06/52f8546a0f403a4e3ac6df221055d8fe.jpg?ar=16%3A9&auto=format&fit=crop&q=65&w=1280",
-      "publishedAt": "2021-07-06T00:00:00Z",
-      "content": "Last month, Ubisoft decided to end online support for a bunch of older games, but in doing so also brought down the DRM servers for Might and Magic X – Legacy, meaning players couldnt access the game… [+1606 chars]"
+      "author": "Samsung Newsroom MT",
+      "title": "The Secret Behind the Rich, Powerful Sound of Samsung's Premium Soundbar - Samsung US Newsroom - Samsung Newsroom US",
+      "description": "(From left) Mingyo Oh, Haekwang Park and Shinhye Choi, at Samsung Electronics’ Visual Display Business behind Premium Soundbar, the HW-Q950A. With the increasing popularity of large screen televisions and the continued addition of further OTT (over-the-top) s…",
+      "url": "https://news.samsung.com/us/the-secret-behind-the-rich-powerful-sound-of-samsungs-premium-soundbar/",
+      "urlToImage": "https://img.us.news.samsung.com/us/wp-content/uploads/2021/07/06202000/Soundbar-Interview_main1.jpg",
+      "publishedAt": "2021-07-07T14:06:05Z",
+      "content": "(From left) Mingyo Oh, Haekwang Park and Shinhye Choi, at Samsung Electronics Visual Display Business behind Premium Soundbar, the HW-Q950A.\r\nWith the increasing popularity of large screen television… [+7741 chars]"
     },
     {
       "id": "5",
-      "author": null,
-      "title": "2021 Abarth 695 Esseesse unveiled - Drive",
-      "description": "Abarth's hottest hatch gets even faster, with the latest limited-edition variant featuring an adjustable rear spoiler, Brembo brakes and lightweight aluminium components.",
-      "url": "https://www.drive.com.au/news/2021-abarth-695-esseesse-unveiled/",
-      "urlToImage": "https://res.cloudinary.com/driveau/image/upload/c_fill,f_auto,g_auto,h_720,q_auto:best,w_1280/v1/cms/uploads/oauaujwjd0ic2ahzunvi",
-      "publishedAt": "2021-07-05T23:43:33Z",
-      "content": "On the outside, the 695 Esseesse gains white details on the front splitter, rear diffuser, mirror caps and side decals, plus white 17-inch alloy wheels with red centre caps, red brake calipers, 695 b… [+33 chars]"
+      "author": "Tim Bajarin",
+      "title": "Apple’s Curious Resistance To Creating A Touch Screen Mac. - Forbes",
+      "description": "Since the intro of Apple's touch UI, touch screen laptops have become popular in the Windows laptop world. Starting with two-in-ones and now on all types of laptop designs, the optional touch screen UI's are standard fare on about 35% of all laptops produced.",
+      "url": "https://www.forbes.com/sites/timbajarin/2021/07/07/apples-curious-resistance-to-creating-a-touch-screen-mac/",
+      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60e4e8ac208f95f99a62955b%2F0x0.jpg",
+      "publishedAt": "2021-07-07T14:00:00Z",
+      "content": "Touch-screen displays have changed the way we interact with our devices.\r\ngetty\r\nA few weeks back I took my first road trip since March 3, 2020. I traveled to New Orleans to speak at a college event … [+3973 chars]"
     },
     {
       "id": "6",
-      "author": "Simon Cohen",
-      "title": "Head-tracking spatial audio in tvOS 15 is awesome - Digital Trends",
-      "description": "Apple delivers an immersive movie experience through a set of wireless headphones, putting the Apple TV 4K ahead of Roku, Amazon Fire TV, and Google Chromecast.",
-      "url": "https://www.digitaltrends.com/home-theater/apple-head-tracking-spatial-audio-tvos-15-airpods-max-hands-on/",
-      "urlToImage": "https://icdn.digitaltrends.com/image/digitaltrends/apple-spatial-audio-head-tracking-image.jpg",
-      "publishedAt": "2021-07-05T23:39:12Z",
-      "content": "With the release of the tvOS 15 beta last week, we finally got our first taste of what Apple’s spatial audio sounds like when you combine an Apple TV 4K with a big-screen TV and the head-tracking bui… [+4411 chars]"
+      "author": "Eddie Makuch",
+      "title": "In-Game Ads On Console For F2P Games Will Be Common In 1-2 Years, Company Says - GameSpot",
+      "description": "The new PlayerWON platform is looking to shake things up in the console free-to-play ad space.",
+      "url": "https://www.gamespot.com/articles/in-game-ads-on-console-for-f2p-games-will-be-common-in-1-2-years-company-says/1100-6493651/",
+      "urlToImage": "https://www.gamespot.com/a/uploads/screen_kubrick/1179/11799911/3852671-screenshot2021-07-07at9.41.08am.png",
+      "publishedAt": "2021-07-07T13:54:20Z",
+      "content": "The tech company Simulmedia, which operatres an in-game ad platform called PlayerWON, recently made headlines when one of its executives said in an interview that it had signed a deal with Electronic… [+3406 chars]"
     },
     {
       "id": "7",
-      "author": null,
-      "title": "The Best 6 Smart Gadgets to Bring Your Home up to Speed - Gizmodo Australia",
-      "description": "Make your home truly smart with this range of essential smart home gadgets.",
-      "url": "https://www.gizmodo.com.au/2021/07/must-have-smart-home-gadgets/",
-      "urlToImage": "https://imgix.gizmodo.com.au/content/uploads/sites/2/2021/07/05/iStock-1201481982-2.jpg?ar=16%3A9&auto=format&fit=crop&q=65&w=1280",
-      "publishedAt": "2021-07-05T23:30:00Z",
-      "content": "At Gizmodo, we independently select and write about stuff we love and think you'll like too. We have affiliate and advertising partnerships, which means we may collect a share of sales or other compe… [+4438 chars]"
+      "author": "Paul Tassi",
+      "title": "Attempting To Decipher Destiny 2’s Bungie-Leaked Finale Lore - Forbes",
+      "description": "That would be the final lore page from Beneath the Endless Night, which players could claim and get their seasonal “Splicer” title, but also read ahead in the story, courtesy of Bungie, rather than the API or datamining.",
+      "url": "https://www.forbes.com/sites/paultassi/2021/07/07/attempting-to-decipher-destiny-2s-bungie-leaked-finale-lore/",
+      "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60b78c734077e76a864c9ae8%2F0x0.jpg",
+      "publishedAt": "2021-07-07T13:38:29Z",
+      "content": "Osiris\r\nDestiny \r\nYesterday was a busy day in Destiny 2 with the launch of Solstice, Master Vault of Glass, weapon balance changes and un-sunset destination weapons. So busy, in fact, something slipp… [+4525 chars]"
     },
     {
       "id": "8",
       "author": null,
-      "title": "PSA: Notes created with iOS 15 and macOS 12 might be unavailable in previous OS versions - 9to5Mac",
-      "description": "Among all the new features in iOS 15 and macOS Monterey, Apple has introduced some great changes to its Notes app. However, if you have already installed the latest versions of the operating systems on your devices, be aware that some of the notes will not sh…",
-      "url": "https://9to5mac.com/2021/07/05/psa-notes-created-with-ios-15-and-macos-12-might-be-unavailable-in-previous-os-versions/",
-      "urlToImage": "https://i2.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/07/Notes-app-iOS-15-macOS-Monterey-compatibility.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-      "publishedAt": "2021-07-05T23:23:00Z",
-      "content": "Among all the new features in iOS 15 and macOS Monterey, Apple has introduced some great changes to its Notes app. However, if you have already installed the latest versions of the operating systems … [+1312 chars]"
+      "title": "A new open-world gacha game is coming to take down Genshin Impact - Android Police",
+      "description": "Punishing: Gray Raven is the latest hotly-anticipated gacha for mobile, all thanks to its super flashy graphics. This is a hack-and-slash action RPG, just",
+      "url": "https://www.androidpolice.com/2021/07/07/a-new-open-world-gacha-game-is-coming-to-take-down-genshin-impact/",
+      "urlToImage": "https://www.androidpolice.com/wp-content/uploads/2021/07/07/Punishing-Gray-Raven-hero.jpg",
+      "publishedAt": "2021-07-07T13:30:00Z",
+      "content": "Punishing: Gray Raven is the latest hotly-anticipated gacha for mobile, all thanks to its super flashy graphics. This is a hack-and-slash action RPG, just like Genshin Impact (and its predecessor Hon… [+1984 chars]"
     },
     {
       "id": "9",
-      "author": "Andrew Hutchinson",
-      "title": "Facebook's Testing a New 'Threads' Option for Feed Posts - Social Media Today",
-      "description": "The option is designed to help communicate live events and evolving stories.",
-      "url": "https://www.socialmediatoday.com/news/facebooks-testing-a-new-threads-option-for-feed-posts/602831/",
-      "urlToImage": "https://www.socialmediatoday.com/user_media/cache/51/65/5165fe2f22854476bcfd69efcad2fc42.jpg",
-      "publishedAt": "2021-07-05T23:17:44Z",
-      "content": "It seems like every time another social app comes out with any feature that's even the slightest bit useful, Facebook is like 'we can do that too', doesn't it?\r\nLast week, some Facebook users began s… [+2743 chars]"
+      "author": "Nintendo Life",
+      "title": "Another Nintendo Console Has Gotten An Upgrade, But It's From 18 Years Ago - Nintendo Life",
+      "description": "GBA SP battery tech finally catches up with screen upgrades",
+      "url": "https://www.nintendolife.com/news/2021/07/another_nintendo_console_has_gotten_an_upgrade_but_its_from_18_years_ago",
+      "urlToImage": "https://images.nintendolife.com/2e9b3b2ecec65/1280x720.jpg",
+      "publishedAt": "2021-07-07T13:30:00Z",
+      "content": "You can keep your fancy-pants Switch OLED Models, chum for retro fans, the news that the GBA SP is getting a battery upgrade is arguably more exciting ('arguably' being the operative word here).\r\nWhi… [+2316 chars]"
     },
     {
       "id": "10",
-      "author": "Andrew Hutchinson",
-      "title": "Twitter's Testing New Audience Controls on Tweets, Making it Easier to Engage Around Various Topics - Social Media Today",
-      "description": "The process would enable you to share tweets with various topic audiences from a single profile.",
-      "url": "https://www.socialmediatoday.com/news/twitters-testing-new-audience-controls-on-tweets-making-it-easier-to-enga/602830/",
-      "urlToImage": "https://www.socialmediatoday.com/user_media/cache/03/37/0337335166bc6668b6c755a4b2891385.jpg",
-      "publishedAt": "2021-07-05T23:17:07Z",
-      "content": "This could have a significant impact on Twitter usage, and the way you build Twitter audiences moving forward.\r\nAmong its various experiments and tests, which are part of its accelerated development … [+4314 chars]"
+      "author": "Brandstories",
+      "title": "Stay productive with Huawei's newest mid-range laptop the HUAWEI MateBook 14 - IOL",
+      "description": "Change how you see it all with a 2K Touch Screen, work all day with an 11 hour long battery life with fast charging and so much more.",
+      "url": "https://www.iol.co.za/the-star/partnered/stay-productive-with-huaweis-newest-mid-range-laptop-the-huawei-matebook-14-49e4a7a0-b33f-4c05-aa17-97c2710252be",
+      "urlToImage": "https://image-prod.iol.co.za/resize/650x366/Lightweight-laptops-are-often-suitable-for-productivity-tasks-and-the-HUAWEI-MateBook-14-s-screen-comes-in-a-3-2-aspect-ratio-that-brings-a-larger-vertical-area?source=https://xlibris.public.prod.oc.inl.infomaker.io:8443/opencontent/objects/ba5c7a08-4c86-52eb-8dd8-913f57624b7b&operation=CROP&offset=0x93&resize=1773x997",
+      "publishedAt": "2021-07-07T13:26:55Z",
+      "content": "Change how you see it all with a 2K Touch Screen, work all day with an 11 hour long battery life with fast charging and so much more.\r\nLaptops have become an essential daily tool for users especially… [+4515 chars]"
     },
     {
       "id": "11",
-      "author": "https://chromeunboxed.com/author/gabe/",
-      "title": "Chrome OS 91 busted? You’re not alone - Chrome Unboxed",
-      "description": "If you recently updated to the latest version of Chrome OS 91 and you're experiencing some unsettling performance degradation, you are not alone. As first reported by Android Police, users have taken to Reddit and the CR Bug tracker to report devices that are…",
-      "url": "https://chromeunboxed.com/chrome-os-91-busted-youre-not-alone/",
-      "urlToImage": "https://chromeunboxed.com/wp-content/uploads/2021/07/chrome-os-91-busted.jpg",
-      "publishedAt": "2021-07-05T23:08:13Z",
-      "content": "If you recently updated to the latest version of Chrome OS 91 and youre experiencing some unsettling performance degradation, you are not alone. As first reported by Android Police, users have taken … [+2767 chars]"
+      "author": "David Ludlow",
+      "title": "Nanoleaf turns on Thread border routers for easier smart home control - TrustedReviews",
+      "description": "Thread border router support expands the range of features of Nanoleaf's Essential range, particularlyl for Android users.",
+      "url": "https://www.trustedreviews.com/news/nanoleaf-turns-on-thread-border-routers-for-easier-smart-home-control-4149911",
+      "urlToImage": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/06/Nanoleaf-Shapes-7.jpg",
+      "publishedAt": "2021-07-07T13:24:27Z",
+      "content": "Nanoleaf has turned on Thread border router support on its Nanoleaf Shapes and Elements controllers to help boost support for the new smart home protocol.\r\nThread is a new type of low-power smart hom… [+1389 chars]"
     },
     {
       "id": "12",
-      "author": null,
-      "title": "Samsung Galaxy Watch 4 and Galaxy Buds 2 appear on Canada's equipment list - MobileSyrup",
-      "description": "The Samsung Galaxy Watch 4 and Watch 4 will launch in Canada, according to the Canada's Radio Equipment List.",
-      "url": "https://mobilesyrup.com/2021/07/05/samsung-galaxy-watch-4-galaxy-buds-2-canada/",
-      "urlToImage": "https://cdn.mobilesyrup.com/wp-content/uploads/2020/08/galaxy-watch-3-header-scaled.jpg",
-      "publishedAt": "2021-07-05T23:04:00Z",
-      "content": "Samsung will reportedly unveil the Galaxy Watch 4 and Watch 4 Classic on August 11th, and while it may take a few weeks before the launch of the devices, we can confirm that they will release in the … [+932 chars]"
+      "author": "Nicole Carpenter",
+      "title": "A Pokémon nature theme park is coming to Japan - Polygon",
+      "description": "The Pokémon Company has created a nature theme park in Tokyo, Japan. The park, called Pokémon Wonder, will allow visitors to seek out Pokémon throughout two different “courses.”",
+      "url": "https://www.polygon.com/22566622/pokemon-nature-reserve-theme-park-japan-wonder",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/mI6VXWihHl9RpZX6H-0BAqZnuUA=/0x47:650x387/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22703295/d26665_303_a3533263a39773e296aa_14.jpg",
+      "publishedAt": "2021-07-07T13:23:35Z",
+      "content": "The Pokémon Company is opening a nature-based theme park in Tokyo, Japan, the company announced Wednesday. Called Pokémon Wonder, the park is essentially a way for visitors to search for Pokémon in t… [+818 chars]"
     },
     {
       "id": "13",
-      "author": "Vlad",
-      "title": "Samsung Galaxy M32 launches in the UK with a smaller battery - GSMArena.com news - GSMArena.com",
-      "description": "It's going to become available in the country by the end of July.",
-      "url": "https://www.gsmarena.com/samsung_galaxy_m32_launches_in_the_uk_with_a_smaller_battery-news-49897.php",
-      "urlToImage": "https://fdn.gsmarena.com/imgroot/news/21/07/galaxy-m32-uk-launch/-476x249w4/gsmarena_001.jpg",
-      "publishedAt": "2021-07-05T22:59:01Z",
-      "content": "Samsung initially made the Galaxy M32 official back in June for the Indian market, and today this phone has made the jump to the UK.\r\nThe M32 will become available in the UK by the end of this month,… [+975 chars]"
-    },
-    {
-      "id": "14",
-      "author": null,
-      "title": "Phone Comparisons: Samsung Galaxy S21 Ultra vs Sony Xperia 1 III - Android Headlines",
-      "description": "In this article, we’ll compare the Samsung Galaxy S21 Ultra vs Sony Xperia 1 III. The Galaxy S21 Ultra has been available for quite some time now, while",
-      "url": "https://www.androidheadlines.com/phone-comparisons-samsung-galaxy-s21-ultra-vs-sony-xperia-1-iii",
-      "urlToImage": "https://www.androidheadlines.com/wp-content/uploads/2021/07/AH-Samsung-Galaxy-S21-Ultra-vs-Sony-Xperia-1-III-comparison.jpg",
-      "publishedAt": "2021-07-05T22:58:53Z",
-      "content": "In this article, we’ll compare the Samsung Galaxy S21 Ultra vs Sony Xperia 1 III. The Galaxy S21 Ultra has been available for quite some time now, while the Xperia 1 III still is not (at the time of … [+10913 chars]"
-    },
-    {
-      "id": "15",
-      "author": null,
-      "title": "Wild, winged 818hp Ferrari F8 Tributo revealed - NZ Autocar",
-      "description": "There’s been plenty for Ferrari fans to think about this year so far. Speculation around the brand’s first SUV, the Purosangue, grows. The svelte new Roma has hit showrooms around the world. It just released the 296 GTB. And, there’s also this thing.",
-      "url": "https://www.autocar.co.nz/autocar-news-app/wild-winged-818hp-ferrari-f8-tributo-revealed",
-      "urlToImage": "https://www.autocar.co.nz/_News/01-Random/novitecf81.jpg",
-      "publishedAt": "2021-07-05T22:52:38Z",
-      "content": "Theres been plenty for Ferrari fans to think about this year so far. Speculation around the brands first SUV, the Purosangue, grows. The svelte new Roma has hit showrooms around the world. It just re… [+1917 chars]"
-    },
-    {
-      "id": "16",
-      "author": null,
-      "title": "Black Geyser Looks Like The BioWare RPG You've Been Waiting For - Kotaku Australia",
-      "description": "Black Geyser: Couriers Of Darkness sure looks like a BioWare game. It isn’t, because BioWare hasn’t made BioWare games for centuries....",
-      "url": "https://www.kotaku.com.au/2021/07/black-geyser-looks-like-the-bioware-rpg-youve-been-waiting-for/",
-      "urlToImage": "https://imgix.kotaku.com.au/content/uploads/sites/3/2021/07/06/black-geyser.png?ar=16%3A9&auto=format&fit=crop&q=80&w=1280&nr=20",
-      "publishedAt": "2021-07-05T22:45:00Z",
-      "content": "Black Geyser: Couriers Of Darkness sure looks like a BioWare game. It isnt, because BioWare hasnt made BioWare games for centuries. This is in fact made by a small team, yet when it goes into Early A… [+1721 chars]"
-    },
-    {
-      "id": "17",
-      "author": "http://facebook.com/trevorlong",
-      "title": "Samsung Galaxy A52 Review: A pocket rocket at an affordable price - EFTM",
-      "description": "When it comes to Smartphones, we all lust after the flagship iconic brands and devices, but in reality what we use is ten fifths of bugger all of the",
-      "url": "https://eftm.com/2021/07/samsung-galaxy-a52-review-a-pocket-rocket-at-an-affordable-price-camera-test-performance-212648",
-      "urlToImage": "https://eftm.com/wp-content/uploads/2021/06/DSC09321-scaled.jpg",
-      "publishedAt": "2021-07-05T22:37:27Z",
-      "content": "When it comes to Smartphones, we all lust after the flagship iconic brands and devices, but in reality what we use is ten fifths of bugger all of the actual features of those phones, meaning realisti… [+2326 chars]"
-    },
-    {
-      "id": "18",
-      "author": "Luke Plunkett",
-      "title": "TIE Fighter Has Been Remade With More Modern Visuals - Kotaku",
-      "description": "The 1994 classic is back as a mod, with VR support and some redesigned missions as well",
-      "url": "https://kotaku.com/tie-fighter-has-been-remade-with-more-modern-visuals-1847229438",
-      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/b6aa1fe45773683531ec41c62b092a56.gif",
-      "publishedAt": "2021-07-05T22:30:00Z",
-      "content": "Gif: TIE Fighter Total Conversion\r\nIf EAs Squadrons wasnt quite to the scale you were hoping for from your Star Wars flight game, never mind: you can always replay 1994 classic TIE Fighter, which now… [+2725 chars]"
-    },
-    {
-      "id": "19",
-      "author": null,
-      "title": "Atari Wants To Make ‘Premium’ Games Again - Kotaku Australia",
-      "description": "Atari has announced it wants to make 'premium' video games once more, causing the closure of 5 games and its casino business.",
-      "url": "https://www.kotaku.com.au/2021/07/atari-wants-to-make-premium-games-again/",
-      "urlToImage": "https://imgix.kotaku.com.au/content/uploads/sites/3/2017/06/ataribox.jpg?ar=16%3A9&auto=format&fit=crop&q=65&w=1280",
-      "publishedAt": "2021-07-05T22:30:00Z",
-      "content": "After spending years aligning itself with the blockchain, weird TV spin-offs, that weird crypto casino spin-off, and shoehorning classic IP into free-to-play shovelware, Atari has announced that, act… [+1755 chars]"
-    },
-    {
-      "id": "20",
-      "author": null,
-      "title": "Clemenger BBDO Sydney names Graham Sweet head of brand planning - AdNews",
-      "description": "He has previously led planning teams at Saatchi & Saatchi and We Are Social.",
-      "url": "https://www.adnews.com.au/news/clemenger-bbdo-sydney-names-graham-sweet-head-of-brand-planning",
-      "urlToImage": "//res.cloudinary.com/yaffa-publishing/image/fetch/q_auto:best,c_fill,w_300,g_faces:center,f_auto/http%3A%2F%2Fyaffa%2Dcdn%2Es3%2Eamazonaws%2Ecom%2Fadnews%2Flive%2Fimages%2FdmImage%2FSourceImage%2Fgraham%2Dsweet%2D%2D%2Dhead%2Dof%2Dbrand%2Dplanning%2Dclemenger%2Dbbdo%2Dsydney2%2Ejpg",
-      "publishedAt": "2021-07-05T22:26:13Z",
-      "content": "Clemenger BBDO Sydney has appointed Graham Sweet head of brand planning.\r\nSweet has close to 20 years' experience working at top agencies and across global brands.\r\nHe has previously led planning tea… [+1497 chars]"
+      "author": "D-BOX Technologies Inc.",
+      "title": "Cooler Master and D-BOX Launch Motion 1 - GlobeNewswire",
+      "description": "The Haptic Gaming Chair to build “Immersive” Lifestyle Product Line......",
+      "url": "https://www.globenewswire.com/news-release/2021/07/07/2259114/0/en/Cooler-Master-and-D-BOX-Launch-Motion-1.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/7cbb4769-9915-4ee7-86fd-6ae6ef380bfc?size=1",
+      "publishedAt": "2021-07-07T13:20:29Z",
+      "content": "LOS ANGELES, July 07, 2021 (GLOBE NEWSWIRE) -- Cooler Master, a global leader in designing and manufacturing innovative computer components and peripherals is collaborating with D-BOX, a world leader… [+3737 chars]"
     }
   ]
 }

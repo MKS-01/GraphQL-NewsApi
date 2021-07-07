@@ -1,21 +1,25 @@
 import styled from "styled-components/native";
-import { WHITE } from "./colors";
+import { WHITE, GRAY_LIGHT } from "./colors";
 import { scaleSize, scaleFont } from "./mixins";
-import { FONT_FAMILY_SEMIBOLD, FONT_SIZE_14 } from "./typography";
+import { FONT_FAMILY_SEMIBOLD, FONT_SIZE_12 } from "./typography";
 
 export const ImageText = styled.Text`
   font-size: ${(props) =>
-    props.type === "headline" ? `${scaleFont(16)}px` : `${scaleFont(14)}px`};
+    props.type === "headline" ? `${scaleFont(15)}px` : `${scaleFont(12)}px`};
   font-family: ${FONT_FAMILY_SEMIBOLD};
   text-align: justify;
-  color: ${WHITE};
+  color: ${GRAY_LIGHT};
   flex-shrink: 1;
+  text-transform: uppercase;
 `;
 
 export const TextContainer = styled.View`
   flex: 1;
   margin: ${scaleSize(10)}px;
   justify-content: flex-end;
+  /* margin-bottom: 30; */
+  margin-bottom: ${(props) =>
+    props.type === "headline" ? `${scaleSize(25)}` : `${scaleSize(10)}`}px;
 `;
 
 export const TextContainerBottom = styled.View`
@@ -26,10 +30,11 @@ export const TextContainerBottom = styled.View`
 `;
 
 export const ImageTextBottom = styled.Text`
-  font-size: ${FONT_SIZE_14}px;
+  font-size: ${FONT_SIZE_12}px;
   font-family: ${FONT_FAMILY_SEMIBOLD};
+  text-transform: uppercase;
   text-align: justify;
-  color: ${WHITE};
+  color: ${GRAY_LIGHT};
   flex-shrink: 1;
   letter-spacing: ${scaleFont(0.1)}px;
 `;

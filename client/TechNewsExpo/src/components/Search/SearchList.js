@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { View, FlatList, RefreshControl } from "react-native";
-import SearchCard from "_components/Card/SearchCard";
+import SearchCard from "_components/common/Card/SearchCard";
 import { GRAY_LIGHT } from "_styles/colors";
 
 const wait = (timeout) => {

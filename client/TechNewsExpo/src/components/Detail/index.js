@@ -16,6 +16,7 @@ import {
   HeaderContainer,
   HeaderTouchable,
 } from "_styles/Detail";
+import { DateTime } from "_utils/DateTime";
 
 const HeaderButton = ({ iconName, type, onPress }) => {
   const navigation = useNavigation();
@@ -30,7 +31,7 @@ const HeaderButton = ({ iconName, type, onPress }) => {
 };
 
 const Details = ({ data }) => {
-  const { urlToImage, description, content, url } = data;
+  const { urlToImage, description, content, title, url, publishedAt } = data;
 
   return (
     <RootContainer>
@@ -57,10 +58,22 @@ const Details = ({ data }) => {
             onPress={() => console.log("tets")}
           />
         </HeaderContainer>
+        <View
+          style={{
+            position: "absolute",
+            bottom: 5,
+            right: 15,
+          }}
+        >
+          <DescriptionText type={"content"}>
+            {DateTime(publishedAt)}
+          </DescriptionText>
+        </View>
       </ImageBackground>
       <BodyContainer>
-        <DescriptionText type={"desc"}>{description} </DescriptionText>
-        <DescriptionText type={"content"}>{content} </DescriptionText>
+        <DescriptionText type={"desc"}>{title} </DescriptionText>
+        <DescriptionText type={"content"}>{description} </DescriptionText>
+
         <ReadMoreTouchable
           onPress={() =>
             // Linking.openURL(url)
