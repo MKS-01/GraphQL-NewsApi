@@ -3,16 +3,6 @@
     "totalResults": 72569,
     "articles": [
         {
-            "id": "1",
-            "author": "https://www.engadget.com/about/editors/saqib-shah",
-            "title": "Apple Podcasts subscriptions launch globally",
-            "description": "Apple is rolling out paid subscriptions and channels on its Podcasts app..",
-            "url": "https://www.engadget.com/apple-podcasts-subscriptions-launch-102556622.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/e6c71860-cdbe-11eb-a7b6-362b2e81322f",
-            "publishedAt": "2021-06-15T10:25:56Z",
-            "content": "Following a slight delay, Apple's podcast subscriptions are now live. The service lets you pay for a range of perks from your favorite creators including ad-free listening, early access and bonus epi… [+1885 chars]"
-        },
-        {
             "id": "2",
             "author": "Monica Chin",
             "title": "Apple introduces Siri for third-party devices",
@@ -21,16 +11,6 @@
             "urlToImage": "https://cdn.vox-cdn.com/thumbor/5SGRzHkHDDnMw6NuNSC0VQ9Eg9Y=/0x40:2000x1087/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22643336/lcimg_bdd5a604_baa2_4518_a03e_bf828a525d3e.jpg",
             "publishedAt": "2021-06-07T18:39:36Z",
             "content": "Plus, new features for the HomePod Mini and Apple Watch\r\nSiri is finally coming to third-party devices. Apple announced at its WWDC keynote that HomeKit accessory makers will be able to integrate Sir… [+1266 chars]"
-        },
-        {
-            "id": "3",
-            "author": "Lauren Goode",
-            "title": "If You Want to Live in Apple World, Gather All Your iDevices",
-            "description": "This week, Apple doubled down on its vision of a seamlessly integrated ecosystem of products, software, and services. The catch? You need to be all in on Apple.",
-            "url": "https://www.wired.com/story/if-you-want-to-live-in-apple-world-gather-all-your-idevices/",
-            "urlToImage": "https://media.wired.com/photos/60bea64970d107b3e767d5a8/191:100/w_1280,c_limit/Gear-Apple.WWDC21.AppleWatch.jpg",
-            "publishedAt": "2021-06-09T11:00:00Z",
-            "content": "Even a new feature in the iPhones Photos app that arranges your photos into a slideshow with an emotional soundtrack will require a subscription to Apple Music. Accessing new fitness class offerings … [+4019 chars]"
         },
         {
             "id": "4",
