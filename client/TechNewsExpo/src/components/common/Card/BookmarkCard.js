@@ -30,12 +30,11 @@ const BookmarkCard = ({ data }) => {
               uri: data.urlToImage,
             }}
           />
-          {/* </LinearGradient> */}
         </>
       ) : (
         <ImageContainer />
       )}
-      <Text>{data.title}</Text>
+      <Text numberOfLines={3}>{data.title}</Text>
     </Card>
   );
 };

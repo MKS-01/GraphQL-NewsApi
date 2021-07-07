@@ -43,7 +43,7 @@ const SearchCard = ({ data }) => {
       )}
 
       <TitleView>
-        <Title>{data.title}</Title>
+        <Title numberOfLines={3}>{data.title}</Title>
       </TitleView>
     </Card>
   );

@@ -65,14 +65,16 @@ const ImageCard = ({ data, type }) => {
           />
           {type === "headline" ? (
             <TextContainer type="headline">
-              <ImageText type="headline">{title}</ImageText>
+              <ImageText type="headline" numberOfLines={2}>
+                {title}
+              </ImageText>
             </TextContainer>
           ) : (
             <View />
           )}
           {type === "category2" ? (
             <TextContainer>
-              <ImageText>{title}</ImageText>
+              <ImageText numberOfLines={2}>{title}</ImageText>
             </TextContainer>
           ) : (
             <View />
@@ -82,7 +84,7 @@ const ImageCard = ({ data, type }) => {
 
       {type === "category" ? (
         <TextContainerBottom>
-          <ImageTextBottom>{title}</ImageTextBottom>
+          <ImageTextBottom numberOfLines={2}>{title}</ImageTextBottom>
         </TextContainerBottom>
       ) : (
         <View />
