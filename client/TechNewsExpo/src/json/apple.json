@@ -124,16 +124,6 @@
         },
         {
             "id": "13",
-            "author": "https://www.engadget.com/about/editors/jon-fingas",
-            "title": "Apple employee group rejects planned return to the office",
-            "description": "Apple employees sent a letter objecting to a policy that will require them to return to offices in September, arguing that they should be allowed to work remotely unless necessary..",
-            "url": "https://www.engadget.com/apple-employees-reject-return-to-office-plans-153302337.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2020-12/53410370-3c97-11eb-bdfe-d9f1aae35357",
-            "publishedAt": "2021-06-05T15:33:02Z",
-            "content": "Not everyone is keen on returning to the office once the COVID-19 pandemic subsides, and Apple may be more aware of that than most. The Vergereports that about 80 Apple employees have written and edi… [+1656 chars]"
-        },
-        {
-            "id": "14",
             "author": "https://www.engadget.com/about/editors/steve-dent",
             "title": "Apple has reportedly considered launching its own primary healthcare service",
             "description": "Apple has reportedly considered a plan to launch its own subscription-based healthcare service, according to a report from the Wall Street Journal..",
@@ -143,7 +133,7 @@
             "content": "Apple has reportedly considered a plan to launch its own subscription-based healthcare service, according to a report from the Wall Street Journal. The idea was conceived in 2016 but has reportedly s… [+1896 chars]"
         },
         {
-            "id": "15",
+            "id": "14",
             "author": "Sarah Perez",
             "title": "Apple Podcasts Subscriptions go live worldwide",
             "description": "Apple Podcasts Subscriptions are now live across more than 170 countries and regions, Apple announced this morning. First unveiled this spring, subscriptions allow listeners to unlock additional benefits for their favorite podcasts, including things like ad-f…",
@@ -153,7 +143,7 @@
             "content": "Apple Podcasts Subscriptions are now live across more than 170 countries and regions, Apple announced this morning. First unveiled this spring, subscriptions allow listeners to unlock additional bene… [+5330 chars]"
         },
         {
-            "id": "16",
+            "id": "15",
             "author": "https://www.engadget.com/about/editors/jon-fingas",
             "title": "How to watch WWDC 2021",
             "description": "Apple is delivering its WWDC 2021 keynote at 1PM ET — here's how to watch live, and to check out Engadget's post-event stream..",
@@ -161,46 +151,6 @@
             "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/4c39f6d0-c78f-11eb-bc9e-29f59bb70d1b",
             "publishedAt": "2021-06-07T14:00:34Z",
             "content": "Apple is about to kick off WWDC 2021 with its customary keynote, and expectations are riding high this year. Accordingly, it's giving you plenty of ways to watch the event when it starts at 1PM Easte… [+850 chars]"
-        },
-        {
-            "id": "17",
-            "author": "https://www.engadget.com/about/editors/billy-steele",
-            "title": "Beats Studio Buds review: The Beats for everyone",
-            "description": "With the Studio Buds, Beats covered the basics and added bonuses like hands-free Siri and Dolby Atmos in Apple Music -- for $150..",
-            "url": "https://www.engadget.com/beats-studio-buds-review-150014566.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/b66415d0-cd12-11eb-b1f6-d37d378036c8",
-            "publishedAt": "2021-06-14T15:00:14Z",
-            "content": "Leaks have nearly spoiled a few big earbud announcements this year, and Beats latest was one of those. Even before high-profile athletes\r\nstarted posting pictures\r\non Instagram\r\n wearing the unannoun… [+12333 chars]"
-        },
-        {
-            "id": "18",
-            "author": "https://www.engadget.com/about/editors/jon-fingas",
-            "title": "Apple sets tighter limits on legal requests after Trump DOJ targeted politicians",
-            "description": "Apple says it has set limits on legal requests sometime after the Trump-era DOJ gathered info on Democrat politicians in hopes of finding leakers..",
-            "url": "https://www.engadget.com/apple-limits-legal-requests-after-trump-doj-161020383.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/93722250-cb8d-11eb-b5bf-6179691c9eae",
-            "publishedAt": "2021-06-12T16:10:20Z",
-            "content": "Apple has limited the scope of legal requests in light of a political dust-up. The company told Reuters that it recently capped requests at 25 identifiers each after the Trump-era Justice Department … [+1141 chars]"
-        },
-        {
-            "id": "19",
-            "author": "https://www.engadget.com/about/editors/jon-fingas",
-            "title": "'The Morning Show' season 2 trailer reveals turmoil at the anchor desk",
-            "description": "Apple is premiering 'The Morning Show' season 2 on September 17th, and the teaser trailer shows the turmoil that follows Alex and Bradley's decisions..",
-            "url": "https://www.engadget.com/the-morning-show-season-2-teaser-apple-tv-plus-141241307.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/b89434e0-cd15-11eb-bfbc-878685195520",
-            "publishedAt": "2021-06-14T14:12:41Z",
-            "content": "Apple is finally committing to a release date for the second season of The Morning Show, and it's offering a peek at what to expect in the process. The company has revealed that season two of the App… [+1269 chars]"
-        },
-        {
-            "id": "20",
-            "author": "https://www.engadget.com/about/editors/andrew-tarantola",
-            "title": "Apple's Testflight beta testing service is coming to macOS",
-            "description": "Apple announced that its Testflight tool, which allows developers to share their apps with non-developer beta testers, is finally migrating to MacOS..",
-            "url": "https://www.engadget.com/apples-testflight-beta-testing-service-is-coming-to-mac-os-190550738.html",
-            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/b05a5390-c7c0-11eb-bfbf-430598a4442d",
-            "publishedAt": "2021-06-07T19:05:50Z",
-            "content": "After nearly two hours of new product announcements, Apple execs wrapped up the WWDC 2021 keynote address with a quick look at some new developer tools that should help make the process of making app… [+1204 chars]"
         }
     ]
 }

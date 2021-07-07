@@ -3,244 +3,77 @@
     "totalResults": 13064,
     "articles": [
         {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Neesha A. Tambe",
-            "title": "Win $100,000: Apply to Startup Battlefield at TC Disrupt 2021",
-            "description": "You’ve been hard at work building your game-changing startup. Diligent in its care and feeding so that, one day soon, it will grow into the mighty unicorn you envision. If you fit that description, we want you to apply to compete in the Startup Battlefield at…",
-            "url": "http://techcrunch.com/2021/05/18/win-100000-apply-to-startup-battlefield-at-tc-disrupt-2021/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/04/battlefield-apply.jpg?w=711",
-            "publishedAt": "2021-05-18T17:59:12Z",
-            "content": "Youve been hard at work building your game-changing startup. Diligent in its care and feeding so that, one day soon, it will grow into the mighty unicorn you envision. If you fit that description, we… [+3155 chars]"
+            "id": "1",
+            "author": "https://www.engadget.com/about/editors/richard-lawler",
+            "title": "Microsoft preps for its big Windows event with an 11-minute startup sound remix",
+            "description": "Have you ever listened to Windows startup sounds... played super slowly?",
+            "url": "https://www.engadget.com/windows-11-event-music-232103303.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-images/2020-02/9ccbaa60-5488-11ea-bdf2-5e5d1db48c01",
+            "publishedAt": "2021-06-10T23:21:03Z",
+            "content": "Microsoft has decided the best way to remind people that it's launching \"what's next for Windows\" during an event on June 24th is with a song. Specifically, a \"slo-fi\" remix with the Windows 95, XP, … [+925 chars]"
         },
         {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Marquise Foster",
-            "title": "Startup Alley tickets are selling out in record numbers",
-            "description": "Beware! There isn’t much time left to apply for Startup Alley. Take advantage of this opportunity before it’s too late. When you purchase a ticket for Startup Alley, you can opt into being considered for a spot in our inaugural Startup Alley+ cohort. This ver…",
-            "url": "http://techcrunch.com/2021/06/02/startup-alley-tickets-are-selling-out-in-record-numbers/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/48835675366_fbb0027e0a_o.jpg?w=600",
-            "publishedAt": "2021-06-02T19:13:00Z",
-            "content": "Beware! There isn’t much time left to apply for Startup Alley. Take advantage of this opportunity before it’s too late.\r\nWhen you purchase a ticket for Startup Alley, you can opt into being considere… [+1757 chars]"
+            "id": "2",
+            "author": "Kirsten Korosec",
+            "title": "Inside GM’s startup incubator strategy",
+            "description": "GM has launched a series of new subsidiaries tackling electrification, connectivity and even insurance — all part of the automaker's aim to find value beyond its traditional business.",
+            "url": "http://techcrunch.com/2021/06/22/inside-gms-startup-incubator-strategy/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/ChevyPamFletcher103.jpg?w=601",
+            "publishedAt": "2021-06-22T20:35:13Z",
+            "content": "GM has launched a series of new subsidiaries in the past year tackling electrification, connectivity and even insurance all part of the automaker’s aim to find value (and profits) beyond its traditio… [+3608 chars]"
         },
         {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Neesha A. Tambe",
-            "title": "Deadline extended: Apply to Startup Battlefield at TC Disrupt 2021",
-            "description": "When you’re head-down and nose to the grindstone — I’m looking at all you hard-working early-stage startup founders — it’s easy to miss a deadline for an outstanding opportunity. Case in point: competing in Startup Battlefield at TechCrunch Disrupt 2021 in Se…",
-            "url": "http://techcrunch.com/2021/05/14/deadline-extended-apply-to-startup-battlefield-at-tc-disrupt-2021/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/disrupt-battlefield-leo-aerospace-0691.jpg?w=581",
-            "publishedAt": "2021-05-14T15:10:52Z",
-            "content": "When youre head-down and nose to the grindstone Im looking at all you hard-working early-stage startup founders its easy to miss a deadline for an outstanding opportunity. Case in point: competing in… [+2582 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ram Iyer",
-            "title": "Advanced tax strategies for startup founders",
-            "description": "Here are some advanced equity planning strategies that you can implement at different stages of your company life cycle to reduce tax and optimize wealth for you and your family.",
-            "url": "http://techcrunch.com/2021/05/13/advanced-tax-strategies-for-startup-founders/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-528491602.jpg?w=600",
-            "publishedAt": "2021-05-13T20:13:29Z",
-            "content": "More posts by this contributor\r\nAs an entrepreneur, you started your business to create value, both in what you deliver to your customers and what you build for yourself. You have a lot going on, but… [+8939 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ron Miller",
-            "title": "Industrial automation startup Bright Machines hauls in $435M by going public via SPAC",
-            "description": "After the transaction is consummated, the startup will sport an anticipated equity valuation of $1.6 billion.",
-            "url": "http://techcrunch.com/2021/05/17/industrial-automation-startup-bright-machines-hauls-in-435m-by-going-public-via-spac/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1273582733.jpg?w=600",
-            "publishedAt": "2021-05-17T19:15:14Z",
-            "content": "Bright Machines is going public via a SPAC-led combination, it announced this morning. The transaction will see the 3-year-old company merge with SCVX, raising gross cash proceeds of $435 million in … [+1774 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ingrid Lunden",
-            "title": "Styra, the startup behind Open Policy Agent, nabs $40M to expand its cloud-native authorization tools",
-            "description": "As cloud-native apps continue to become increasingly central to how organizations operate, a startup founded by the creators of a popular open-source tool to manage authorization for cloud-native application environments is announcing some funding to expand i…",
-            "url": "http://techcrunch.com/2021/05/18/styra-the-startup-behind-open-policy-agent-nabs-40m-to-expand-its-cloud-native-authorization-tools/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/01/GettyImages-813176546.jpg?w=599",
-            "publishedAt": "2021-05-18T13:31:42Z",
-            "content": "As cloud-native apps continue to become increasingly central to how organizations operate, a startup founded by the creators of a popular open-source tool to manage authorization for cloud-native app… [+2978 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Jordan Crook",
-            "title": "Fintech startup Vise raises $65 million in Series C led by Ribbit Capital",
-            "description": "Vise today announced a $65 million Series C financing round led by Ribbit Capital, with participation from existing investors including Sequoia. The startup launched on the Disrupt Startup Battlefield stage in 2019 and has since raised upwards of $125 million…",
-            "url": "http://techcrunch.com/2021/05/18/fintech-startup-vise-raises-65-million-in-series-c-led-by-ribbit-capital/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/vise-ai-DSC03361.jpg?w=600",
-            "publishedAt": "2021-05-18T14:10:44Z",
-            "content": "Vise today announced a $65 million Series C financing round led by Ribbit Capital, with participation from existing investors including Sequoia.\r\nThe startup launched on the Disrupt Startup Battlefie… [+2420 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Romain Dillet",
-            "title": "Finary wants to create the wealth management dashboard for the next generation",
-            "description": "Meet Finary, a new French startup that wants to change how you manage your savings, investments, mortgage, real estate assets and cryptocurrencies. The company lets you aggregate all your accounts across various banks and financial institutions so that you ca…",
-            "url": "http://techcrunch.com/2021/05/18/finary-wants-to-create-the-wealth-management-dashboard-for-the-next-generation/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/Finary-Plateforme-Web-2.png?w=533",
-            "publishedAt": "2021-05-18T16:53:38Z",
-            "content": "Meet Finary, a new French startup that wants to change how you manage your savings, investments, mortgage, real estate assets and cryptocurrencies. The company lets you aggregate all your accounts ac… [+3084 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Tage Kene-Okafor",
-            "title": "Nigeria’s Mono raises millions to power the internet economy in Africa",
-            "description": "In February, Nigerian fintech startup Mono announced its acceptance into Y Combinator and, at the time, it wanted to build the Plaid for Africa. Three months later, the startup has a different mission: to power the internet economy in Africa and has closed $2…",
-            "url": "http://techcrunch.com/2021/05/24/nigerias-mono-raises-millions-to-power-the-internet-economy-in-africa/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/MIT01700-1.jpg?w=636",
-            "publishedAt": "2021-05-24T08:03:02Z",
-            "content": "In February, Nigerian fintech startup Mono announced its acceptance into Y Combinator and, at the time, it wanted to build the Plaid for Africa. Three months later, the startup has a different missio… [+5051 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Manish Singh",
-            "title": "Indian logistics SaaS startup FarEye raises $100 million",
-            "description": "FarEye, an Indian SaaS startup that helps firms globally optimize their supply chain and logistics operations, said on Tuesday it has raised a new financing round, its third since the pandemic broke last year, as it looks to further expand in international ma…",
-            "url": "http://techcrunch.com/2021/05/25/indian-logistics-saas-startup-fareye-raises-100-million/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-654729951.jpg?w=599",
-            "publishedAt": "2021-05-25T10:00:34Z",
-            "content": "FarEye, an Indian SaaS startup that helps firms globally optimize their supply chain and logistics operations, said on Tuesday it has raised a new financing round, its third since the pandemic broke … [+4348 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ron Miller",
-            "title": "Unbounce snags Snazzy.ai to add automated copywriting to platform",
-            "description": "Unbounce, a Vancouver startup best known for helping marketers create automated landing pages, added a new wrinkle this morning when it announced it has acquired Snazzy.ai, an early stage automated copywriting startup. The two companies did not share the term…",
-            "url": "http://techcrunch.com/2021/05/19/unbounce-snags-snazzy-ai-to-add-automated-copywriting-to-platform/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/GettyImages-1032165070.jpg?w=554",
-            "publishedAt": "2021-05-19T13:00:36Z",
-            "content": "Unbounce, a Vancouver startup best known for helping marketers create automated landing pages, added a new wrinkle this morning when it announced it has acquired Snazzy.ai, an early stage automated c… [+2564 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Lucas Matney",
-            "title": "Dapper Labs backs art hardware startup Infinite Objects in $6 million seed raise",
-            "description": "The NFT world is all about reshaping the idea of digital ownership, but art hardware startup Infinite Objects sees a big opportunity in making physical copies of those assets as it looks to reshape digital art and collectibles. The startup makes screens that …",
-            "url": "http://techcrunch.com/2021/05/27/dapper-labs-backs-art-hardware-startup-infinite-objects-in-6-million-seed-raise/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/Hero_Carousel_NatashaTomchin_DichroicDreams.jpg?w=706",
-            "publishedAt": "2021-05-27T16:19:35Z",
-            "content": "The NFT world is all about reshaping the idea of digital ownership, but art hardware startup Infinite Objects sees a big opportunity in making physical copies of those assets as it looks to reshape d… [+3587 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Devin Coldewey",
-            "title": "OpenAI’s $100M startup fund will make ‘big early bets’ with Microsoft as partner",
-            "description": "OpenAI is launching a $100 million startup fund, which it calls the OpenAI Startup Fund, though which it and its partners will invest in early-stage AI companies tackling major problems (and productivity). Among those partners and investors in the fund is Mic…",
-            "url": "http://techcrunch.com/2021/05/26/openais-100m-startup-fund-will-make-big-early-bets-with-microsoft-as-partner/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/03/lp-logo-3.jpg?w=591",
-            "publishedAt": "2021-05-26T17:22:01Z",
-            "content": "OpenAI is launching a $100 million startup fund, which it calls the OpenAI Startup Fund, though which it and its partners will invest in early-stage AI companies tackling major problems (and producti… [+2114 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Manish Singh",
-            "title": "Tata Digital to invest $75 million in CureFit",
-            "description": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and chief executive Mukesh Bansal will join Tata Digital as Presi…",
-            "url": "http://techcrunch.com/2021/06/07/tata-digital-to-invest-75-million-in-curefit/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/curefit.jpg?w=681",
-            "publishedAt": "2021-06-07T12:59:50Z",
-            "content": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and c… [+907 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Natasha Lomas",
-            "title": "Security startup Tessian, which uses AI to fight social engineering, trousers $65M",
-            "description": "In the latest chunky funding round out of Europe, UK-based email security startup, Tessian, has closed $65 million in Series C funding. The startup applies machine learning to build individual behavior models for enterprise email use that aims to combat human…",
-            "url": "http://techcrunch.com/2021/05/25/security-startup-tessian-which-uses-ai-to-fight-social-engineering-trousers-65m/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/06/Tessian-Co-founders-L-R-Tim-Sadler-CEO_-Ed-Bishop-CTO_-Tom-Adams-Head-of-Client-side-engineering.jpg?w=600",
-            "publishedAt": "2021-05-25T13:31:25Z",
-            "content": "In the latest chunky funding round out of Europe, UK-based email security startup, Tessian, has closed $65 million in Series C funding. The startup applies machine learning to build individual behavi… [+2953 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ingrid Lunden",
-            "title": "Snap acquires AR startup WaveOptics, which provides tech for Spectacles, for over $500M",
-            "description": "Snap yesterday announced the latest iteration of its Spectacles augmented reality glasses, and today the company revealed a bit more news: it is also acquiring the startup that supplied the technology that helps power them. The Snapchat parent is snapping up …",
-            "url": "http://techcrunch.com/2021/05/21/snap-acquires-ar-startup-waveoptics-which-provides-tech-for-spectacles-for-over-500m/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/spectacles.jpg?w=764",
-            "publishedAt": "2021-05-21T14:30:14Z",
-            "content": "Snap yesterday announced the latest iteration of its Spectacles augmented reality glasses, and today the company revealed a bit more news: it is also acquiring the startup that supplied the technolog… [+2897 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Ingrid Lunden",
-            "title": "Factory14 raises $200M to jump into the Amazon marketplace roll-up race",
-            "description": "It doesn’t feel like a week goes by at the moment that another startup doesn’t emerge armed with a huge wallet of cash to pursue a strategy of consolidating and then scaling promising brands that have built a business selling on marketplaces like Amazon’s. In…",
-            "url": "http://techcrunch.com/2021/05/20/factory14-raises-200m-to-jump-into-the-amazon-marketplace-roll-up-race/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/pro-bike-tool.jpg?w=600",
-            "publishedAt": "2021-05-20T19:02:53Z",
-            "content": "It doesn’t feel like a week goes by at the moment that another startup doesn’t emerge armed with a huge wallet of cash to pursue a strategy of consolidating and then scaling promising brands that hav… [+7898 chars]"
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
+            "id": "3",
             "author": "Mike Butcher",
-            "title": "NUE Life Health raises $3.3M for its psychedelics-meets-tech mental wellness platform",
-            "description": "NUE Life Health, a telemedine startup in the USA, is developing what it describes as a “next-generation mental wellness solution” employing treatments such as psychedelic-assisted therapies, combined with a graph database-driven app. The Miami-based startup h…",
-            "url": "http://techcrunch.com/2021/06/03/nue-life-health-raises-3-3m-for-its-psychedelics-meets-tech-mental-wellness-platform/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/NUE-Life.jpg?w=604",
-            "publishedAt": "2021-06-03T13:00:25Z",
-            "content": "NUE Life Health, a telemedine startup in the USA, is developing what it describes as a next-generation mental wellness solution employing treatments such as psychedelic-assisted therapies, combined w… [+3010 chars]"
+            "title": "Tom Blomfield takes first board post at Generation Home, after leaving Monzo and Angel investing",
+            "description": "Following on from mid-June when first-time buyer mortgage lending startup Generation Home raised a $30.4m Series A round and a £300m loan facility from NatWest, it’s now adding to its board. Although known for becoming an Angel investor since leaving Monzo, t…",
+            "url": "http://techcrunch.com/2021/07/05/tom-blomfield-takes-first-board-post-at-generation-home-after-leaving-monzo-and-angel-investing/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2017/12/in-conversation-with-tom-blomfield-monzo-valentin-stalf-n26-and-nikolay-storonsky-revolut0266.jpg?w=600",
+            "publishedAt": "2021-07-05T16:52:07Z",
+            "content": "Following on from mid-June when first-time buyer mortgage lending startup Generation Home raised a $30.4m Series A round and a £300m loan facility from NatWest, its now adding to its board.\r\nAlthough… [+3669 chars]"
         },
         {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
+            "id": "4",
+            "author": "https://www.engadget.com/about/editors/jon-fingas",
+            "title": "Larry Page's air taxi startup loses one of its key designers",
+            "description": "The Larry Page-backed air taxi startup Kitty Hawk has dropped a key designer after fights over the company's strategy..",
+            "url": "https://www.engadget.com/kitty-hawk-fires-designer-acquires-3d-robotics-173503451.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-06/9d34b300-cb9e-11eb-bdb5-991d7bcf7e05",
+            "publishedAt": "2021-06-12T17:35:03Z",
+            "content": "Kitty Hawk might have the backing of Google's Larry Page, but that doesn't mean things are going smoothly. Forbes has learned that Kitty Hawk dropped key engineer Damon Vander Lind in May after \"mont… [+1508 chars]"
+        },
+        {
+            "id": "5",
+            "author": "Igor Bonifacic",
+            "title": "The DOJ is investigating troubled EV startup Lordstown Motors",
+            "description": "The Justice Department is investigating Lordstown Motors, according to The Wall Street Journal. It’s unclear what the DOJ is examining, but the US Attorney’s office leading the investigation often handles fraud allegations. At the moment, Lordstown is also th…",
+            "url": "https://www.engadget.com/doj-investigation-lordstown-motors-184638125.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-07/df00b470-db64-11eb-87d9-03a349a1d397",
+            "publishedAt": "2021-07-02T18:46:38Z",
+            "content": "The Justice Department is investigating Lordstown Motors, according to The Wall Street Journal. Its unclear what the DOJ is examining, but the US Attorneys office leading the investigation often hand… [+1233 chars]"
+        },
+        {
+            "id": "6",
+            "author": "Lucas Matney",
+            "title": "Discord acquires augmented reality startup Ubiquity6",
+            "description": "After raising tens of millions from investors and executing a pretty substantial pivot earlier this year, augmented reality startup Ubiquity6 and its team have been acquired by gaming chat app giant Discord. The ambitious AR startup had raised $37.5 million f…",
+            "url": "http://techcrunch.com/2021/06/28/discord-acquires-augmented-reality-startup-ubiquity6/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-28-at-2.28.46-PM.png?w=584",
+            "publishedAt": "2021-06-28T19:34:44Z",
+            "content": "After raising tens of millions from investors and executing a pretty substantial pivot earlier this year, augmented reality startup Ubiquity6 and its team have been acquired by gaming chat app giant … [+2144 chars]"
+        },
+        {
+            "id": "7",
+            "author": "Zack Whittaker",
+            "title": "Indian tech startup exposed Byju’s student data",
+            "description": "India-based technology startup Salesken.ai has secured an exposed server that was spilling private and sensitive data on one of its customers, Byju’s, an education technology giant and India’s most valuable startup. The server was left unprotected since at le…",
+            "url": "http://techcrunch.com/2021/06/29/india-startup-byju-student-data/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-1133907439.jpg?w=599",
+            "publishedAt": "2021-06-30T04:30:24Z",
+            "content": "India-based technology startup Salesken.ai has secured an exposed server that was spilling private and sensitive data on one of its customers, Byju’s, an education technology giant and India’s most v… [+2617 chars]"
+        },
+        {
+            "id": "8",
             "author": "Manish Singh",
             "title": "Paytm, India’s most valuable startup, confirms plan for an IPO",
             "description": "Paytm, India’s most valuable startup, confirmed to its shareholders and employees on Monday that it plans to file for an IPO. In a letter to shareholders and employees, Paytm said that it plans to raise money by issuing fresh equity in the IPO, and also sell …",
@@ -250,17 +83,74 @@
             "content": "Paytm, India’s most valuable startup, confirmed to its shareholders and employees on Monday that it plans to file for an IPO.\r\nIn a letter to shareholders and employees, Paytm said that it plans to r… [+1742 chars]"
         },
         {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Neesha A. Tambe",
-            "title": "36 hours left to apply to Startup Battlefield at TC Disrupt 2021",
-            "description": "Do you and your early-stage startup have what it takes to be a modern-day gladiator and compete in Startup Battlefield at TechCrunch Disrupt 2021? You won’t know unless you apply, and time is running out. You have only 48 hours left to throw your helmet into …",
-            "url": "http://techcrunch.com/2021/05/12/36-hours-left-to-apply-to-startup-battlefield-at-tc-disrupt-2021/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/10/30671212518_01bb4c8a1d_o.jpg?w=601",
-            "publishedAt": "2021-05-12T19:33:40Z",
-            "content": "Do you and your early-stage startup have what it takes to be a modern-day gladiator and compete in Startup Battlefield at TechCrunch Disrupt 2021? You wont know unless you apply, and time is running … [+2031 chars]"
+            "id": "9",
+            "author": "Lucas Matney",
+            "title": "Homebuying startup Flyhomes closes $150 million Series C",
+            "description": "Amid a recent tear in residential real estate investment, venture capitalists are looking to get a piece of homebuying startup Flyhomes. The five-year-old startup announced today that they’ve closed a $150 million Series C co-led by Norwest Venture Partners a…",
+            "url": "http://techcrunch.com/2021/06/10/homebuying-startup-flyhomes-closes-150-million-series-c/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-1160208532.jpg?w=600",
+            "publishedAt": "2021-06-10T17:06:13Z",
+            "content": "Amid a recent tear in residential real estate investment, venture capitalists are looking to get a piece of homebuying startup Flyhomes.\r\nThe five-year-old startup announced today that they’ve closed… [+1520 chars]"
+        },
+        {
+            "id": "10",
+            "author": "Rebecca Bellan",
+            "title": "EV battery swapping startup Ample charges up operations in Japan, NYC",
+            "description": "EV battery swapping startup Ample has locked in two partnerships this month that will help fuel an expansion into Japan and New York City after years of working on the technology. The startup, which was founded in 2014 and came out of stealth in March, said T…",
+            "url": "http://techcrunch.com/2021/06/15/ev-battery-swapping-startup-ample-charges-up-operations-in-japan-nyc/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Ample-74-2.jpg?w=599",
+            "publishedAt": "2021-06-16T00:39:21Z",
+            "content": "EV battery swapping startup Ample has locked in two partnerships this month that will help fuel an expansion into Japan and New York City after years of working on the technology. The startup, which … [+4884 chars]"
+        },
+        {
+            "id": "11",
+            "author": "Manish Singh",
+            "title": "AI startup Eightfold valued at $2.1B in SoftBank-led $220M funding",
+            "description": "Eightfold AI, a startup which uses deep learning and artificial intelligence to help companies find, recruit and retain workers, said on Thursday it has raised $220 million in a new round as it looks to accelerate its growth. SoftBank Vision Fund 2 led the Se…",
+            "url": "http://techcrunch.com/2021/06/10/ai-startup-eightfold-valued-at-2-1b-in-softbank-led-220m-funding/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Eightfold_Building.jpg?w=600",
+            "publishedAt": "2021-06-10T11:01:32Z",
+            "content": "Eightfold AI, a startup which uses deep learning and artificial intelligence to help companies find, recruit and retain workers, said on Thursday it has raised $220 million in a new round as it looks… [+2133 chars]"
+        },
+        {
+            "id": "12",
+            "author": "Manish Singh",
+            "title": "Tiger Global in talks to invest in Classplus at over $250 million valuation",
+            "description": "Tiger Global is in talks to lead a $30 million round in Indian edtech startup Classplus, according to sources familiar with the matter. The new round, which includes both primary investment and secondary transactions, values the five-year-old Indian startup a…",
+            "url": "http://techcrunch.com/2021/06/10/tiger-global-in-talks-to-invest-in-classplus-at-over-250-million-valuation/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-691465160.jpg?w=602",
+            "publishedAt": "2021-06-11T05:47:48Z",
+            "content": "Tiger Global is in talks to lead a $30 million round in Indian edtech startup Classplus, according to sources familiar with the matter.\r\nThe new round, which includes both primary investment and seco… [+1937 chars]"
+        },
+        {
+            "id": "13",
+            "author": "Manish Singh",
+            "title": "Tata Digital to invest $75 million in CureFit",
+            "description": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and chief executive Mukesh Bansal will join Tata Digital as Presi…",
+            "url": "http://techcrunch.com/2021/06/07/tata-digital-to-invest-75-million-in-curefit/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/curefit.jpg?w=681",
+            "publishedAt": "2021-06-07T12:59:50Z",
+            "content": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and c… [+907 chars]"
+        },
+        {
+            "id": "14",
+            "author": "Marquise Foster",
+            "title": "VCs to meet with StartupAlley+ cohort at Disrupt 2021",
+            "description": "This year we’re taking exhibiting in Startup Alley, the epicenter of opportunity at every Disrupt, to a whole new level at TechCrunch Disrupt 2021 (September 21-23). Team TechCrunch will tap up to 50 exhibiting founders to take part in Startup Alley+, an excl…",
+            "url": "http://techcrunch.com/2021/06/23/vcs-to-meet-with-startupalley-cohort-at-tc-disrupt-2021/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/38115763854_1bbf409b9e_o.jpg?w=572",
+            "publishedAt": "2021-06-23T17:39:40Z",
+            "content": "This year were taking exhibiting in Startup Alley, the epicenter of opportunity at every Disrupt, to a whole new level at TechCrunch Disrupt 2021 (September 21-23). Team TechCrunch will tap up to 50 … [+2172 chars]"
+        },
+        {
+            "id": "15",
+            "author": "Carly Page",
+            "title": "Mitiga raises $25M Series A to help organizations respond to cyberattacks",
+            "description": "Israeli cloud security startup Mitiga has raised $25 million in a Series A round of funding as it moves to “completely change” the traditional incident response market. Mitiga, unlike other companies in the cybersecurity space, isn’t looking to prevent cybera…",
+            "url": "http://techcrunch.com/2021/06/23/mitiga-raises-25m-series-a-to-help-organizations-respond-to-cyberattacks/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-451902633.jpg?w=600",
+            "publishedAt": "2021-06-23T11:00:46Z",
+            "content": "Israeli cloud security startup Mitiga has raised $25 million in a Series A round of funding as it moves to completely change the traditional incident response market.\r\nMitiga, unlike other companies … [+2727 chars]"
         }
     ]
 }

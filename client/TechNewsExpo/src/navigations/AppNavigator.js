@@ -78,8 +78,8 @@ const AppNavigator = () => {
       }}
     >
       <RootTabs.Screen name="HomeTab" component={Home} />
-      <RootTabs.Screen name="BookmarksTab" component={Bookmark} />
       <RootTabs.Screen name="SearchTab" component={Search} />
+      <RootTabs.Screen name="BookmarksTab" component={Bookmark} />
       <RootTabs.Screen name="SettingTab" component={SettingsScreen} />
     </RootTabs.Navigator>
   );
