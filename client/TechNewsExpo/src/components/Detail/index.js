@@ -71,7 +71,8 @@ const Details = ({ data }) => {
         </View>
       </ImageBackground>
       <BodyContainer>
-        <DescriptionText type={"desc"}>{title} </DescriptionText>
+        <DescriptionText type={"title"}>{title} </DescriptionText>
+        <View style={{ marginTop: scaleSize(8) }} />
         <DescriptionText type={"content"}>{description} </DescriptionText>
 
         <ReadMoreTouchable
