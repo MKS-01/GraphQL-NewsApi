@@ -16,10 +16,11 @@ export const Image = styled.Image`
 
 export const Text = styled.Text`
   font-size: ${scaleFont(12)}px;
-  color: ${TEXT_PRIMARY};
-  margin: ${scaleSize(4)}px ${scaleSize(2)}px;
+  color: #cacaca;
+  margin: ${scaleSize(6)}px ${scaleSize(2)}px;
   font-family: ${FONT_FAMILY_REGULAR};
   letter-spacing: 1px;
+  text-align: justify;
 `;
 
 export const ImageContainer = styled.View`

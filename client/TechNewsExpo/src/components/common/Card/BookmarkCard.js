@@ -34,7 +34,9 @@ const BookmarkCard = ({ data }) => {
       ) : (
         <ImageContainer />
       )}
-      <Text numberOfLines={3}>{data.title}</Text>
+      <Text numberOfLines={3} ellipsizeMode={"clip"}>
+        {data.title}
+      </Text>
     </Card>
   );
 };

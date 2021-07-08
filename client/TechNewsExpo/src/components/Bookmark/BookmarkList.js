@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { View, FlatList, RefreshControl } from "react-native";
 import BookmarkCard from "_components/common/Card/BookmarkCard";
+import { scaleSize } from "_styles/mixins";
 import { GRAY_LIGHT } from "_styles/colors";
 
 const wait = (timeout) => {
@@ -28,7 +29,7 @@ const BookmarkList = ({ data }) => {
         numColumns={2}
         renderItem={renderCard}
         keyExtractor={(_, index) => index.toString()}
-        ItemSeparatorComponent={() => <View style={{ margin: 2 }} />}
+        ItemSeparatorComponent={() => <View style={{ margin: scaleSize(2) }} />}
         refreshControl={
           <RefreshControl
             refreshing={refreshing}

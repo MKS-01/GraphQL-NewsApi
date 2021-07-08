@@ -16,9 +16,8 @@ export const Title = styled.Text`
   font-size: ${scaleFont(14)}px;
   font-family: ${FONT_FAMILY_REGULAR};
   text-align: justify;
-  color: ${TEXT_PRIMARY};
+  color: #cacaca;
   flex-shrink: 1;
-  letter-spacing: ${scaleFont(0.1)}px;
 `;
 
 export const TitleView = styled.View`

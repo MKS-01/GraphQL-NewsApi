@@ -43,7 +43,9 @@ const SearchCard = ({ data }) => {
       )}
 
       <TitleView>
-        <Title numberOfLines={3}>{data.title}</Title>
+        <Title numberOfLines={3} ellipsizeMode={"clip"}>
+          {data.title}
+        </Title>
       </TitleView>
     </Card>
   );
