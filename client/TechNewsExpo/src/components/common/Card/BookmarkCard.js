@@ -1,8 +1,16 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
 import { LinearGradient } from "expo-linear-gradient";
-import { Image, Card, Text, ImageContainer } from "_styles/BookmarkCard";
+import {
+  Image,
+  Card,
+  Text,
+  ImageContainer,
+  DateText,
+  DateTextContainer,
+} from "_styles/BookmarkCard";
 import { scaleSize } from "_styles/mixins";
+import { FormateDateTime } from "_utils/DateTime";
 
 const BookmarkCard = ({ data }) => {
   const navigation = useNavigation();

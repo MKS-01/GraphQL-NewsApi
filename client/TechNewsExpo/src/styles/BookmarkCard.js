@@ -28,3 +28,17 @@ export const ImageContainer = styled.View`
   border-radius: ${scaleSize(4)}px;
   background-color: ${BACKGROUND_COLOR_SEC};
 `;
+
+export const DateText = styled.Text`
+  font-size: ${scaleFont(12)}px;
+  font-family: ${FONT_FAMILY_REGULAR};
+  text-align: justify;
+  color: #8a8a8a;
+  flex-shrink: 1;
+`;
+
+export const DateTextContainer = styled.View`
+  flex: 1;
+  /* align-items: flex-end; */
+  justify-content: flex-end;
+`;
