@@ -16,7 +16,7 @@ import {
   HeaderContainer,
   HeaderTouchable,
 } from "_styles/Detail";
-import { DateTime } from "_utils/DateTime";
+import { FormateDateTime } from "_utils/DateTime";
 
 const HeaderButton = ({ iconName, type, onPress }) => {
   const navigation = useNavigation();
@@ -66,7 +66,7 @@ const Details = ({ data }) => {
           }}
         >
           <DescriptionText type={"content"}>
-            {DateTime(publishedAt)}
+            {FormateDateTime(publishedAt)}
           </DescriptionText>
         </View>
       </ImageBackground>

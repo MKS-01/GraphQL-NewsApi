@@ -7,8 +7,11 @@ import {
   TitleView,
   ImageContainer,
   ImageCard,
+  DateText,
+  DateTextContainer,
 } from "_styles/SearchCard";
 import { scaleSize } from "_styles/mixins";
+import { FormateDateTime } from "_utils/DateTime";
 
 const SearchCard = ({ data }) => {
   const navigation = useNavigation();
@@ -46,6 +49,12 @@ const SearchCard = ({ data }) => {
         <Title numberOfLines={3} ellipsizeMode={"clip"}>
           {data.title}
         </Title>
+
+        <DateTextContainer>
+          <DateText>
+            {FormateDateTime(data.publishedAt, "yyyy-mm-dd hh-mm-ss")}
+          </DateText>
+        </DateTextContainer>
       </TitleView>
     </Card>
   );
