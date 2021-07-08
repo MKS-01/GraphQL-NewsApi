@@ -11,7 +11,7 @@ import {
   DateTextContainer,
 } from "_styles/SearchCard";
 import { scaleSize } from "_styles/mixins";
-import { FormateDateTime } from "_utils/DateTime";
+import moment from "moment";
 
 const SearchCard = ({ data }) => {
   const navigation = useNavigation();
@@ -50,10 +50,9 @@ const SearchCard = ({ data }) => {
           {data.title}
         </Title>
 
+        {console.log()}
         <DateTextContainer>
-          <DateText>
-            {FormateDateTime(data.publishedAt, "yyyy-mm-dd hh-mm-ss")}
-          </DateText>
+          <DateText>{moment().to(data.publishedAt)}</DateText>
         </DateTextContainer>
       </TitleView>
     </Card>
