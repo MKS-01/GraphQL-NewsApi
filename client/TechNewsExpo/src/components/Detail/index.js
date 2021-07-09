@@ -5,6 +5,8 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Linking from "expo-linking";
 import * as WebBrowser from "expo-web-browser";
 import ShareApi from "_utils/ShareApi";
+import { FormateDateTime } from "_utils/DateTime";
+import { useToggle } from "_utils/CustomHooks";
 import { scaleSize } from "_styles/mixins";
 import { WHITE } from "_styles/colors";
 import {
@@ -16,7 +18,6 @@ import {
   HeaderContainer,
   HeaderTouchable,
 } from "_styles/Detail";
-import { FormateDateTime } from "_utils/DateTime";
 
 const HeaderButton = ({ iconName, type, onPress }) => {
   const navigation = useNavigation();
@@ -32,6 +33,7 @@ const HeaderButton = ({ iconName, type, onPress }) => {
 
 const Details = ({ data }) => {
   const { urlToImage, description, content, title, url, publishedAt } = data;
+  const [bookmark, setBookmark] = useToggle(false);
 
   return (
     <RootContainer>
@@ -52,17 +54,25 @@ const Details = ({ data }) => {
       >
         <HeaderContainer>
           <HeaderButton iconName={"ios-arrow-back"} type={"back"} />
-          <HeaderButton
-            iconName={"ios-bookmark"}
-            type={"bookmark"}
-            onPress={() => console.log("tets")}
-          />
+          {bookmark ? (
+            <HeaderButton
+              iconName={"ios-bookmark"}
+              type={"bookmark"}
+              onPress={() => setBookmark()}
+            />
+          ) : (
+            <HeaderButton
+              iconName={"ios-bookmark-outline"}
+              type={"bookmark"}
+              onPress={() => setBookmark()}
+            />
+          )}
         </HeaderContainer>
         <View
           style={{
             position: "absolute",
-            bottom: 5,
-            right: 15,
+            bottom: scaleSize(5),
+            right: scaleSize(15),
           }}
         >
           <DescriptionText type={"content"}>

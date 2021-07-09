@@ -34,6 +34,18 @@ const tagsData = [
     id: 7,
     topic: "Macbook Pro",
   },
+  {
+    id: 8,
+    topic: "5G",
+  },
+  {
+    id: 9,
+    topic: "Tech Crunch",
+  },
+  {
+    id: 10,
+    topic: "Crypto",
+  },
 ];
 
 const Topic = () => {

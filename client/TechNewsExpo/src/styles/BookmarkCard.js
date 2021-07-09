@@ -44,4 +44,5 @@ export const DateTextContainer = styled.View`
   align-items: flex-end;
   justify-content: flex-end;
   margin-bottom: ${scaleSize(4)}px;
+  margin-right: ${scaleSize(2)}px;
 `;

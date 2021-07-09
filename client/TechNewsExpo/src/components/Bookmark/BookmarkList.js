@@ -22,7 +22,8 @@ const BookmarkList = ({ data }) => {
     <>
       <FlatList
         contentContainerStyle={{
-          marginTop: 10,
+          marginTop: scaleSize(10),
+          paddingBottom: scaleSize(20),
         }}
         data={data}
         initialNumToRender={10}

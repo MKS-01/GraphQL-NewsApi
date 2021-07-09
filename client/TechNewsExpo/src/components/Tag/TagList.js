@@ -1,14 +1,14 @@
 import React, { useState, useCallback } from "react";
 import { View, FlatList, RefreshControl } from "react-native";
 import SearchCard from "_components/common/Card/SearchCard";
-import { GRAY_LIGHT } from "_styles/colors";
 import { scaleSize } from "_styles/mixins";
+import { GRAY_LIGHT } from "_styles/colors";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
 };
 
-const SearchList = ({ data }) => {
+const TagList = ({ data }) => {
   const [refreshing, setRefreshing] = useState(false);
 
   const onRefresh = useCallback(() => {
@@ -16,19 +16,19 @@ const SearchList = ({ data }) => {
     wait(500).then(() => setRefreshing(false));
   }, []);
 
-  const renderCard = ({ item }) => <SearchCard data={item} />;
+  const renderCard = ({ item }) => <SearchCard data={item} tag />;
   return (
     <>
       <FlatList
         contentContainerStyle={{
-          marginTop: scaleSize(10),
+          marginTop: scaleSize(15),
           paddingBottom: scaleSize(20),
         }}
         data={data}
         initialNumToRender={10}
         renderItem={renderCard}
         keyExtractor={(_, index) => index.toString()}
-        ItemSeparatorComponent={() => <View style={{ margin: scaleSize(5) }} />}
+        ItemSeparatorComponent={() => <View style={{ margin: 5 }} />}
         refreshControl={
           <RefreshControl
             refreshing={refreshing}
@@ -42,4 +42,4 @@ const SearchList = ({ data }) => {
   );
 };
 
-export default SearchList;
+export default TagList;

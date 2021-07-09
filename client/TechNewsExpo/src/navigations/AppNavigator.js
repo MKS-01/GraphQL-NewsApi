@@ -8,6 +8,7 @@ import SearchScreen from "_scenes/Search";
 import { BACKGROUND_COLOR } from "_styles/";
 import DetailScreen from "_scenes/Detail";
 import SettingsScreen from "_scenes/Setting";
+import TagScreen from "_scenes/Tag";
 
 const RootTabs = createBottomTabNavigator();
 
@@ -20,6 +21,7 @@ function Home() {
     <HomeStack.Navigator headerMode="none">
       <HomeStack.Screen name="Headlines" component={HomeScreen} />
       <HomeStack.Screen name="Detail" component={DetailScreen} />
+      <HomeStack.Screen name="Tag" component={TagScreen} />
     </HomeStack.Navigator>
   );
 }

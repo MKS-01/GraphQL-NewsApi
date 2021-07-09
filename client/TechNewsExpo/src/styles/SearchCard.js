@@ -6,14 +6,16 @@ import { FONT_FAMILY_REGULAR } from "./typography";
 export const Card = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
-  background-color: ${BACKGROUND_COLOR_SEC};
+  background-color: ${(props) =>
+    props.tag ? `transparent` : BACKGROUND_COLOR_SEC};
   height: ${scaleSize(100)}px;
   box-shadow: ${scaleSize(5)}px ${scaleSize(5)}px ${scaleSize(4)}px transparent;
   border-radius: ${scaleSize(2)}px;
 `;
 
 export const Title = styled.Text`
-  font-size: ${scaleFont(14)}px;
+  font-size: ${(props) =>
+    props.tag ? `${scaleFont(15)}` : `${scaleFont(14)}`}px;
   font-family: ${FONT_FAMILY_REGULAR};
   text-align: justify;
   color: #cacaca;
@@ -23,7 +25,8 @@ export const Title = styled.Text`
 export const TitleView = styled.View`
   flex: 1;
   display: flex;
-  margin: ${scaleSize(12)}px ${scaleSize(12)}px;
+  margin: ${scaleSize(12)}px;
+  margin: ${(props) => (props.tag ? `${scaleSize(13)}` : `${scaleSize(12)}`)}px;
 `;
 
 export const ImageContainer = styled.View`
@@ -50,6 +53,7 @@ export const DateText = styled.Text`
 
 export const DateTextContainer = styled.View`
   flex: 1;
-  align-items: flex-end;
+
   justify-content: flex-end;
+  align-items: ${(props) => (props.tag ? `flex-start` : `flex-end`)};
 `;
