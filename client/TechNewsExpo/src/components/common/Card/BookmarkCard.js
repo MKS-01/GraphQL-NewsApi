@@ -11,6 +11,7 @@ import {
 } from "_styles/BookmarkCard";
 import { scaleSize } from "_styles/mixins";
 import { FormateDateTime } from "_utils/DateTime";
+import moment from "moment";
 
 const BookmarkCard = ({ data }) => {
   const navigation = useNavigation();
@@ -23,7 +24,7 @@ const BookmarkCard = ({ data }) => {
       {data.urlToImage ? (
         <>
           <LinearGradient
-            colors={["rgba(0,0,0,0.2)", "rgba(0,0,0,0.6)"]}
+            colors={["rgba(0,0,0,0.3)", "rgba(0,0,0,0.8)"]}
             style={{
               height: scaleSize(165),
               width: "100%",
@@ -45,6 +46,9 @@ const BookmarkCard = ({ data }) => {
       <Text numberOfLines={3} ellipsizeMode={"clip"}>
         {data.title}
       </Text>
+      <DateTextContainer>
+        <DateText>{moment().to(data.publishedAt)}</DateText>
+      </DateTextContainer>
     </Card>
   );
 };

@@ -17,7 +17,9 @@ export const Image = styled.Image`
 export const Text = styled.Text`
   font-size: ${scaleFont(12)}px;
   color: #cacaca;
-  margin: ${scaleSize(6)}px ${scaleSize(2)}px;
+  margin: ${scaleSize(0)}px ${scaleSize(2)}px;
+  margin-top: ${scaleSize(6)}px;
+  margin-bottom: ${scaleSize(3)}px;
   font-family: ${FONT_FAMILY_REGULAR};
   letter-spacing: 1px;
   text-align: justify;
@@ -39,6 +41,7 @@ export const DateText = styled.Text`
 
 export const DateTextContainer = styled.View`
   flex: 1;
-  /* align-items: flex-end; */
+  align-items: flex-end;
   justify-content: flex-end;
+  margin-bottom: ${scaleSize(4)}px;
 `;

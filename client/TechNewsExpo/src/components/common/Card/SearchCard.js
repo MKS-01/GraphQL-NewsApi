@@ -50,7 +50,6 @@ const SearchCard = ({ data }) => {
           {data.title}
         </Title>
 
-        {console.log()}
         <DateTextContainer>
           <DateText>{moment().to(data.publishedAt)}</DateText>
         </DateTextContainer>

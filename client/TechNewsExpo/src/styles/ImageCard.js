@@ -4,6 +4,7 @@ import { scaleSize, scaleFont } from "./mixins";
 import {
   FONT_FAMILY_BOLD,
   FONT_FAMILY_SEMIBOLD,
+  FONT_FAMILY_REGULAR,
   FONT_SIZE_12,
 } from "./typography";
 
@@ -35,7 +36,7 @@ export const TextContainerBottom = styled.View`
   flex: 1;
   margin: ${scaleSize(6.2)}px ${scaleSize(2.5)}px;
   margin-bottom: 0;
-  height: ${scaleSize(30)}px;
+  /* height: ${scaleSize(30)}px; */
 `;
 
 export const ImageTextBottom = styled.Text`
@@ -49,8 +50,25 @@ export const ImageTextBottom = styled.Text`
 `;
 
 export const TextContainerCategory = styled.View`
-  flex: 1;
-  padding: 0 ${scaleSize(15)}px;
+  position: absolute;
+  bottom: 0;
+  left: ${scaleSize(15)}px;
+  right: ${scaleSize(15)}px;
   justify-content: flex-end;
   margin-bottom: ${scaleSize(10)}px;
+`;
+
+export const DateText = styled.Text`
+  font-size: ${scaleFont(12)}px;
+  font-family: ${FONT_FAMILY_REGULAR};
+  text-align: justify;
+  color: #8a8a8a;
+  flex-shrink: 1;
+`;
+
+export const DateTextContainer = styled.View`
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: ${scaleSize(2)}px;
 `;

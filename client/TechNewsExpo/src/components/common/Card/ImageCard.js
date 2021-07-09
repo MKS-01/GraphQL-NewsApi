@@ -9,9 +9,12 @@ import {
   ImageTextBottom,
   ImageFirstText,
   TextContainerCategory,
+  DateText,
+  DateTextContainer,
 } from "_styles/ImageCard";
 import { scaleSize, WINDOW_WIDTH } from "_styles/mixins";
 import { BACKGROUND_COLOR_SEC } from "_styles/colors";
+import moment from "moment";
 
 const ImageCard = ({ data, type }) => {
   const navigation = useNavigation();
@@ -75,6 +78,9 @@ const ImageCard = ({ data, type }) => {
                 <ImageFirstText>{title.charAt(0)}</ImageFirstText>
                 {title.substring(1)}
               </ImageText>
+              <DateTextContainer>
+                <DateText>{moment().to(data.publishedAt)}</DateText>
+              </DateTextContainer>
             </TextContainer>
           ) : (
             <View />
@@ -84,6 +90,9 @@ const ImageCard = ({ data, type }) => {
               <ImageText numberOfLines={2} ellipsizeMode={"clip"}>
                 {title}
               </ImageText>
+              <DateTextContainer>
+                <DateText>{moment().to(data.publishedAt)}</DateText>
+              </DateTextContainer>
             </TextContainerCategory>
           ) : (
             <View />
@@ -96,6 +105,9 @@ const ImageCard = ({ data, type }) => {
           <ImageTextBottom numberOfLines={2} ellipsizeMode={"clip"}>
             {title}
           </ImageTextBottom>
+          <DateTextContainer>
+            <DateText>{moment().to(data.publishedAt)}</DateText>
+          </DateTextContainer>
         </TextContainerBottom>
       ) : (
         <View />
