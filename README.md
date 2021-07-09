@@ -2,7 +2,7 @@
 
 A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL using React & React-Native (Expo).
 
-<!-- <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557"> -->
+<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
 
 ### Branch
 
@@ -58,6 +58,12 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 
 <div>
 <img src="./screenshots/mobile-rn/web.png" alt="inAppBrowser" width="257" height="488">
-<img src="./screenshots/mobile-rn/settings.png" alt="settings" width="257" height="488">
+<img src="./screenshots/mobile-rn/tag.png" alt="tag" width="257" height="488">
 <img src="./screenshots/mobile-rn/network.png" alt="network" width="257" height="488">
+</div>
+
+<div>
+
+<img src="./screenshots/mobile-rn/settings.png" alt="settings" width="257" height="488">
+
 </div>
