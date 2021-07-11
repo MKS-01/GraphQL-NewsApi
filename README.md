@@ -1,6 +1,6 @@
 # GraphQL-NewsApi
 
-A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL using React & React-Native (Expo).
+TechNews app using GraphQL & [News API](https://newsapi.org). 
 
 <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
 
@@ -9,15 +9,17 @@ A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practi
 - [main](https://github.com/MKS-01/GraphQL-Practice) - mock data
 - [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-Practice/tree/NoSQL-mongoDB) - using NoSQL DB
 
-#### CLIENT
+### SETUP
 
+#### [CLIENT](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo) 
+ 
 ###### Tech Stack
 
 - Expo (React-Native) - JavaScript
 - GraphQL Client - [Apollo Client](https://github.com/apollographql/apollo-client)
 - CSS - [Styled-Components](https://styled-components.com)
 
-#### SERVER
+#### [SERVER](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo)
 
 ###### Tech Stack
 
