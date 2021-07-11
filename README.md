@@ -1,4 +1,4 @@
-# GraphQL NewsApi [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+# GraphQL NewsApi [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/LICENSE)
 
 ![react-native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
