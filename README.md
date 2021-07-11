@@ -1,4 +1,4 @@
-# GraphQL-Practice
+# GraphQL-NewsApi
 
 A simple TechNews app using GraphQL & [News API](https://newsapi.org). To practice latest features of GraphQL using React & React-Native (Expo).
 
