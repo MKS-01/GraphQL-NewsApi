@@ -1,5 +1,5 @@
 # GraphQL NewsApi [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/LICENSE)
-
+![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![react-native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![graphql](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)
