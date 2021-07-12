@@ -1,5 +1,9 @@
 import styled from "styled-components/native";
-import { FONT_FAMILY_REGULAR, FONT_FAMILY_SEMIBOLD } from "./typography";
+import {
+  FONT_FAMILY_BOLD,
+  FONT_FAMILY_REGULAR,
+  FONT_FAMILY_SEMIBOLD,
+} from "./typography";
 import { TEXT_PRIMARY, TEXT_SECONDARY, TEXT_THIRD } from "./colors";
 import { scaleFont, scaleSize } from "./mixins";
 
@@ -16,17 +20,19 @@ export const BodyContainer = styled.View`
 `;
 
 export const DescriptionText = styled.Text`
-  color: ${(props) => (props.type === "desc" ? TEXT_SECONDARY : TEXT_THIRD)};
+  color: ${(props) => (props.type === "title" ? TEXT_SECONDARY : TEXT_THIRD)};
   font-size: ${(props) =>
-    props.type === "desc" ? scaleFont(16) : scaleFont(14)}px;
+    props.type === "title" ? scaleFont(18) : scaleFont(14)}px;
   font-family: ${(props) =>
-    props.type === "desc" ? FONT_FAMILY_SEMIBOLD : FONT_FAMILY_REGULAR};
-  font-weight: ${(props) => (props.type === "desc" ? 600 : 400)};
+    props.type === "title" ? FONT_FAMILY_BOLD : FONT_FAMILY_REGULAR};
+  font-weight: ${(props) => (props.type === "title" ? 600 : 400)};
   line-height: ${(props) =>
-    props.type === "desc" ? scaleFont(20) : scaleFont(18)}px;
+    props.type === "title" ? scaleFont(24) : scaleFont(18)}px;
   text-align: justify;
   flex-shrink: 1;
   margin-bottom: ${scaleSize(5)}px;
+  text-transform: ${(props) =>
+    props.type === "title" ? `uppercase` : `capitalize`};
 `;
 
 export const ReadMoreTouchable = styled.TouchableOpacity`

@@ -1,15 +1,20 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { ImageBackground, Pressable, View } from "react-native";
+import { ImageBackground, Pressable, View, Text } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import {
   TextContainer,
   ImageText,
   TextContainerBottom,
   ImageTextBottom,
+  ImageFirstText,
+  TextContainerCategory,
+  DateText,
+  DateTextContainer,
 } from "_styles/ImageCard";
 import { scaleSize, WINDOW_WIDTH } from "_styles/mixins";
 import { BACKGROUND_COLOR_SEC } from "_styles/colors";
+import moment from "moment";
 
 const ImageCard = ({ data, type }) => {
   const navigation = useNavigation();
@@ -55,7 +60,7 @@ const ImageCard = ({ data, type }) => {
           blurRadius={urlToImage ? 0 : 50}
         >
           <LinearGradient
-            colors={["transparent", "rgba(0,0,0,0.9)"]}
+            colors={["rgba(0,0,0,0.2)", "rgba(0,0,0,0.9)"]}
             style={{
               borderRadius: type === "headline" ? scaleSize(7) : scaleSize(5),
               position: "absolute",
@@ -65,17 +70,30 @@ const ImageCard = ({ data, type }) => {
           />
           {type === "headline" ? (
             <TextContainer type="headline">
-              <ImageText type="headline" numberOfLines={2}>
-                {title}
+              <ImageText
+                type="headline"
+                numberOfLines={4}
+                ellipsizeMode={"clip"}
+              >
+                <ImageFirstText>{title.charAt(0)}</ImageFirstText>
+                {title.substring(1)}
               </ImageText>
+              <DateTextContainer>
+                <DateText>{moment().to(data.publishedAt)}</DateText>
+              </DateTextContainer>
             </TextContainer>
           ) : (
             <View />
           )}
           {type === "category2" ? (
-            <TextContainer>
-              <ImageText numberOfLines={2}>{title}</ImageText>
-            </TextContainer>
+            <TextContainerCategory>
+              <ImageText numberOfLines={2} ellipsizeMode={"clip"}>
+                {title}
+              </ImageText>
+              <DateTextContainer>
+                <DateText>{moment().to(data.publishedAt)}</DateText>
+              </DateTextContainer>
+            </TextContainerCategory>
           ) : (
             <View />
           )}
@@ -84,7 +102,12 @@ const ImageCard = ({ data, type }) => {
 
       {type === "category" ? (
         <TextContainerBottom>
-          <ImageTextBottom numberOfLines={2}>{title}</ImageTextBottom>
+          <ImageTextBottom numberOfLines={2} ellipsizeMode={"clip"}>
+            {title}
+          </ImageTextBottom>
+          <DateTextContainer>
+            <DateText>{moment().to(data.publishedAt)}</DateText>
+          </DateTextContainer>
         </TextContainerBottom>
       ) : (
         <View />

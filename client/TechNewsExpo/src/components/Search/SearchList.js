@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import { View, FlatList, RefreshControl } from "react-native";
 import SearchCard from "_components/common/Card/SearchCard";
 import { GRAY_LIGHT } from "_styles/colors";
+import { scaleSize } from "_styles/mixins";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -19,12 +20,15 @@ const SearchList = ({ data }) => {
   return (
     <>
       <FlatList
-        contentContainerStyle={{ marginTop: 10 }}
+        contentContainerStyle={{
+          marginTop: scaleSize(10),
+          paddingBottom: scaleSize(20),
+        }}
         data={data}
         initialNumToRender={10}
         renderItem={renderCard}
         keyExtractor={(_, index) => index.toString()}
-        ItemSeparatorComponent={() => <View style={{ margin: 5 }} />}
+        ItemSeparatorComponent={() => <View style={{ margin: scaleSize(5) }} />}
         refreshControl={
           <RefreshControl
             refreshing={refreshing}

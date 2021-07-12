@@ -1,4 +1,5 @@
 import React from "react";
+import { View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { LinearGradient } from "expo-linear-gradient";
 import {
@@ -7,18 +8,35 @@ import {
   TitleView,
   ImageContainer,
   ImageCard,
+  DateText,
+  DateTextContainer,
 } from "_styles/SearchCard";
 import { scaleSize } from "_styles/mixins";
+import moment from "moment";
 
-const SearchCard = ({ data }) => {
+const SearchCard = ({ data, tag }) => {
   const navigation = useNavigation();
 
   return (
     <Card
+      tag={tag}
       onPress={() => {
         navigation.navigate("Detail", { data: data });
       }}
     >
+      {tag ? (
+        <TitleView tag={tag}>
+          <Title numberOfLines={3} ellipsizeMode={"clip"} tag={tag}>
+            {data.title}
+          </Title>
+
+          <DateTextContainer tag={tag}>
+            <DateText>{moment().to(data.publishedAt)}</DateText>
+          </DateTextContainer>
+        </TitleView>
+      ) : (
+        <View />
+      )}
       {data.urlToImage ? (
         <ImageContainer>
           <LinearGradient
@@ -41,10 +59,19 @@ const SearchCard = ({ data }) => {
       ) : (
         <ImageContainer type="empty" />
       )}
+      {tag ? (
+        <View />
+      ) : (
+        <TitleView tag={tag}>
+          <Title numberOfLines={3} ellipsizeMode={"clip"} tag={tag}>
+            {data.title}
+          </Title>
 
-      <TitleView>
-        <Title numberOfLines={3}>{data.title}</Title>
-      </TitleView>
+          <DateTextContainer tag={tag}>
+            <DateText>{moment().to(data.publishedAt)}</DateText>
+          </DateTextContainer>
+        </TitleView>
+      )}
     </Card>
   );
 };

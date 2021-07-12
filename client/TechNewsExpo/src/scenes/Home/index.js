@@ -10,7 +10,14 @@ import Title from "_components/common/Header";
 import { RootScrollView, RootSafeArea } from "_styles/RootView";
 import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
-import { headline, apple, startup, macbookPro, ign } from "../../json/mockData";
+import {
+  headline,
+  apple,
+  startup,
+  macbookPro,
+  ign,
+  playstations,
+} from "../../json/mockData";
 import { GRAY_LIGHT } from "_styles/colors";
 import { scaleSize } from "_styles/mixins";
 
@@ -72,6 +79,11 @@ const HomeScreen = () => {
         <Topic />
         <View style={{ marginTop: scaleSize(10) }} />
         <Headline data={articles} title={"Top Headlines"} />
+        {/* <Category
+          data={playstations.articles}
+          type="category"
+          title="PlayStations"
+        /> */}
         <Category data={apple.articles} type="category" title="Apple" />
         <Category data={ign.articles} type="category" title="IGN" />
         <Category data={startup.articles} type="category2" title="Startup" />

@@ -3,6 +3,16 @@
     "totalResults": 13064,
     "articles": [
         {
+            "id": "17",
+            "author": "Marquise Foster",
+            "title": "Going, going, almost gone! Only a few spots left in Startup Alley at TC Disrupt 2021",
+            "description": "Now hear this! Early-stage founders, a shipload of opportunity is about to set sail and you don’t want to miss the boat. We have only a few spots left to exhibit in Startup Alley at TechCrunch Disrupt 2021 (September 21-23). Buy a Startup Alley Pass and take …",
+            "url": "http://techcrunch.com/2021/06/17/going-going-almost-gone-only-a-few-spots-left-in-startup-alley-at-tc-disrupt-2021/",
+            "urlToImage": "https://techcrunch.com/wp-content/themes/techcrunch-2017/images/opengraph-default.png",
+            "publishedAt": "2021-06-17T20:06:13Z",
+            "content": "Now hear this! Early-stage founders, a shipload of opportunity is about to set sail and you dont want to miss the boat. We have only a few spots left to exhibit in Startup Alley at TechCrunch Disrupt… [+2163 chars]"
+        },
+        {
             "id": "1",
             "author": "https://www.engadget.com/about/editors/richard-lawler",
             "title": "Microsoft preps for its big Windows event with an 11-minute startup sound remix",
@@ -74,16 +84,6 @@
         },
         {
             "id": "8",
-            "author": "Manish Singh",
-            "title": "Paytm, India’s most valuable startup, confirms plan for an IPO",
-            "description": "Paytm, India’s most valuable startup, confirmed to its shareholders and employees on Monday that it plans to file for an IPO. In a letter to shareholders and employees, Paytm said that it plans to raise money by issuing fresh equity in the IPO, and also sell …",
-            "url": "http://techcrunch.com/2021/06/07/paytm-ipo-shareholders/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/09/GettyImages-631364290.jpg?w=600",
-            "publishedAt": "2021-06-07T16:23:23Z",
-            "content": "Paytm, India’s most valuable startup, confirmed to its shareholders and employees on Monday that it plans to file for an IPO.\r\nIn a letter to shareholders and employees, Paytm said that it plans to r… [+1742 chars]"
-        },
-        {
-            "id": "9",
             "author": "Lucas Matney",
             "title": "Homebuying startup Flyhomes closes $150 million Series C",
             "description": "Amid a recent tear in residential real estate investment, venture capitalists are looking to get a piece of homebuying startup Flyhomes. The five-year-old startup announced today that they’ve closed a $150 million Series C co-led by Norwest Venture Partners a…",
@@ -93,7 +93,7 @@
             "content": "Amid a recent tear in residential real estate investment, venture capitalists are looking to get a piece of homebuying startup Flyhomes.\r\nThe five-year-old startup announced today that they’ve closed… [+1520 chars]"
         },
         {
-            "id": "10",
+            "id": "9",
             "author": "Rebecca Bellan",
             "title": "EV battery swapping startup Ample charges up operations in Japan, NYC",
             "description": "EV battery swapping startup Ample has locked in two partnerships this month that will help fuel an expansion into Japan and New York City after years of working on the technology. The startup, which was founded in 2014 and came out of stealth in March, said T…",
@@ -101,6 +101,16 @@
             "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/Ample-74-2.jpg?w=599",
             "publishedAt": "2021-06-16T00:39:21Z",
             "content": "EV battery swapping startup Ample has locked in two partnerships this month that will help fuel an expansion into Japan and New York City after years of working on the technology. The startup, which … [+4884 chars]"
+        },
+        {
+            "id": "10",
+            "author": "Darrell Etherington",
+            "title": "Mmhmm raises $100M, which is a fun thing to say to people who don’t follow tech",
+            "description": "If you’re a frequent TechCrunch reader, you probably already know about mmhmm, the startup with the name you likely either love or hate. It’s Phil Libin’s second act after Evernote, and it’s a startup born of the pandemic maybe more so than any other, providi…",
+            "url": "http://techcrunch.com/2021/07/07/mmhmm-raises-100m-which-is-a-fun-thing-to-say-to-people-who-dont-follow-tech/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/04/Business_01.gif?w=764",
+            "publishedAt": "2021-07-07T15:15:59Z",
+            "content": "If you’re a frequent TechCrunch reader, you probably already know about mmhmm, the startup with the name you likely either love or hate. It’s Phil Libin’s second act after Evernote, and it’s a startu… [+1827 chars]"
         },
         {
             "id": "11",
@@ -124,16 +134,6 @@
         },
         {
             "id": "13",
-            "author": "Manish Singh",
-            "title": "Tata Digital to invest $75 million in CureFit",
-            "description": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and chief executive Mukesh Bansal will join Tata Digital as Presi…",
-            "url": "http://techcrunch.com/2021/06/07/tata-digital-to-invest-75-million-in-curefit/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/07/curefit.jpg?w=681",
-            "publishedAt": "2021-06-07T12:59:50Z",
-            "content": "Tata Digital, a subsidiary of Indian conglomerate Tata Group, said on Monday it has signed a deal to invest up to $75 million in fitness startup CureFit. As part of the deal, CureFit co-founder and c… [+907 chars]"
-        },
-        {
-            "id": "14",
             "author": "Marquise Foster",
             "title": "VCs to meet with StartupAlley+ cohort at Disrupt 2021",
             "description": "This year we’re taking exhibiting in Startup Alley, the epicenter of opportunity at every Disrupt, to a whole new level at TechCrunch Disrupt 2021 (September 21-23). Team TechCrunch will tap up to 50 exhibiting founders to take part in Startup Alley+, an excl…",
@@ -143,7 +143,7 @@
             "content": "This year were taking exhibiting in Startup Alley, the epicenter of opportunity at every Disrupt, to a whole new level at TechCrunch Disrupt 2021 (September 21-23). Team TechCrunch will tap up to 50 … [+2172 chars]"
         },
         {
-            "id": "15",
+            "id": "14",
             "author": "Carly Page",
             "title": "Mitiga raises $25M Series A to help organizations respond to cyberattacks",
             "description": "Israeli cloud security startup Mitiga has raised $25 million in a Series A round of funding as it moves to “completely change” the traditional incident response market. Mitiga, unlike other companies in the cybersecurity space, isn’t looking to prevent cybera…",
@@ -151,6 +151,56 @@
             "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-451902633.jpg?w=600",
             "publishedAt": "2021-06-23T11:00:46Z",
             "content": "Israeli cloud security startup Mitiga has raised $25 million in a Series A round of funding as it moves to completely change the traditional incident response market.\r\nMitiga, unlike other companies … [+2727 chars]"
+        },
+        {
+            "id": "15",
+            "author": "Ingrid Lunden",
+            "title": "Dutch payments startup Mollie raises another $800M at a $6.5B valuation",
+            "description": "A payments startup whose backend was originally built by the founder while still living with his parents and bootstrapping the company is today announcing a massive round of funding that catapults it into being one of the most valuable startups in Europe. Mol…",
+            "url": "http://techcrunch.com/2021/06/22/dutch-payments-startup-mollie-raises-another-800m-at-a-6-5b-valuation/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2017/09/gettyimages-612861656.jpg?w=600",
+            "publishedAt": "2021-06-22T07:00:27Z",
+            "content": "A payments startup whose backend was originally built by the founder while still living with his parents and bootstrapping the company is today announcing a massive round of funding that catapults it… [+6146 chars]"
+        },
+        {
+            "id": "16",
+            "author": "Manish Singh",
+            "title": "Indian healthcare startup PharmEasy to acquire majority stake in listed firm Thyrocare for over $600 million",
+            "description": "API Holdings, which operates the giant healthcare startup PharmEasy, said on Friday it has reached an agreement to acquire 66.1% stake in Thyrocare, which runs a diagnostic lab chain, for about $613 million in what is the first ever acquisition of a listed fi…",
+            "url": "http://techcrunch.com/2021/06/25/indian-healthcare-startup-pharmeasy-to-acquire-majority-stake-in-listed-firm-thyrocare-for-over-600-million/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-804519022.jpg?w=588",
+            "publishedAt": "2021-06-25T13:54:43Z",
+            "content": "API Holdings, which operates the giant healthcare startup PharmEasy, said on Friday it has reached an agreement to acquire 66.1% stake in Thyrocare, which runs a diagnostic lab chain, for about $613 … [+2188 chars]"
+        },
+        {
+            "id": "18",
+            "author": "Manish Singh",
+            "title": "SoftBank Vision Fund 2 leads $140M funding in Vishal Sikka’s Vianai",
+            "description": "Vianai Systems, an AI startup founded by former chief executive of Indian IT services giant Infosys, said on Wednesday it has raised $140 million in a round led by SoftBank Vision Fund 2. The two-year-old startup said a number of industry luminaries also part…",
+            "url": "http://techcrunch.com/2021/06/16/softbank-vision-fund-2-leads-140-million-investment-in-vishal-sikkas-vianai/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-614585632.jpg?w=600",
+            "publishedAt": "2021-06-16T20:02:23Z",
+            "content": "Vianai Systems, an AI startup founded by former chief executive of Indian IT services giant Infosys, said on Wednesday it has raised $140 million in a round led by SoftBank Vision Fund 2.\r\nThe two-ye… [+1968 chars]"
+        },
+        {
+            "id": "19",
+            "author": "Manish Singh",
+            "title": "Tiger Global leads $31.5M investment in interactive edtech Quizizz",
+            "description": "Quizizz, an Indian startup that is making learning more interactive so that students find it compelling to spend more hours studying, said on Wednesday it has raised $31.5 million in a new financing round. Tiger Global led the Series B financing round in the …",
+            "url": "http://techcrunch.com/2021/06/29/tiger-global-leads-31-5-million-investment-in-interactive-edtech-quizizz/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-143560390.jpg?w=600",
+            "publishedAt": "2021-06-30T00:32:03Z",
+            "content": "Quizizz, an Indian startup that is making learning more interactive so that students find it compelling to spend more hours studying, said on Wednesday it has raised $31.5 million in a new financing … [+2854 chars]"
+        },
+        {
+            "id": "20",
+            "author": "Lauren Simonds",
+            "title": "Don’t miss these highlights today, day one of TC Early Stage 2021: Marketing and Fundraising",
+            "description": "Rise, shine and get your startup on, early founders. It’s Day One of TC Early Stage 2021: Marketing and Fundraising! Get ready to be schooled — in the best way possible — on essential skills, tips and tactics every founder needs to build a successful startup.…",
+            "url": "http://techcrunch.com/2021/07/08/dont-miss-these-highlights-today-day-one-of-tc-early-stage-2021-marketing-and-fundraising/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/05/Early-Stage-Post-Graphic-Marketing-1.jpg?w=710",
+            "publishedAt": "2021-07-08T14:30:47Z",
+            "content": "Rise, shine and get your startup on, early founders. Its Day One of TC Early Stage 2021: Marketing and Fundraising! Get ready to be schooled in the best way possible on essential skills, tips and tac… [+2653 chars]"
         }
     ]
 }
