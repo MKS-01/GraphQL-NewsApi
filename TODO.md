@@ -1,20 +1,13 @@
-# Project
-
-Project Description
-
-<em>[TODO.md spec & Kanban Board](https://bit.ly/3fCwKfM)</em>
-
 ### Todo
 
-- [ ] In-Memory Cache Implementation  
-- [ ] Search APi  
-- [ ] AUTH Setup  
-- [ ] API Integration  
+- [ ] In-Memory Cache Implementation
+- [ ] Search APi
+- [ ] AUTH Setup
 
 ### In Progress
 
+- [ ] API Integration
 
 ### Done ✓
 
-- [x] Mock UI  
-
+- [x] Mock UI

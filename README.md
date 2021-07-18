@@ -31,6 +31,8 @@
 
 [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/README.md)
 
+#### [STATUS](TODO.md)
+
 ### INITIAL WIREFRAME
 
 <div>
