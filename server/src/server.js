@@ -1,6 +1,5 @@
-const express = require("express");
 const { ApolloServer } = require("apollo-server-express");
-// const cors = require("cors");
+const express = require("express");
 
 const NewsAPI = require("./dataSources/REST/newsAPI");
 
@@ -13,7 +12,7 @@ async function startApolloServer() {
   const server = new ApolloServer({
     schema: await buildSchema(),
     introspection: true,
-    playground: true,
+    // playground: true,
     debug: true,
 
     dataSources: () => ({
@@ -26,8 +25,6 @@ async function startApolloServer() {
   });
 
   await server.start();
-
-  // app.use("*", cors());
 
   server.applyMiddleware({ app });
 
