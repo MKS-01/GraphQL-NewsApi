@@ -1,4 +1,5 @@
 # GraphQL NewsApi [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/LICENSE)
+
 ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![react-native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -13,7 +14,6 @@
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-
 ###### TechNews app using GraphQL & [News API](https://newsapi.org).
 
 <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
@@ -23,15 +23,13 @@
 - [main](https://github.com/MKS-01/GraphQL-Practice) - mock data
 - [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-Practice/tree/NoSQL-mongoDB) - using NoSQL DB
 
+### CLIENT
 
-### CLIENT  
-[Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo) 
+[Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo)
 
- 
+### SERVER
 
-### SERVER 
 [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/README.md)
-
 
 ### INITIAL WIREFRAME
 
