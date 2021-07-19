@@ -31,7 +31,7 @@ Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/
 
 [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/README.md)
 
-#### [STATUS](TODO.md)
+#### 📝 [CHECKLIST](TODO.md)
 
 ### INITIAL WIREFRAME
 
