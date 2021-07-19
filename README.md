@@ -20,12 +20,12 @@
 
 ### BRANCH
 
-- [main](https://github.com/MKS-01/GraphQL-Practice) - mock data
-- [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-Practice/tree/NoSQL-mongoDB) - using NoSQL DB
+- [main](https://github.com/MKS-01/GraphQL-NewsApi) - mock data
+- [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-NewsApi/tree/NoSQL-mongoDB)
 
 ### CLIENT
 
-[Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo)
+Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/mobile)
 
 ### SERVER
 

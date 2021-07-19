@@ -1,8 +1,8 @@
-# Client
+# Mobile
 
 - [Expo](https://docs.expo.io) for cross platform mobile app iOS & android
 
-- [React-Navigation](https://reactnavigation.org/docs/getting-started) - Use for the main navigation
+- [React-Navigation](https://reactnavigation.org/docs/getting-started)
 
 - [styled-components](https://styled-components.com)
 

@@ -1,13 +1,15 @@
 ### Todo
 
-- [ ] In-Memory Cache Implementation
-- [ ] Search APi
-- [ ] AUTH Setup
+- [ ] Web UI  
+- [ ] In-Memory Cache Implementation  
+- [ ] Search APi  
+- [ ] AUTH Setup  
 
 ### In Progress
 
-- [ ] API Integration
+- [ ] API Integration  
 
 ### Done ✓
 
-- [x] Mock UI
+- [x] Mock UI  
+
