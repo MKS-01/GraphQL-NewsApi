@@ -1,15 +1,15 @@
 ### Todo
 
-- [ ] Web UI  
-- [ ] In-Memory Cache Implementation  
-- [ ] Search APi  
-- [ ] AUTH Setup  
+- [ ] Web UI
+- [ ] In-Memory Cache Implementation
+- [ ] Search APi
+- [ ] AUTH Setup
+- [ ] Optimise Docker Image
 
 ### In Progress
 
-- [ ] API Integration  
+- [ ] API Integration
 
 ### Done ✓
 
-- [x] Mock UI  
-
+- [x] Mock UI
