@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM node:14.17.0 
+FROM node:14.17.3
 ENV NODE_ENV=production
 
 WORKDIR /app
