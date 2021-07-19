@@ -1,6 +1,6 @@
 const typeDefs = require("./typeDefs.js");
 const resolvers = require("./resolvers");
-const { makeExecutableSchema } = require("apollo-server-express");
+const { makeExecutableSchema } = require("@graphql-tools/schema");
 
 async function buildSchema() {
   return makeExecutableSchema({

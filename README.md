@@ -1,8 +1,11 @@
 # GraphQL NewsApi [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/LICENSE)
+
 ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![react-native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![graphql](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![apollo-graphql](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
+![express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![aws](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![mongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -10,7 +13,6 @@
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-
 
 ###### TechNews app using GraphQL & [News API](https://newsapi.org).
 
@@ -21,15 +23,15 @@
 - [main](https://github.com/MKS-01/GraphQL-Practice) - mock data
 - [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-Practice/tree/NoSQL-mongoDB) - using NoSQL DB
 
+### CLIENT
 
-### CLIENT  
-[Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo) 
+[Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/TechNewsExpo)
 
- 
+### SERVER
 
-### SERVER 
 [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/README.md)
 
+#### [STATUS](TODO.md)
 
 ### INITIAL WIREFRAME
 
