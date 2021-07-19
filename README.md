@@ -23,6 +23,12 @@
 - [main](https://github.com/MKS-01/GraphQL-NewsApi) - mock data
 - [NoSQL-mongoDB](https://github.com/MKS-01/GraphQL-NewsApi/tree/NoSQL-mongoDB)
 
+<br/>
+
+![img](screenshots/wireframe/flow.svg)
+
+<br/>
+
 ### CLIENT
 
 Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/mobile)
