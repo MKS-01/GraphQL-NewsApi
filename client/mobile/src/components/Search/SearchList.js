@@ -34,7 +34,7 @@ const SearchList = ({ data }) => {
             refreshing={refreshing}
             onRefresh={onRefresh}
             tintColor={GRAY_LIGHT}
-            colors={GRAY_LIGHT}
+            // colors={GRAY_LIGHT}
           />
         }
       />
