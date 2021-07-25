@@ -20,15 +20,20 @@ type Mutation {
   removeBookmark(id: ID!): Boolean!
 }
 
+
 input NewsAPIInput {
-  language: Language
   category: Category
+  language: Language
   query: String
+  pageSize:Int
+  page:Int
 }
 
 input SearchInput {
   query: String
   language: Language
+  pageSize:Int
+  page:Int
 }
 
 input AddBookmarkInput {

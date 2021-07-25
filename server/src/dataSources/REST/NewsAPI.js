@@ -26,7 +26,7 @@ class NewsAPI extends RESTDataSource {
   }
 
   async getTopHeadlines(requestBody) {
-    const { language, category, query } = JSON.parse(
+    const { language, category, query, pageSize, page } = JSON.parse(
       JSON.stringify(requestBody.input)
     );
 
@@ -34,6 +34,8 @@ class NewsAPI extends RESTDataSource {
       language: language ? language.toLowerCase() : "en",
       category: category ? category.toLowerCase() : "technology",
       q: query ? query : "",
+      pageSize: pageSize ? pageSize : 10,
+      page: page ? page : 1,
     };
 
     const response = await this.get(`top-headlines`, reqBody);
@@ -46,11 +48,15 @@ class NewsAPI extends RESTDataSource {
   }
 
   async searchNews(requestBody) {
-    const { query, language } = JSON.parse(JSON.stringify(requestBody.input));
+    const { query, language, pageSize, page} = JSON.parse(
+      JSON.stringify(requestBody.input)
+    );
 
     const reqBody = {
       language: language ? language.toLowerCase() : "en",
       q: query ? query : "",
+      pageSize: pageSize ? pageSize : 10,
+      page: page ? page : 1,
     };
     const response = await this.get(`everything`, reqBody);
 
