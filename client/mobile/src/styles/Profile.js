@@ -10,8 +10,8 @@ export const ProfileContainer = styled.View`
 `;
 
 export const ProfilePic = styled.Image`
-  width: ${scaleSize(72)}px;
-  height: ${scaleSize(72)}px;
+  width: ${scaleSize(90)}px;
+  height: ${scaleSize(90)}px;
 `;
 
 export const ProfileUsername = styled.Text`
