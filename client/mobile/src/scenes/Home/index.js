@@ -30,6 +30,46 @@ import { scaleSize } from "_styles/mixins";
 //   }
 // `;
 
+
+const TOP_HEADLINES = gql`
+query topHeadlines{
+  topHeadlines(input: {
+    language: EN,
+    category: TECHNOLOGY
+  }) {
+    id
+    author
+    title
+    description
+    url
+    urlToImage
+    publishedAt
+    content
+  }
+ 
+}
+`
+
+
+const APPLE_HEADLINES = gql`
+query topHeadlines{
+  topHeadlines(input: {
+    language: EN,
+    category: TECHNOLOGY
+    query:"Apple"
+  }) {
+    id
+    author
+    title
+    description
+    url
+    urlToImage
+    publishedAt
+    content
+  }
+}
+`
+
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
 };
@@ -43,21 +83,21 @@ const HomeScreen = () => {
   }, []);
 
   let network = NetworkConnection();
-  // const { loading, error, data } = useQuery(EXCHANGE_RATES);
-
-  const { articles } = headline;
-
+  
+  const { loading, error, data } = useQuery(TOP_HEADLINES);
+    
   if (network === false) {
     return <Error network={true} />;
   }
 
-  // if (loading) return <Loader />;
-  // if (error)
-  //   return (
-  //     <Error
-  //     // error={error}
-  //     />
-  //   );
+  if (loading) return <Loader />;
+
+  if (error)
+    return (
+      <Error
+      error={error}
+      />
+    );
 
   return (
     <RootSafeArea>
@@ -70,7 +110,7 @@ const HomeScreen = () => {
             refreshing={refreshing}
             onRefresh={onRefresh}
             tintColor={GRAY_LIGHT}
-            colors={GRAY_LIGHT}
+            // colors={GRAY_LIGHT}
           />
         }
       >
@@ -78,15 +118,15 @@ const HomeScreen = () => {
         <Title title={"Home"} type="sub-title" paddingLeft={true} />
         <Topic />
         <View style={{ marginTop: scaleSize(10) }} />
-        <Headline data={articles} title={"Top Headlines"} />
-        {/* <Category
-          data={playstations.articles}
-          type="category"
-          title="PlayStations"
-        /> */}
+  
+  
+        <Headline data={data.topHeadlines} title={"Top Headlines"} />
+        {/*TODO:dynamic component */}
         <Category data={apple.articles} type="category" title="Apple" />
         <Category data={ign.articles} type="category" title="IGN" />
         <Category data={startup.articles} type="category2" title="Startup" />
+
+        {/*  */}
       </RootScrollView>
     </RootSafeArea>
   );

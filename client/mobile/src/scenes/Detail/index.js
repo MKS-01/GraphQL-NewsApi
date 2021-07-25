@@ -27,7 +27,7 @@ const DetailScreen = ({ route }) => {
           refreshing={refreshing}
           onRefresh={onRefresh}
           tintColor={GRAY_LIGHT}
-          colors={GRAY_LIGHT}
+          // colors={GRAY_LIGHT}
         />
       }
     >
