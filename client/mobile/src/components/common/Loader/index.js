@@ -1,11 +1,21 @@
 import React from "react";
 import { ActivityIndicator } from "react-native";
 import { Container } from "_styles/NetworkMessage";
+import LottieView from 'lottie-react-native';
+import { scaleSize } from "_styles/mixins";
 
 const Loader = () => {
   return (
     <Container>
-      <ActivityIndicator size="small" />
+      <LottieView
+          style={{
+            width: scaleSize(80),
+            height: scaleSize(80),       
+          }}
+          source={require('_assets/lottie/loader.json')}
+          autoPlay loop
+          
+        />
     </Container>
   );
 };

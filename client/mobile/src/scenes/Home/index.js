@@ -51,24 +51,24 @@ query topHeadlines{
 `
 
 
-const APPLE_HEADLINES = gql`
-query topHeadlines{
-  topHeadlines(input: {
-    language: EN,
-    category: TECHNOLOGY
-    query:"Apple"
-  }) {
-    id
-    author
-    title
-    description
-    url
-    urlToImage
-    publishedAt
-    content
-  }
-}
-`
+// const APPLE_HEADLINES = gql`
+// query topHeadlines{
+//   topHeadlines(input: {
+//     language: EN,
+//     category: TECHNOLOGY
+//     query:"Apple"
+//   }) {
+//     id
+//     author
+//     title
+//     description
+//     url
+//     urlToImage
+//     publishedAt
+//     content
+//   }
+// }
+// `
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -84,20 +84,20 @@ const HomeScreen = () => {
 
   let network = NetworkConnection();
   
-  const { loading, error, data } = useQuery(TOP_HEADLINES);
-    
-  if (network === false) {
-    return <Error network={true} />;
-  }
+  // const { loading, error, data } = useQuery(TOP_HEADLINES);
+    const loading = true;
+  // if (network === false) {
+  //   return <Error network={true} />;
+  // }
 
   if (loading) return <Loader />;
 
-  if (error)
-    return (
-      <Error
-      error={error}
-      />
-    );
+  // if (error)
+  //   return (
+  //     <Error
+  //     error={error}
+  //     />
+  //   );
 
   return (
     <RootSafeArea>
@@ -120,11 +120,11 @@ const HomeScreen = () => {
         <View style={{ marginTop: scaleSize(10) }} />
   
   
-        <Headline data={data.topHeadlines} title={"Top Headlines"} />
+        {/* <Headline data={data.topHeadlines} title={"Top Headlines"} /> */}
         {/*TODO:dynamic component */}
-        <Category data={apple.articles} type="category" title="Apple" />
+        {/* <Category data={apple.articles} type="category" title="Apple" />
         <Category data={ign.articles} type="category" title="IGN" />
-        <Category data={startup.articles} type="category2" title="Startup" />
+        <Category data={startup.articles} type="category2" title="Startup" /> */}
 
         {/*  */}
       </RootScrollView>

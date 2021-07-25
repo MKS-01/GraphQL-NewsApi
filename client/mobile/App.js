@@ -9,10 +9,9 @@ import {
 // import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { ApolloProvider } from "@apollo/client";
 import Navigator from "_navigations";
-import { StatusBar } from "expo-status-bar";
 import client from "_services/GraphQL";
 import { BACKGROUND_COLOR } from "_styles/colors";
-import { View } from "react-native";
+import { View, StatusBar } from "react-native";
 
 const App = () => {
   let [fontsLoaded] = useFonts({
@@ -32,7 +31,11 @@ const App = () => {
         backgroundColor: `${BACKGROUND_COLOR}`,
       }}
     >
-      <StatusBar style="inverted" />
+          <StatusBar
+           backgroundColor="#1c1c1e"
+          translucent={true}
+          barStyle="light-content"
+          />
       <ApolloProvider client={client}>
         <Navigator />
       </ApolloProvider>
