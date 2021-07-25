@@ -85,12 +85,14 @@ const HomeScreen = () => {
   let network = NetworkConnection();
   
   // const { loading, error, data } = useQuery(TOP_HEADLINES);
-    const loading = true;
-  // if (network === false) {
-  //   return <Error network={true} />;
-  // }
+    // const error = true;
 
-  if (loading) return <Loader />;
+
+  if (network === false) {
+    return <Error network={true} />;
+  }
+
+  // if (loading) return <Loader />;
 
   // if (error)
   //   return (
@@ -122,9 +124,9 @@ const HomeScreen = () => {
   
         {/* <Headline data={data.topHeadlines} title={"Top Headlines"} /> */}
         {/*TODO:dynamic component */}
-        {/* <Category data={apple.articles} type="category" title="Apple" />
+        <Category data={apple.articles} type="category" title="Apple" />
         <Category data={ign.articles} type="category" title="IGN" />
-        <Category data={startup.articles} type="category2" title="Startup" /> */}
+        <Category data={startup.articles} type="category2" title="Startup" />
 
         {/*  */}
       </RootScrollView>

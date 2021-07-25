@@ -1,7 +1,7 @@
 import React from "react";
-import { ActivityIndicator } from "react-native";
-import { Container } from "_styles/NetworkMessage";
+// import { ActivityIndicator } from "react-native";
 import LottieView from 'lottie-react-native';
+import { Container } from "_styles/NetworkMessage";
 import { scaleSize } from "_styles/mixins";
 
 const Loader = () => {

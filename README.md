@@ -16,7 +16,7 @@
 
 ###### TechNews app using GraphQL & [News API](https://newsapi.org).
 
-<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
+<!-- <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557"> -->
 
 ### BRANCH
 
@@ -45,6 +45,8 @@ Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/
 <img src="./screenshots/wireframe/initial1.jpg" alt="wireframe" width="320" height="320">
 <img src="./screenshots/wireframe/initial2.jpg" alt="wireframe" width="320" height="320">
 </div>
+
+<img src="./screenshots/wireframe/home.png" alt="wireframe" width="448" height="290" />
 
 ### SCREENSHOTS
 
