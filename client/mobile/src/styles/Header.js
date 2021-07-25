@@ -17,5 +17,7 @@ export const TitleText = styled.Text`
   text-transform: uppercase;
 
   padding-left: ${(props) => (props.paddingLeft ? `${scaleSize(10)}px` : 0)};
-  letter-spacing: ${scaleFont(2)}px;
+
+  letter-spacing: ${(props) =>
+    props.settingHeader ? scaleFont(8) : scaleFont(2)}px;
 `;

@@ -1,6 +1,4 @@
 import React from "react";
-import { Pressable } from "react-native";
-import { View, Text } from "react-native";
 import { PressableContainer, PressableText } from "_styles/PressableBtn";
 
 const PressableBtn = (props) => {

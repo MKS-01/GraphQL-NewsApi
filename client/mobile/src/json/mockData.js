@@ -4,5 +4,6 @@ import startup from "./startup.json";
 import macbookPro from "./macbookPro.json";
 import ign from "./ign.json";
 import playstations from "./playstations.json";
+import crypto from "./crypto.json";
 
-export { headline, apple, startup, macbookPro, ign, playstations };
+export { headline, apple, startup, macbookPro, ign, playstations, crypto };

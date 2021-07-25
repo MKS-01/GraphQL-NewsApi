@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
-import { FONT_FAMILY_SEMIBOLD, FONT_FAMILY_REGULAR } from "_styles/typography";
-import { BACKGROUND_COLOR, BACKGROUND_COLOR_SEC, TEXT_PRIMARY } from "./colors";
+import { FONT_FAMILY_REGULAR } from "_styles/typography";
+import { BACKGROUND_COLOR_SEC } from "./colors";
 import { scaleFont, scaleSize } from "./mixins";
 
 export const Card = styled.TouchableOpacity`

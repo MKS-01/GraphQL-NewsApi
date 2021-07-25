@@ -17,6 +17,7 @@ import {
   macbookPro,
   ign,
   playstations,
+  crypto,
 } from "../../json/mockData";
 import { GRAY_LIGHT } from "_styles/colors";
 import { scaleSize } from "_styles/mixins";
@@ -30,26 +31,20 @@ import { scaleSize } from "_styles/mixins";
 //   }
 // `;
 
-
 const TOP_HEADLINES = gql`
-query topHeadlines{
-  topHeadlines(input: {
-    language: EN,
-    category: TECHNOLOGY
-  }) {
-    id
-    author
-    title
-    description
-    url
-    urlToImage
-    publishedAt
-    content
+  query topHeadlines {
+    topHeadlines(input: { language: EN, category: TECHNOLOGY }) {
+      id
+      author
+      title
+      description
+      url
+      urlToImage
+      publishedAt
+      content
+    }
   }
- 
-}
-`
-
+`;
 
 // const APPLE_HEADLINES = gql`
 // query topHeadlines{
@@ -83,10 +78,9 @@ const HomeScreen = () => {
   }, []);
 
   let network = NetworkConnection();
-  
-  // const { loading, error, data } = useQuery(TOP_HEADLINES);
-    // const error = true;
 
+  // const { loading, error, data } = useQuery(TOP_HEADLINES);
+  // const error = true;
 
   if (network === false) {
     return <Error network={true} />;
@@ -120,15 +114,16 @@ const HomeScreen = () => {
         <Title title={"Home"} type="sub-title" paddingLeft={true} />
         <Topic />
         <View style={{ marginTop: scaleSize(10) }} />
-  
-  
-        {/* <Headline data={data.topHeadlines} title={"Top Headlines"} /> */}
+
+        <Headline data={headline.articles} title={"Top Headlines"} />
         {/*TODO:dynamic component */}
         <Category data={apple.articles} type="category" title="Apple" />
         <Category data={ign.articles} type="category" title="IGN" />
-        <Category data={startup.articles} type="category2" title="Startup" />
-
-        {/*  */}
+        <Category
+          data={crypto.data.topHeadlines}
+          type="category2"
+          title="Malware"
+        />
       </RootScrollView>
     </RootSafeArea>
   );

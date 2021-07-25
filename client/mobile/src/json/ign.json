@@ -1,204 +1,104 @@
 {
     "articles": [
         {
-            "id": "1",
-            "author": "Camilla Wolfe",
-            "title": "This Xbox Series S Screen Is A Super Clever Aussie Invention - Press Start Australia",
-            "description": "Crowdfunded in less than twenty minutes, the xScreen for the Xbox Series S is a game-changing peripheral that will allow Xbox players to play anywhere with a laptop-like gaming experience. Designed by Aussie start-up UPspec Gaming, the xScreen is a compact 11…",
-            "url": "https://press-start.com.au/news/2021/07/09/this-xbox-series-s-screen-is-a-super-clever-aussie-invention/",
-            "urlToImage": "https://cdn.pressstart.com.au/wp-content/uploads/2021/07/xscreen.jpg",
-            "publishedAt": "2021-07-08T22:03:00Z",
-            "content": "Crowdfunded in less than twenty minutes, the xScreen for the Xbox Series S is a game-changing peripheral that will allow Xbox players to play anywhere with a laptop-like gaming experience. Designed b… [+1220 chars]"
-        },
-        {
-            "id": "2",
-            "author": "Matt T.M. Kim",
-            "title": "Lost Judgment Includes Free Next-Gen Upgrade for Both PlayStation and Xbox - IGN - IGN",
-            "description": "Lost Judgment will have a free, next-gen upgrade path for both PlayStation and Xbox owners.",
-            "url": "https://www.ign.com/articles/lost-judgment-ps5-xbox-series-x-next-gen-upgrade",
-            "urlToImage": "https://assets-prd.ignimgs.com/2021/07/08/image-cast01-04-1620367598680-160w-1625781389481.jpg?width=1280",
-            "publishedAt": "2021-07-08T21:50:25Z",
-            "content": "During todays PlayStation State of Play Sega and Ryu Ga Gotoku Studio have announced pre-orders for Lost Judgment are up, and that there will be an upgrade path for both PlayStation and Xbox owners.\r… [+1646 chars]"
-        },
-        {
-            "id": "3",
-            "author": "Ryan McCaffrey",
-            "title": "Moss: Book 2 Announced at Sony State of Play - IGN - IGN",
-            "description": "Moss: Book 2 was announced at July's Sony State of Play today. It does not yet have a release date.",
-            "url": "https://www.ign.com/articles/moss-book-2-announced-at-sony-state-of-play",
-            "urlToImage": "https://assets-prd.ignimgs.com/2021/07/08/moss2-mountains2-1625770139670.jpg?width=1280",
-            "publishedAt": "2021-07-08T21:26:26Z",
-            "content": "Sony and developer Polyarc have announced Moss: Book 2, the sequel to the studio's 2018 PSVR hit that combined puzzles, platforming, combat, and a wonderful sense of being physically in the world thr… [+1620 chars]"
-        },
-        {
-            "id": "4",
-            "author": "Chaim Gartenberg",
-            "title": "Qualcomm’s $1,500 smartphone is for its biggest fans with more money than sense - The Verge",
-            "description": "Qualcomm is partnering with Asus on a smartphone designed for the company’s Snapdragon Insider fan community that promises to show off its tech — but it’s a pricey $1,500 Android phone that doesn’t stand out.",
-            "url": "https://www.theverge.com/2021/7/8/22568641/qualcomm-asus-smartphone-snapdragon-insiders-technology",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/JZbuk_WxEaO-ezsTLKo7vSzvUi8=/0x34:1952x1056/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22706863/Screen_Shot_2021_07_08_at_4.32.08_PM.png",
-            "publishedAt": "2021-07-08T21:18:35Z",
-            "content": "The Asus-built Snapdragon Insider smartphone is already outdated\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement."
-        },
-        {
-            "id": "5",
-            "author": "DEEPANRAJ GANESAN",
-            "title": "Largest E-sports Experience Centre here opens, Sport News & Top Stories - The Straits Times",
-            "description": "In another sign of the growing importance of Singapore's e-sports scene, the industry will now have a place to call home.. Read more at straitstimes.com.",
-            "url": "https://www.straitstimes.com/sport/largest-e-sports-experience-centre-here-opens",
-            "urlToImage": "https://www.straitstimes.com/s3/files/styles/x_large/public/articles/2021/07/09/st_20210709_dghub09_66798962.jpg?itok=0boW40A-",
-            "publishedAt": "2021-07-08T21:00:00Z",
-            "content": "In another sign of the growing importance of Singapore's e-sports scene, the industry will now have a place to call home.\r\nThe largest E-sports Experience Centre (EXP) was opened at the Singapore Spo… [+2238 chars]"
-        },
-        {
-            "id": "6",
-            "author": "Wesley Hilliard",
-            "title": "Design failure in Apple's Time Capsule leads to data loss - AppleInsider",
-            "description": "Mac users who still rely upon Apple's Time Capsule may be in danger of device failure and data loss because of a newly discovered design flaw.",
-            "url": "https://appleinsider.com/articles/21/07/08/design-failure-in-apples-time-capsule-leads-to-data-loss",
-            "urlToImage": "https://photos5.appleinsider.com/gallery/43047-83643-F52B045E-4274-4298-A8C3-34BF060727AF-xl.jpg",
-            "publishedAt": "2021-07-08T19:10:33Z",
-            "content": "Mac users who still rely upon Apple's Time Capsule may be in danger of device failure and data loss because of a newly discovered design flaw.\r\nThe Time Capsule was discontinued in 2018, but many Mac… [+2056 chars]"
-        },
-        {
-            "id": "7",
-            "author": "Rebekah Valentine",
-            "title": "The Sims 4: Cottage Living Has Me Playing Sims Like Stardew Valley - IGN - IGN",
-            "description": "Additions to The Sims 4 in its new Cottage Living expansion pack like lot challenges, farm animals, oversized crops, and pushy neighbors have transformed how I approach the game.",
-            "url": "https://www.ign.com/articles/the-sims-4-cottage-living-has-me-playing-sims-like-stardew-valley",
-            "urlToImage": "https://assets-prd.ignimgs.com/2021/07/07/sims4cottageliving-blogroll-01-1625687965647.jpg?width=1280",
-            "publishedAt": "2021-07-08T19:02:26Z",
-            "content": "I'm an off-and-on Sims player. I'll pick it up when a new expansion drops that interests me, sink about 10-20 more hours in micromanaging my gigantic household of recreations of my closest friends, a… [+7762 chars]"
-        },
-        {
-            "id": "8",
-            "author": "Adam Bankhurst",
-            "title": "No More Heroes and Deadly Premonition Creators Still Plan to Work Together - IGN SOUTH AFRICA",
-            "description": "The two creators are trying to make Hotel Barcelona happen.",
-            "url": "https://za.ign.com/no-more-heroes/154746/news/no-more-heroes-and-deadly-premonition-creators-still-plan-to-work-together",
-            "urlToImage": "https://sm.ign.com/t/ign_za/news/n/no-more-he/no-more-heroes-and-deadly-premonition-creators-still-plan-to_eav1.1200.jpg",
-            "publishedAt": "2021-07-08T18:20:28Z",
-            "content": "While it has been some time since we've received an update on the collaboration between No More Heroes creator Goichi \"Suda51\" Suda and Deadly Premonition creator Hidetaka \"Swery65\" Suehiro, Suda51 h… [+1737 chars]"
-        },
-        {
-            "id": "9",
-            "author": "Kat Bailey",
-            "title": "Cloud Computing Will Bring Big Changes to First-Person Shooters in 'Just a Couple Years,' DICE GM Says - IGN SOUTH AFRICA",
-            "description": "During EA's Future of FPS Panel, DICE GM Oskar Gabrielson explained why he's excited about cloud computing.",
-            "url": "https://za.ign.com/battlefield-2042/154756/news/cloud-computing-will-bring-big-changes-to-first-person-shooters-in-just-a-couple-years-dice-gm-says",
-            "urlToImage": "https://sm.ign.com/t/ign_za/news/c/cloud-comp/cloud-computing-will-bring-big-changes-to-first-person-shoot_jg9q.1200.jpg",
-            "publishedAt": "2021-07-08T18:10:36Z",
-            "content": "The next major tech innovation that will drive first-person shooters like Battlefield will be cloud computing, DICE GM Oskar Gabrielson says. Speaking during today's Future of FPS stream, Gabrielson … [+2464 chars]"
-        },
-        {
-            "id": "10",
-            "author": "Kat Bailey",
-            "title": "Cloud Computing Will Bring Big Changes to First-Person Shooters in 'Just a Couple Years,' DICE GM Says - IGN - IGN",
-            "description": "DICE GM Oskar Gabrielson said cloud computing stands to have a large impact on the shooter genre \"just a couple years\" during EA's Future of FPS Panel",
-            "url": "https://www.ign.com/articles/battlefield-2042-cloud-computing",
-            "urlToImage": "https://assets-prd.ignimgs.com/2021/07/08/battlefield-2042-1625763421448.png?width=1280",
-            "publishedAt": "2021-07-08T17:34:27Z",
-            "content": "The next major tech innovation that will drive first-person shooters like Battlefield will be cloud computing, DICE GM Oskar Gabrielson says. Speaking during today's Future of FPS stream, Gabrielson … [+2464 chars]"
-        },
-        {
-            "id": "11",
-            "author": "Martin Filipov",
-            "title": "U-turn: Indecisive Apple removes Samsung's Galaxy S21 from Beats Studio Buds ad - PhoneArena",
-            "description": "It's been a week since we reported on Apple's marketing campaign for the new Beats Studio Buds, featuring the Samsung Galaxy S21. Now, the Cupertino tech giant seems to have made a controversial ...",
-            "url": "https://www.phonearena.com/news/apple-removes-samsung-galaxy-s21-from-beats-studio-buds-advert-amazon_id133462",
-            "urlToImage": "https://m-cdn.phonearena.com/images/article/133462-wide-two_1200/U-turn-Indecisive-Apple-removes-Samsungs-Galaxy-S21-from-Beats-Studio-Buds-ad.jpg",
-            "publishedAt": "2021-07-08T16:15:58Z",
-            "content": "Beats Studio Buds\r\nBeats Studio Buds are now available on Amazon and work with Apple &amp; Android! They give you ANC, IPX4 sweat and water-resistance, Transparency Mode, and much more."
-        },
-        {
-            "id": "12",
-            "author": "Matt Purslow",
-            "title": "Space Punks Launches This Month in Early Access, Aims To Be a ‘Living’ Looter Shooter - IGN - IGN",
-            "description": "Space Punks launches in early access this month, and its explosive levels draw influence from FPS games despite its top-down camera.",
-            "url": "https://www.ign.com/articles/space-punks-release-date-early-access-epic-games-store",
-            "urlToImage": "https://assets-prd.ignimgs.com/2021/07/07/space-punks-blogroll-1625674510443.jpg?width=1280",
-            "publishedAt": "2021-07-08T15:00:05Z",
-            "content": "Last week Flying Wild Hog announced Space Punks; a sci-fi action RPG that looks like a fusion of Borderlands irreverent personality with Diablos isometric action. Details were thin on the ground, but… [+5400 chars]"
-        },
-        {
-            "id": "13",
-            "author": "Ben Sillis",
-            "title": "Sign up for Season 4 of gaming event Red Bull MEO - Red Bull",
-            "description": "Mobile gamers from around the world battle it out to be the best as global multi-title competition, Red Bull M.E.O. returns for a fourth season. Think you have a shot? Find out how to enter here.",
-            "url": "https://www.redbull.com/int-en/red-bull-meo-season-4-announcement",
-            "urlToImage": "https://img.redbull.com/images/c_crop,w_2500,h_1667,x_0,y_0,f_auto,q_auto/c_scale,w_1500/redbullcom/2021/7/6/zseixchvrpvaqsaxhuen/red-bull-meo-season-4",
-            "publishedAt": "2021-07-08T15:00:01Z",
-            "content": "Its official, the epic mobile gaming tournament, Red Bull Mobile Esports Open is back for Season 4.\r\nLast year, over 60,000 players from 28 countries took part, with the competition culminating in a … [+1815 chars]"
-        },
-        {
-            "id": "14",
-            "author": "Joe Skrebels",
-            "title": "Silent Hill Concept 'Leak' Denied by Bloober Team - IGN - IGN",
-            "description": "Bloober Team has told IGN that recent speculation about a leak of an alleged Silent Hill game's concept is incorrect.",
-            "url": "https://www.ign.com/articles/silent-hill-bloober-team-leak-denied",
-            "urlToImage": "https://assets-prd.ignimgs.com/2021/07/08/bloober-silent-hill-1625755159117.jpg?width=1280",
-            "publishedAt": "2021-07-08T14:49:48Z",
-            "content": "Speculation recently spread saying that the concept and plot for a Silent Hill game made by Bloober Team had potentially made its way onto the internet via an EU funding website. However, Bloober Tea… [+3335 chars]"
-        },
-        {
-            "id": "15",
-            "author": "Adam Bankhurst",
-            "title": "Dark Souls 3 Now Runs At 60FPS on Xbox Series X/S - IGN SOUTH AFRICA",
-            "description": "This free update is now available to all owners of Xbox Series X/S.",
-            "url": "https://za.ign.com/dark-souls-iii/154743/news/dark-souls-3-now-runs-at-60fps-on-xbox-series-xs",
-            "urlToImage": "https://sm.ign.com/t/ign_za/news/d/dark-souls/dark-souls-3-now-runs-at-60fps-on-xbox-series-xs_j5pt.1200.jpg",
-            "publishedAt": "2021-07-08T13:38:27Z",
-            "content": "Thanks to Microsoft's FPS Boost, Dark Souls 3 on Xbox Series X/S will now run at 60 FPS.\r\nRevealed on Twitter by Xbox, this free update is now available to all Xbox Series X/S owners. To get the most… [+1420 chars]"
-        },
-        {
-            "id": "16",
-            "author": "Ro",
-            "title": "Samsung Galaxy M52 5G goes through 3C certfication, battery capacity revealed - GSMArena.com news - GSMArena.com",
-            "description": "The listing could be signaling a nearing release too.",
-            "url": "https://www.gsmarena.com/samsung_galaxy_m52_5g_goes_through_3c_certfication_battery_capacity_revealed-news-49946.php",
-            "urlToImage": "https://fdn.gsmarena.com/imgroot/news/21/07/samsung-galaxy-m52-3c-cert/-476x249w4/gsmarena_000.jpg",
-            "publishedAt": "2021-07-08T12:54:01Z",
-            "content": "Samsung's top M-series phone, the Galaxy M52 5G, is approaching release and a 3C (Compulsory Certification of China) is here to add another item to list of known specifications. \r\nThe certification d… [+309 chars]"
-        },
-        {
-            "id": "17",
-            "author": "Mark Kavanagh",
-            "title": "OPPO steps up campaign to become one of the top smartphone brands in Ireland - Buzz.ie",
-            "description": "Insiders tip OPPO to become the biggest selling smartphone brand after Apple and Samsung",
-            "url": "https://www.buzz.ie/tech/gadgets/oppo-steps-up-campaign-become-24489337",
-            "urlToImage": "https://i2-prod.irishmirror.ie/incoming/article24489366.ece/ALTERNATES/s1200/0_OPPO-Find-X3-Lite_Product-images_black_45Combined45Left.jpg",
-            "publishedAt": "2021-07-08T12:22:38Z",
-            "content": "Fast rising smartphone brand OPPO looks set to be on the verge of taking Huaweis place alongside Apple and Samsung as one of the biggest selling manufacturers.\r\nIn recent weeks, the company which onl… [+1686 chars]"
-        },
-        {
-            "id": "18",
-            "author": "SamMobile",
-            "title": "This app tells you if your Galaxy smartphone is still water resistant - SamMobile",
-            "description": "Most Samsung high-end and premium mid-range smartphones have an ingress protection or IP rating. It signifies just how water resistant ...",
-            "url": "https://www.sammobile.com/news/this-app-galaxy-smartphone-water-resistant/",
-            "urlToImage": "https://www.sammobile.com/wp-content/uploads/2021/01/Galaxy-S21-Ultra-review-19-720x405.jpg",
-            "publishedAt": "2021-07-08T11:55:00Z",
-            "content": "Most Samsung high-end and premium mid-range smartphones have an ingress protection or IP rating. It signifies just how water resistant the device is. If your device is repaired or even just a few yea… [+1739 chars]"
-        },
-        {
-            "id": "19",
-            "author": "Liam Wiseman",
-            "title": "Red Dead Online: Blood Money Update Adds Multi-Stage Robbery Missions - IGN SOUTH AFRICA",
-            "description": "It's Crime time.",
-            "url": "https://za.ign.com/red-dead-online/154729/news/red-dead-online-blood-money-update-adds-multi-stage-robbery-missions",
-            "urlToImage": "https://sm.ign.com/t/ign_za/news/r/red-dead-o/red-dead-online-blood-money-update-adds-multi-stage-robbery_2q1g.1200.jpg",
-            "publishedAt": "2021-07-08T10:44:24Z",
-            "content": "The world of Red Dead Online continues to expand as a new update arrives next week. Rockstar Games has announced that the new update, Red Dead Online: Blood Money drops on July 13, and brings with it… [+2918 chars]"
-        },
-        {
-            "id": "20",
-            "author": "Liam Wiseman",
-            "title": "Destiny 2 Showcase Announced For August, And Fans Are Already Speculating It Could Be the Next Expansion - IGN SOUTH AFRICA",
-            "description": "Potentially teasing the next big expansion.",
-            "url": "https://za.ign.com/destiny-2/154731/news/destiny-2-showcase-announced-and-fans-are-already-speculating-it-could-be-the-next-expans",
-            "urlToImage": "https://sm.ign.com/t/ign_za/news/d/destiny-2-/destiny-2-showcase-announced-for-august-and-fans-are-already_p26d.1200.jpg",
-            "publishedAt": "2021-07-08T10:44:24Z",
-            "content": "A Destiny 2 event appears to be coming in August, as the official Destiny 2 Twitter account has posted a cryptic tweet announcing that some sort of announcement event is incoming.\r\nThe event is calle… [+1272 chars]"
-        }
+        "id": "1",
+        "author": "Jason R. Wilson",
+        "title": "EVGA Replaces RTX 3090 GPUs Bricked During Amazon’s New World Beta Period, Game Exposes Design Flaws on Various Cards - Wccftech",
+        "description": "As you remember from an article from two days ago, Igor Wallossek from Igor's Lab pointed to a design flaw in EVGA's RTX 3090 card that was causing the GPU to be pushed extensively while playing Amazon's New World game, and essentially bricking the card. EVGA…",
+        "url": "https://wccftech.com/evga-replaces-rtx-3090-gpus-bricked-during-amazons-new-world-beta-period-game-exposes-design-flaws-on-various-cards/",
+        "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2021/07/New-World-Key-Art-scaled.jpg",
+        "publishedAt": "2021-07-25T12:24:39Z",
+        "content": "As you remember from an article from two days ago, Igor Wallossek from Igor's Lab pointed to a design flaw in EVGA's RTX 3090 card that was causing the GPU to be pushed extensively while playing Amaz… [+2524 chars]"
+      },
+      {
+        "id": "2",
+        "author": "Bogdan Popa",
+        "title": "Google Secretly Working on New Waze Car Icons - autoevolution",
+        "description": "Waze already comes with a pre-loaded collection of car icons, but every once in a while, the Google-owned company releases limited-time packs that allow users to customize their rides with special designs.",
+        "url": "https://www.autoevolution.com/news/google-secretly-working-on-new-waze-car-icons-165925.html",
+        "urlToImage": "https://s1.cdn.autoevolution.com/images/news/google-secretly-working-on-new-waze-car-icons-165925_1.jpg",
+        "publishedAt": "2021-07-25T12:01:00Z",
+        "content": "A future update is expected to include at least two new car icons that seem to be borrowed from the upcoming Halo Infinite, according to a recent teardown from 9to5Google.More specifically, the lates… [+1454 chars]"
+      },
+      {
+        "id": "3",
+        "author": null,
+        "title": "The magazine of personal technology - Gadget",
+        "description": "This week’s EA Play event held many significant gaming announcements. We’ve wrapped up five highlights from build-up and the main 40-minute event.",
+        "url": "https://gadget.co.za/ea-play-live-in-review/",
+        "urlToImage": "https://i0.wp.com/gadget.co.za/wp-content/uploads/2021/07/maxresdefault.jpg?resize=1000%2C600&ssl=1",
+        "publishedAt": "2021-07-25T10:06:28Z",
+        "content": "This years EA Play Live was too much to contain in a single event, so the game developers held four events before the main event. This helped each game announcement hold its own limelight for a littl… [+3404 chars]"
+      },
+      {
+        "id": "4",
+        "author": "IANS",
+        "title": "New crypto malware targeting Windows, Linux systems: Microsoft - Times Now",
+        "description": "The malware can quickly take advantage of news, events, or the release of new exploits to run effective campaigns.",
+        "url": "https://www.timesnownews.com/technology-science/article/new-crypto-malware-targeting-windows-linux-systems-microsoft/789988",
+        "urlToImage": "https://imgk.timesnownews.com/story/Microsoft_IANS_23_1.jpg?tr=w-560,h-292,fo-top",
+        "publishedAt": "2021-07-25T08:59:52Z",
+        "content": "New Delhi: Microsoft has warned customers about a new crypto mining malware that can steal credentials, remove security controls, spread via emails and ultimately drop more tools for human-operated a… [+2980 chars]"
+      },
+      {
+        "id": "5",
+        "author": null,
+        "title": "Google celebrates Day 2 of Tokyo Olympics with yet another Champion Island Games Doodle - India Today",
+        "description": "Google celebrated Day 2 of the Tokyo Olympics 2020 with yet another doodle on Champion Island Games. The interactive anime games have been designed by Tokyo-based animation studio STUDIO4°C.",
+        "url": "https://www.indiatoday.in/trending-news/story/google-celebrates-day-2-of-tokyo-olympics-with-yet-another-champion-island-games-doodle-1832365-2021-07-25",
+        "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202107/google_doodle_0-647x363.png?pSaRfV8EzZOaqBDPxTJzq94XNZYuXPgA",
+        "publishedAt": "2021-07-25T06:35:21Z",
+        "content": null
+      },
+      {
+        "id": "6",
+        "author": null,
+        "title": "Microsoft will be redesigning some system apps for Windows 11 - Moneycontrol",
+        "description": "Microsoft's new Fluent Design language will feature prominently in Windows 11",
+        "url": "https://www.moneycontrol.com/news/technology/microsoft-will-be-redesigning-some-system-apps-for-windows-11-7219501.html",
+        "urlToImage": "https://images.moneycontrol.com/static-mcnews/2021/06/Windows-770x433.jpg",
+        "publishedAt": "2021-07-25T06:24:20Z",
+        "content": "Windows 11 will adopt Microsoft's Fluent Design language, which the company says will be a cleaner and more intuitive language that will offer consistency and smooth out the rough edges.\r\nThe goal is… [+1017 chars]"
+      },
+      {
+        "id": "7",
+        "author": "Jacob Oliva",
+        "title": "GM Releases Images Of Four-Seat Chevy Corvette That Never Happened - Motor1 ",
+        "description": "As America's sports car, a lot was known about the Chevy Corvette. But it's only now that we discovered that the C2 had a four-seat design that never happened.",
+        "url": "https://www.motor1.com/news/522297/four-seat-chevy-corvette-images/",
+        "urlToImage": "https://cdn.motor1.com/images/mgl/WBoR6/s1/four-seat-chevy-corvette-c2.jpg",
+        "publishedAt": "2021-07-25T06:22:00Z",
+        "content": "Being as iconic as to bear the monicker America's sports car, we all know a thing or two about the Chevrolet Corvette. Its almost seven decades of existence warrant some facts to be known and today w… [+1614 chars]"
+      },
+      {
+        "id": "8",
+        "author": "Jim Vejvoda",
+        "title": "Liu Kang Is \"The Heart and Engine\" of Mortal Kombat Legends: Battle of the Realms - Comic-Con 2021 - IGN - IGN",
+        "description": "The filmmakers behind Mortal Kombat Legends: Battle of the Realms explained why Liu Kang is “the heart and engine” of the animated sequel during their Comic-Con@Home panel.",
+        "url": "https://www.ign.com/articles/mortal-kombat-legends-battle-of-the-realms-liu-kang-ed-boon",
+        "urlToImage": "https://assets-prd.ignimgs.com/2021/07/25/mkl-2-liu-kang-1280-1627173460457.jpg?width=1280",
+        "publishedAt": "2021-07-25T00:47:16Z",
+        "content": "The cast and filmmakers of the upcoming feature-length animated film Mortal Kombat Legends: Battle of the Realms assembled for a panel at Saturdays Comic-Con@Home\r\n where the filmmakers explained why… [+3057 chars]"
+      },
+      {
+        "id": "9",
+        "author": null,
+        "title": "Some Microsoft apps are getting a new design for Windows 11 - WindowsLatest",
+        "description": "At this point, we’ve already heard plenty about what Windows 11 and the new Microsoft Store are going to bring with them. Windows 11 brings a new interface to Start Menu, Action Center, and more. As expected, several apps developed by Microsoft are also getti…",
+        "url": "https://www.windowslatest.com/2021/07/25/some-microsoft-apps-are-getting-a-new-design-for-windows-11/",
+        "urlToImage": "https://www.windowslatest.com/wp-content/uploads/2021/07/Windows-11-apps-redesign.jpg",
+        "publishedAt": "2021-07-24T23:17:04Z",
+        "content": "At this point, we’ve already heard plenty about what Windows 11 and the new Microsoft Store are going to bring with them. Windows 11 brings a new interface to Start Menu, Action Center, and more. As … [+2378 chars]"
+      },
+      {
+        "id": "10",
+        "author": "Vaidyanathan Subramaniam",
+        "title": "NVIDIA Lovelace to feature in next gen Nintendo Switch, Lovelace RTX 40 with 2.2 GHz+ boost being prepped to outship AMD RDNA 3 at a lesser price irrespective of performance - Notebookcheck.net",
+        "description": "NVIDIA's Lovelace RTX 40 GPU design has apparently been finalized according to a new leak. Lovelace is also likely to feature in the upcoming Nintendo \"Super Switch\" and could be a part of NVIDIA's Orin self-driving SoC systems. It looks like NVIDIA is planni…",
+        "url": "https://www.notebookcheck.net/NVIDIA-Lovelace-to-feature-in-next-gen-Nintendo-Switch-Lovelace-RTX-40-with-2-2-GHz-boost-being-prepped-to-outship-AMD-RDNA-3-at-a-lesser-price-irrespective-of-performance.551978.0.html",
+        "urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/nintendo_switch_lovelace_rdna_3.png",
+        "publishedAt": "2021-07-24T22:16:39Z",
+        "content": "Recently, we've come across information that NVIDIA's upcoming Hopper architecture is would be taping out soon for a mid-2022 launch. While Hopper is meant to cater to datacenter and AI workflows, Ad… [+2779 chars]"
+      }
     ]
 }
