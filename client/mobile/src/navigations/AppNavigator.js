@@ -5,11 +5,14 @@ import { Ionicons } from "@expo/vector-icons";
 import HomeScreen from "_scenes/Home";
 import BookmarksScreen from "_scenes/Bookmarks";
 import SearchScreen from "_scenes/Search";
-import { BACKGROUND_COLOR } from "_styles/";
+import { BACKGROUND_COLOR } from "_styles/colors";
 import DetailScreen from "_scenes/Detail";
 import SettingsScreen from "_scenes/Setting";
 import TagScreen from "_scenes/Tag";
+import ChangeCategory from "_scenes/Setting/ChangeCategory";
+import ChangeTopic from "_scenes/Setting/ChangeTopic";
 
+const RootStack = createStackNavigator();
 const RootTabs = createBottomTabNavigator();
 
 const HomeStack = createStackNavigator();
@@ -44,7 +47,7 @@ function Search() {
   );
 }
 
-const AppNavigator = () => {
+const RootTabNavigator = () => {
   return (
     <RootTabs.Navigator
       screenOptions={({ route }) => ({
@@ -86,5 +89,41 @@ const AppNavigator = () => {
     </RootTabs.Navigator>
   );
 };
+
+function RootStackNavigator() {
+  return (
+    <RootStack.Navigator
+      mode="modal"
+      headerMode="none"
+      headerMode="none"
+      screenOptions={{
+        headerShown: false,
+        cardStyle: { backgroundColor: "rgba(24,26,27,0.8)" },
+        // cardStyle: {backgroundColor: 'transparent'},
+        cardOverlayEnabled: true,
+        // cardStyleInterpolator: ({current: {progress}}) => ({
+        //   cardStyle: {
+        //     opacity: progress.interpolate({
+        //       inputRange: [0, 0.5, 0.9, 1],
+        //       outputRange: [0, 0.25, 0.7, 1],
+        //     }),
+        //   },
+        //   overlayStyle: {
+        //     opacity: progress.interpolate({
+        //       inputRange: [0, 1],
+        //       outputRange: [0, 0.5],
+        //       extrapolate: 'clamp',
+        //     }),
+        //   },
+        // }),
+      }}
+    >
+      <RootStack.Screen name="Main" component={RootTabNavigator} />
+      <RootStack.Screen name="ChangeCategory" component={ChangeCategory} />
+      <RootStack.Screen name="ChangeTopic" component={ChangeTopic} />
+    </RootStack.Navigator>
+  );
+}
+const AppNavigator = () => <RootStackNavigator />;
 
 export default AppNavigator;

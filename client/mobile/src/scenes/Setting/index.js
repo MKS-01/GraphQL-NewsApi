@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { View, Dimensions, StyleSheet, Text } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import { AuthContext } from "_hooks/AuthHook";
 import PressableBtn from "_components/common/Buttons/PressableBtn";
 import Profile from "_components/common/Profile";
@@ -11,6 +12,7 @@ import { GRAY_MEDIUM } from "_styles/colors";
 
 const SettingsScreen = () => {
   const { signOut } = useContext(AuthContext);
+  const navigation = useNavigation();
 
   const Logout = () => (
     <View style={styles.logoutRoot}>
@@ -21,8 +23,8 @@ const SettingsScreen = () => {
     </View>
   );
 
-  const Options = ({ text }) => (
-    <OptionsContainer>
+  const Options = ({ text, onPress }) => (
+    <OptionsContainer onPress={onPress}>
       <OptionsText>{text}</OptionsText>
       <Ionicons
         name={"chevron-forward"}
@@ -37,8 +39,14 @@ const SettingsScreen = () => {
       <Container>
         <Profile username="MKS" />
         <View style={styles.separator} />
-        <Options text="Change Category" />
-        <Options text="Change Favourite Topics" />
+        <Options
+          text="Change Category"
+          onPress={() => navigation.navigate("ChangeCategory")}
+        />
+        <Options
+          text="Change Favourite Topics"
+          onPress={() => navigation.navigate("ChangeTopic")}
+        />
         <Logout />
       </Container>
     </RootSafeArea>
