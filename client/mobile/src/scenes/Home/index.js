@@ -88,12 +88,7 @@ const HomeScreen = () => {
 
   // if (loading) return <Loader />;
 
-  // if (error)
-  //   return (
-  //     <Error
-  //     error={error}
-  //     />
-  //   );
+  // if (error) return <Error error={error} />;
 
   return (
     <RootSafeArea>

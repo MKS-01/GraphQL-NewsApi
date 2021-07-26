@@ -14,7 +14,7 @@
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-###### TechNews app using GraphQL & [News API](https://newsapi.org).
+###### Customizable News app using GraphQL & [News API](https://newsapi.org).
 
 <!-- <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557"> -->
 
@@ -71,9 +71,10 @@ Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/
 <div>
 <img src="./screenshots/mobile-rn/web.png" alt="inAppBrowser" width="257" height="488">
 <img src="./screenshots/mobile-rn/tag.png" alt="tag" width="257" height="488">
-<img src="./screenshots/mobile-rn/network.png" alt="network" width="257" height="488">
+<img src="./screenshots/mobile-rn/settings.png" alt="settings" width="257" height="488">
 </div>
 
 <div>
-<img src="./screenshots/mobile-rn/settings.png" alt="settings" width="257" height="488">
+<img src="./screenshots/mobile-rn/network.png" alt="network" width="257" height="488">
+<img src="./screenshots/mobile-rn/error.png" alt="settings" width="257" height="488">
 </div>
