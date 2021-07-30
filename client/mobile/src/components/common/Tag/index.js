@@ -1,13 +1,12 @@
 import React from "react";
-import { useNavigation } from "@react-navigation/native";
 import { TabContainer, TabText } from "_styles/Tag";
 
-const Tag = ({ topic }) => {
-  const navigation = useNavigation();
-
+const Tag = ({ topic, onPress, tag, styleTabContainer, styleTabText }) => {
   return (
-    <TabContainer onPress={() => navigation.push("Tag", { topic: topic })}>
-      <TabText>{topic}</TabText>
+    <TabContainer onPress={onPress} tag={tag} style={styleTabContainer}>
+      <TabText tag={tag} style={styleTabText}>
+        {topic}
+      </TabText>
     </TabContainer>
   );
 };

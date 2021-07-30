@@ -1,5 +1,6 @@
 import React from "react";
 import { View, FlatList } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 import Tag from "_components/common/Tag";
 
 import { scaleSize } from "_styles/mixins";
@@ -49,7 +50,15 @@ const tagsData = [
 ];
 
 const Topic = () => {
-  const renderTags = ({ item }) => <Tag topic={item.topic} />;
+  const navigation = useNavigation();
+
+  const renderTags = ({ item }) => (
+    <Tag
+      tag
+      topic={item.topic}
+      onPress={() => navigation.push("Tag", { topic: item.topic })}
+    />
+  );
 
   return (
     <FlatList

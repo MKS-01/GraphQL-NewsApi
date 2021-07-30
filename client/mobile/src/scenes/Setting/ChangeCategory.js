@@ -8,10 +8,26 @@ import { Container, RootSafeArea, RootScrollView } from "_styles/RootView";
 import { scaleSize } from "_styles/mixins";
 import { WHITE } from "_styles/colors";
 import { HeaderTouchable } from "_styles/Detail";
+import { GRAY_MEDIUM, PLACEHOLDER } from "_styles/colors";
 import Title from "_components/common/Header";
+import Tag from "_components/common/Tag";
+
+const CategoryEnum = [
+  "TECHNOLOGY",
+  "BUSINESS",
+  "SPORTS",
+  "GENERAL",
+  "HEALTH",
+  "SCIENCE",
+];
 
 const ChangeCategory = () => {
+  const [selected, setSelected] = useState("TECHNOLOGY");
   const navigation = useNavigation();
+
+  const handleSelected = (value) => {
+    setSelected(value);
+  };
 
   let network = NetworkConnection();
 
@@ -34,9 +50,41 @@ const ChangeCategory = () => {
     <RootSafeArea style={styles.rootSafe}>
       <Container style={styles.container}>
         <Close />
-        <RootScrollView stickyHeaderIndices={[0]}>
-          <Title title={"Change Category"} type="sub-title" />
-        </RootScrollView>
+        <Title title={"Change Category"} type="sub-title" />
+
+        <View
+          style={{
+            flexDirection: "row",
+            flexWrap: "wrap",
+            marginVertical: scaleSize(25),
+            justifyContent: "flex-end",
+          }}
+        >
+          {CategoryEnum.map((val) => {
+            return (
+              <View
+                key={val}
+                style={{
+                  marginVertical: scaleSize(10),
+                  marginHorizontal: scaleSize(10),
+                }}
+              >
+                <Tag
+                  topic={val}
+                  onPress={() => handleSelected(val)}
+                  value={selected}
+                  styleTabContainer={{
+                    backgroundColor:
+                      selected === val ? PLACEHOLDER : GRAY_MEDIUM,
+                  }}
+                  styleTabText={{
+                    color: selected === val ? GRAY_MEDIUM : PLACEHOLDER,
+                  }}
+                />
+              </View>
+            );
+          })}
+        </View>
       </Container>
     </RootSafeArea>
   );
