@@ -8,24 +8,18 @@ import { scaleSize } from "_styles/mixins";
 //TODO:backend
 const tagsData = [
   {
-    id: 1,
-    topic: "PlayStations",
-  },
-  {
     id: 2,
     topic: "Mobile",
   },
-  {
-    id: 3,
-    topic: "Acquisition",
-  },
+  { id: 3, topic: "Security" },
+
   {
     id: 4,
     topic: "Data Breach",
   },
   {
     id: 5,
-    topic: "EV",
+    topic: "hacker",
   },
   {
     id: 6,
@@ -45,7 +39,7 @@ const tagsData = [
   },
   {
     id: 10,
-    topic: "Crypto",
+    topic: "NoDataxxxx",
   },
 ];
 

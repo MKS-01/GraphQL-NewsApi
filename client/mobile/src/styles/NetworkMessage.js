@@ -24,7 +24,7 @@ export const ErrorImage = styled.Image`
 
 export const Container = styled.View`
   flex: 1;
-  padding: ${scaleSize(15)}px;
+  /* padding: ${scaleSize(15)}px; */
   justify-content: center;
   align-items: center;
   background-color: ${BACKGROUND_COLOR};

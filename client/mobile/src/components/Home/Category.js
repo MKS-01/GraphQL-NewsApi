@@ -3,9 +3,48 @@ import { View, FlatList } from "react-native";
 import Title from "_components/common/Header";
 import ImageCard from "_components/common/Card/ImageCard";
 import { scaleSize } from "_styles/mixins";
+import { useQuery, gql } from "@apollo/client";
 
-const Category = ({ data, type, title }) => {
-  const renderCard = ({ item }) => <ImageCard data={item} type={type} />;
+const TOP_HEADLINES = gql`
+  query topHeadlines($input: NewsAPIInput) {
+    topHeadlines(input: $input) {
+      id
+      author
+      title
+      description
+      url
+      urlToImage
+      publishedAt
+      content
+    }
+  }
+`;
+
+const Category = ({ type, title, category }) => {
+  const { loading, error, data, refetch } = useQuery(TOP_HEADLINES, {
+    fetchPolicy: "no-cache",
+    variables: {
+      input: {
+        language: "EN",
+        category: category,
+        query: title,
+      },
+    },
+  });
+
+  if (loading) return <View />;
+
+  if (error) return <View />;
+
+  // if (error) return <Error error={error} />;
+  const renderCard = ({ item }) => (
+    <ImageCard
+      data={item}
+      type={type % 3 == 0 ? "category2" : "category"}
+      // type={type}
+    />
+  );
+
   return (
     <View
       style={{
@@ -19,7 +58,7 @@ const Category = ({ data, type, title }) => {
           marginTop: scaleSize(10),
           paddingHorizontal: scaleSize(10),
         }}
-        data={data}
+        data={data.topHeadlines}
         renderItem={renderCard}
         initialNumToRender={3}
         keyExtractor={(_, index) => index.toString()}

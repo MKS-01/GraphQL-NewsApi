@@ -5,7 +5,7 @@ import { Container, RootSafeArea } from "_styles/RootView";
 import Title from "_components/common/Header";
 import Search from "_components/common/Search";
 import BookmarkList from "_components/Bookmark/BookmarkList";
-import { apple } from "../../json/mockData";
+// import { apple } from "../../json/mockData";
 
 const BookmarksScreen = () => {
   const [search, setSearch] = useState("");
@@ -25,7 +25,7 @@ const BookmarksScreen = () => {
           value={search}
           onChangeText={(text) => setSearch(text)}
         />
-        <BookmarkList data={apple.articles} />
+        {/* <BookmarkList data={apple.articles} /> */}
       </Container>
     </RootSafeArea>
   );

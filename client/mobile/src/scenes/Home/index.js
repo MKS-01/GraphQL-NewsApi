@@ -6,34 +6,15 @@ import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
 import Topic from "_components/Topic";
 import Title from "_components/common/Header";
-
 import { RootScrollView, RootSafeArea } from "_styles/RootView";
 import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
-import {
-  headline,
-  apple,
-  startup,
-  macbookPro,
-  ign,
-  playstations,
-  crypto,
-} from "../../json/mockData";
 import { GRAY_LIGHT } from "_styles/colors";
 import { scaleSize } from "_styles/mixins";
 
-// const EXCHANGE_RATES = gql`
-//   query GetExchangeRates {
-//     rates(currency: "USD") {
-//       currency
-//       rate
-//     }
-//   }
-// `;
-
 const TOP_HEADLINES = gql`
-  query topHeadlines {
-    topHeadlines(input: { language: EN, category: TECHNOLOGY }) {
+  query topHeadlines($input: NewsAPIInput) {
+    topHeadlines(input: $input) {
       id
       author
       title
@@ -46,49 +27,41 @@ const TOP_HEADLINES = gql`
   }
 `;
 
-// const APPLE_HEADLINES = gql`
-// query topHeadlines{
-//   topHeadlines(input: {
-//     language: EN,
-//     category: TECHNOLOGY
-//     query:"Apple"
-//   }) {
-//     id
-//     author
-//     title
-//     description
-//     url
-//     urlToImage
-//     publishedAt
-//     content
-//   }
-// }
-// `
-
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
 };
 
 const HomeScreen = () => {
   const [refreshing, setRefreshing] = useState(false);
-
-  const onRefresh = useCallback(() => {
-    setRefreshing(true);
-    wait(500).then(() => setRefreshing(false));
-  }, []);
+  const [category, setCategory] = useState("TECHNOLOGY");
 
   let network = NetworkConnection();
 
-  // const { loading, error, data } = useQuery(TOP_HEADLINES);
-  // const error = true;
+  const { loading, error, data, refetch } = useQuery(TOP_HEADLINES, {
+    fetchPolicy: "no-cache",
+    variables: {
+      input: {
+        language: "EN",
+        category: category,
+      },
+    },
+  });
+
+  const onRefresh = useCallback(() => {
+    setRefreshing(true);
+    // refetch();
+    wait(500).then(() => setRefreshing(false));
+  }, []);
 
   if (network === false) {
     return <Error network={true} />;
   }
 
-  // if (loading) return <Loader />;
+  if (loading) return <Loader />;
 
-  // if (error) return <Error error={error} />;
+  if (error) return <Error error={error} />;
+  // TODO:replace with settings
+  const selectedTopic = ["apple", "ign", "cnet"];
 
   return (
     <RootSafeArea>
@@ -110,15 +83,18 @@ const HomeScreen = () => {
         <Topic />
         <View style={{ marginTop: scaleSize(10) }} />
 
-        <Headline data={headline.articles} title={"Top Headlines"} />
+        <Headline data={data.topHeadlines} title={"Top Headlines"} />
         {/*TODO:dynamic component */}
-        <Category data={apple.articles} type="category" title="Apple" />
-        <Category data={ign.articles} type="category" title="IGN" />
-        <Category
-          data={crypto.data.topHeadlines}
-          type="category2"
-          title="Malware"
-        />
+        {selectedTopic.map((val, index) => {
+          return (
+            <Category
+              title={val}
+              key={val}
+              type={index + 1}
+              category={category}
+            />
+          );
+        })}
       </RootScrollView>
     </RootSafeArea>
   );
