@@ -6,12 +6,12 @@ import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
 import Title from "_components/common/Header";
 import TagList from "_components/Tag/TagList";
+import NoData from "_components/common/NoData";
 import NetworkConnection from "_utils/NetworkConnection";
 import { Container, RootSafeArea } from "_styles/RootView";
 import { scaleSize } from "_styles/mixins";
 import { WHITE } from "_styles/colors";
 import { useQuery, gql } from "@apollo/client";
-import NoData from "_components/common/NoData";
 
 const TOP_HEADLINES = gql`
   query topHeadlines($input: NewsAPIInput) {

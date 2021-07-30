@@ -1,20 +1,42 @@
 import React, { useState } from "react";
+import { useQuery, gql } from "@apollo/client";
 import NetworkConnection from "_utils/NetworkConnection";
+import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
-import { Container, RootSafeArea } from "_styles/RootView";
 import Title from "_components/common/Header";
 import Search from "_components/common/Search";
+import NoData from "_components/common/NoData";
 import BookmarkList from "_components/Bookmark/BookmarkList";
-// import { apple } from "../../json/mockData";
+import { Container, RootSafeArea } from "_styles/RootView";
 
+const BOOKMARKS = gql`
+  query getBookmarks {
+    getBookmarks {
+      id
+      author
+      title
+      description
+      url
+      urlToImage
+      publishedAt
+      content
+    }
+  }
+`;
 const BookmarksScreen = () => {
   const [search, setSearch] = useState("");
+
+  const { loading, error, data, refetch } = useQuery(BOOKMARKS);
 
   let network = NetworkConnection();
 
   if (network === false) {
     return <Error network={true} />;
   }
+
+  if (loading) return <Loader />;
+
+  if (error) return <Error error={error} />;
 
   return (
     <RootSafeArea>
@@ -25,7 +47,12 @@ const BookmarksScreen = () => {
           value={search}
           onChangeText={(text) => setSearch(text)}
         />
-        {/* <BookmarkList data={apple.articles} /> */}
+
+        {!Array.isArray(data.getBookmarks) || data.getBookmarks.length === 0 ? (
+          <NoData />
+        ) : (
+          <BookmarkList data={data.getBookmarks} />
+        )}
       </Container>
     </RootSafeArea>
   );
