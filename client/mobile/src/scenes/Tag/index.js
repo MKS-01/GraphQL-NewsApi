@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { View, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { useQuery, gql } from "@apollo/client";
 import { Ionicons } from "@expo/vector-icons";
 import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
@@ -11,7 +12,6 @@ import NetworkConnection from "_utils/NetworkConnection";
 import { Container, RootSafeArea } from "_styles/RootView";
 import { scaleSize } from "_styles/mixins";
 import { WHITE } from "_styles/colors";
-import { useQuery, gql } from "@apollo/client";
 
 const TOP_HEADLINES = gql`
   query topHeadlines($input: NewsAPIInput) {

@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { View, RefreshControl } from "react-native";
+import { View, RefreshControl, FlatList } from "react-native";
 import { useQuery, gql } from "@apollo/client";
 import NetworkConnection from "_utils/NetworkConnection";
 import Loader from "_components/common/Loader";
@@ -57,15 +57,47 @@ const HomeScreen = () => {
     return <Error network={true} />;
   }
 
-  if (loading) return <Loader />;
+  if (loading)
+    return (
+      <RootSafeArea>
+        <View style={{ marginTop: scaleSize(10) }} />
+        <Title title={"Home"} type="sub-title" paddingLeft={true} />
+        <Loader />
+      </RootSafeArea>
+    );
 
-  if (error) return <Error error={error} />;
+  console.log("error", error);
+  if (error)
+    return (
+      <RootSafeArea>
+        <View style={{ marginTop: scaleSize(10) }} />
+        <Title title={"Home"} type="sub-title" paddingLeft={true} />
+        <Error error={error} />
+      </RootSafeArea>
+    );
+
   // TODO:replace with settings
-  const selectedTopic = ["apple", "ign", "cnet"];
+  const selectedTopic = ["tag", "headline", "apple", "ign", "malware"];
+
+  const renderCategory = ({ item, index }) => {
+    if (item === "tag") return <Topic />;
+
+    if (item === "headline")
+      return <Headline data={data.topHeadlines} title={"Top Headlines"} />;
+
+    return (
+      <Category
+        title={item}
+        key={item}
+        type={index + 1 - 2}
+        category={category}
+      />
+    );
+  };
 
   return (
     <RootSafeArea>
-      <RootScrollView
+      {/* <RootScrollView
         type={"detail"}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: scaleSize(25) }}
@@ -77,25 +109,20 @@ const HomeScreen = () => {
             // colors={GRAY_LIGHT}
           />
         }
-      >
-        <View style={{ marginTop: scaleSize(10) }} />
-        <Title title={"Home"} type="sub-title" paddingLeft={true} />
-        <Topic />
-        <View style={{ marginTop: scaleSize(10) }} />
+      > */}
+      <View style={{ marginTop: scaleSize(10) }} />
+      <Title title={"Home"} type="sub-title" paddingLeft={true} />
 
-        <Headline data={data.topHeadlines} title={"Top Headlines"} />
-        {/*TODO:dynamic component */}
-        {selectedTopic.map((val, index) => {
-          return (
-            <Category
-              title={val}
-              key={val}
-              type={index + 1}
-              category={category}
-            />
-          );
-        })}
-      </RootScrollView>
+      <FlatList
+        contentContainerStyle={{
+          marginTop: scaleSize(10),
+          paddingBottom: scaleSize(30),
+        }}
+        data={selectedTopic}
+        renderItem={renderCategory}
+        keyExtractor={(item, index) => String(index)}
+      />
+      {/* </RootScrollView> */}
     </RootSafeArea>
   );
 };

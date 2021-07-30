@@ -5,6 +5,7 @@ import { Container, RootSafeArea } from "_styles/RootView";
 import Title from "_components/common/Header";
 import Search from "_components/common/Search";
 import SearchList from "_components/Search/SearchList";
+import NoData from "_components/common/NoData";
 
 const SearchScreen = () => {
   const [search, setSearch] = useState("");
@@ -24,7 +25,13 @@ const SearchScreen = () => {
           value={search}
           onChangeText={(text) => setSearch(text)}
         />
-        {/* <SearchList data={ign.articles} /> */}
+
+        <NoData />
+        {/* {!Array.isArray(data.topHeadlines) || data.topHeadlines.length === 0 ? (
+          <NoData />
+        ) : (
+          <SearchList data={ign.articles} />
+        )} */}
       </Container>
     </RootSafeArea>
   );

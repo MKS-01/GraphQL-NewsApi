@@ -16,7 +16,7 @@
 
 ###### Customizable News app using GraphQL & [News API](https://newsapi.org).
 
-<!-- <img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557"> -->
+<img src="./screenshots/mobile-rn/sample.gif" alt="sample" width="276" height="557">
 
 ### BRANCH
 
@@ -75,6 +75,12 @@ Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/
 </div>
 
 <div>
+<img src="./screenshots/mobile-rn/changeCategory.png" alt="network" width="257" height="488">
+<img src="./screenshots/mobile-rn/changeTopic.png" alt="network" width="257" height="488">
 <img src="./screenshots/mobile-rn/network.png" alt="network" width="257" height="488">
+
+</div>
+
+<div>
 <img src="./screenshots/mobile-rn/error.png" alt="settings" width="257" height="488">
 </div>
