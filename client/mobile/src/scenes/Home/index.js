@@ -66,7 +66,6 @@ const HomeScreen = () => {
       </RootSafeArea>
     );
 
-  console.log("error", error);
   if (error)
     return (
       <RootSafeArea>
