@@ -12,7 +12,6 @@ const tagsData = [
     topic: "Mobile",
   },
   { id: 3, topic: "Security" },
-
   {
     id: 4,
     topic: "Data Breach",
@@ -30,16 +29,8 @@ const tagsData = [
     topic: "Macbook Pro",
   },
   {
-    id: 8,
-    topic: "5G",
-  },
-  {
     id: 9,
     topic: "Tech Crunch",
-  },
-  {
-    id: 10,
-    topic: "NoDataxxxx",
   },
 ];
 

@@ -4,21 +4,7 @@ import Title from "_components/common/Header";
 import ImageCard from "_components/common/Card/ImageCard";
 import { scaleSize } from "_styles/mixins";
 import { useQuery, gql } from "@apollo/client";
-
-const TOP_HEADLINES = gql`
-  query topHeadlines($input: NewsAPIInput) {
-    topHeadlines(input: $input) {
-      id
-      author
-      title
-      description
-      url
-      urlToImage
-      publishedAt
-      content
-    }
-  }
-`;
+import { TOP_HEADLINES } from "_services/GraphQL/query";
 
 const Category = ({ type, title, category }) => {
   const { loading, error, data, refetch } = useQuery(TOP_HEADLINES, {
@@ -36,13 +22,8 @@ const Category = ({ type, title, category }) => {
 
   if (error) return <View />;
 
-  // if (error) return <Error error={error} />;
   const renderCard = ({ item }) => (
-    <ImageCard
-      data={item}
-      type={type % 3 == 0 ? "category2" : "category"}
-      // type={type}
-    />
+    <ImageCard data={item} type={type % 3 == 0 ? "category2" : "category"} />
   );
 
   return (

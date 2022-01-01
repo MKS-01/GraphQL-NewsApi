@@ -8,6 +8,7 @@ const { buildSchema } = require("./schema.js");
 const { SERVER_PORT } = require("../config");
 
 const { models, ConnectDB } = require("./dataSources/models");
+const mongoose = require("mongoose");
 
 async function startApolloServer() {
   const app = express();
@@ -29,13 +30,8 @@ async function startApolloServer() {
   await server.start();
 
   server.applyMiddleware({ app });
+
   ConnectDB();
-  // await mongoose.connect(process.env.CONNECTIONSTRING || CONNECTIONSTRING, {
-  //   useNewUrlParser: true,
-  //   useUnifiedTopology: true,
-  //   useFindAndModify: false,
-  //   useCreateIndex: true,
-  // });
 
   await new Promise((resolve) =>
     app.listen({ port: `${process.env.SERVER_PORT || SERVER_PORT}` }, resolve)

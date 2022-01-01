@@ -11,21 +11,7 @@ import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
 import { GRAY_LIGHT } from "_styles/colors";
 import { scaleSize } from "_styles/mixins";
-
-const TOP_HEADLINES = gql`
-  query topHeadlines($input: NewsAPIInput) {
-    topHeadlines(input: $input) {
-      id
-      author
-      title
-      description
-      url
-      urlToImage
-      publishedAt
-      content
-    }
-  }
-`;
+import { TOP_HEADLINES } from "_services/GraphQL/query";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -76,14 +62,9 @@ const HomeScreen = () => {
     );
 
   // TODO:replace with settings
-  const selectedTopic = ["tag", "headline", "apple", "ign", "malware"];
+  const selectedTopic = ["apple", "ces", "ign"];
 
   const renderCategory = ({ item, index }) => {
-    if (item === "tag") return <Topic />;
-
-    if (item === "headline")
-      return <Headline data={data.topHeadlines} title={"Top Headlines"} />;
-
     return (
       <Category
         title={item}
@@ -96,32 +77,23 @@ const HomeScreen = () => {
 
   return (
     <RootSafeArea>
-      {/* <RootScrollView
-        type={"detail"}
-        showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingBottom: scaleSize(25) }}
-        refreshControl={
-          <RefreshControl
-            refreshing={refreshing}
-            onRefresh={onRefresh}
-            tintColor={GRAY_LIGHT}
-            // colors={GRAY_LIGHT}
-          />
-        }
-      > */}
       <View style={{ marginTop: scaleSize(10) }} />
       <Title title={"Home"} type="sub-title" paddingLeft={true} />
-
       <FlatList
         contentContainerStyle={{
           marginTop: scaleSize(10),
           paddingBottom: scaleSize(30),
         }}
+        ListHeaderComponent={
+          <>
+            <Topic />
+            <Headline data={data.topHeadlines} title={"Top Headlines"} />
+          </>
+        }
         data={selectedTopic}
         renderItem={renderCategory}
         keyExtractor={(item, index) => String(index)}
       />
-      {/* </RootScrollView> */}
     </RootSafeArea>
   );
 };
