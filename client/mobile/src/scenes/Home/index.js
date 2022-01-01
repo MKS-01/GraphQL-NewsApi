@@ -1,6 +1,6 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { View, RefreshControl, FlatList } from "react-native";
-import { useQuery, gql } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import NetworkConnection from "_utils/NetworkConnection";
 import Loader from "_components/common/Loader";
 import Error from "_components/common/Error";
@@ -9,7 +9,6 @@ import Title from "_components/common/Header";
 import { RootScrollView, RootSafeArea } from "_styles/RootView";
 import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
-import { GRAY_LIGHT } from "_styles/colors";
 import { scaleSize } from "_styles/mixins";
 import { TOP_HEADLINES } from "_services/GraphQL/query";
 
@@ -20,6 +19,9 @@ const wait = (timeout) => {
 const HomeScreen = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [category, setCategory] = useState("TECHNOLOGY");
+
+  // TODO:replace with settings
+  const selectedTopic = ["apple", "ces", "ign"];
 
   let network = NetworkConnection();
 
@@ -61,16 +63,14 @@ const HomeScreen = () => {
       </RootSafeArea>
     );
 
-  // TODO:replace with settings
-  const selectedTopic = ["apple", "ces", "ign"];
-
   const renderCategory = ({ item, index }) => {
     return (
       <Category
         title={item}
         key={item}
-        type={index + 1 - 2}
+        type={index - 1}
         category={category}
+        // categoryData={categoryData.topHeadlines}
       />
     );
   };
@@ -93,6 +93,7 @@ const HomeScreen = () => {
         data={selectedTopic}
         renderItem={renderCategory}
         keyExtractor={(item, index) => String(index)}
+        initialNumToRender={5}
       />
     </RootSafeArea>
   );

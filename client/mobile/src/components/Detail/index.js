@@ -18,6 +18,8 @@ import {
   HeaderContainer,
   HeaderTouchable,
 } from "_styles/Detail";
+import { ADD_BOOKMARK } from "_services/GraphQL/mutations";
+import { useMutation } from "@apollo/client";
 
 const HeaderButton = ({ iconName, type, onPress }) => {
   const navigation = useNavigation();
@@ -32,8 +34,23 @@ const HeaderButton = ({ iconName, type, onPress }) => {
 };
 
 const Details = ({ data }) => {
-  const { urlToImage, description, content, title, url, publishedAt } = data;
+  const { urlToImage, description, content, title, url, publishedAt, author } =
+    data;
   const [bookmark, setBookmark] = useToggle(false);
+
+  const [addBookmark] = useMutation(ADD_BOOKMARK, {
+    variables: {
+      input: {
+        title: title,
+        author: author,
+        description: description,
+        url: url,
+        urlToImage: urlToImage,
+        publishedAt: publishedAt,
+        content: content,
+      },
+    },
+  });
 
   return (
     <RootContainer>
@@ -58,7 +75,10 @@ const Details = ({ data }) => {
             <HeaderButton
               iconName={"ios-bookmark"}
               type={"bookmark"}
-              onPress={() => setBookmark()}
+              onPress={async () => {
+                setBookmark();
+                await addBookmark();
+              }}
             />
           ) : (
             <HeaderButton
