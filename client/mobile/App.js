@@ -27,6 +27,7 @@ import Navigator from "_navigations";
 import client from "_services/GraphQL";
 import { BACKGROUND_COLOR } from "_styles/colors";
 import { View, StatusBar } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 const App = () => {
   let [fontsLoaded] = useFonts({
@@ -55,6 +56,7 @@ const App = () => {
   }
 
   return (
+    // <GestureHandlerRootView>
     <View
       style={{
         flex: 1,
@@ -70,6 +72,7 @@ const App = () => {
         <Navigator />
       </ApolloProvider>
     </View>
+    // </GestureHandlerRootView>
   );
 };
 
