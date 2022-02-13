@@ -21,7 +21,7 @@ const HomeScreen = () => {
   const [category, setCategory] = useState("TECHNOLOGY");
 
   // TODO:replace with settings
-  const selectedTopic = ["apple", "ces", "ign"];
+  const selectedTopic = ["apple", "playstation", "ign"];
 
   let network = NetworkConnection();
 
