@@ -35,7 +35,8 @@ Mobile [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/tree/main/client/
 
 ### SERVER
 
-[Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/README.md)
+- [Setup Guide](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/README.md)
+- [How to deploy to AWS ?](https://github.com/MKS-01/GraphQL-NewsApi/blob/main/server/DEPLOY.md)
 
 #### 📝 [CHECKLIST](TODO.md)
 
