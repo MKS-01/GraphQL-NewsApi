@@ -12,6 +12,7 @@ import Category from "_components/Home/Category";
 import { scaleSize } from "_styles/mixins";
 import { TOP_HEADLINES } from "_services/GraphQL/query";
 import { CARD_TYPE } from "_constants/Card";
+import HomeLoader from "_components/Loader/Home";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -65,13 +66,15 @@ const HomeScreen = () => {
   if (network === false) {
     return <Error network={true} />;
   }
-
+  // TODO:testing
   if (loading)
+    // if (true)
     return (
       <RootSafeArea>
         <View style={{ marginTop: scaleSize(10) }} />
         <Title title={"Home"} type="sub-title" paddingLeft={true} />
         <Loader />
+        {/* <HomeLoader /> */}
       </RootSafeArea>
     );
 
