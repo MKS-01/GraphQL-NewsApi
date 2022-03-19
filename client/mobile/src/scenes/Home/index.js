@@ -11,6 +11,7 @@ import Headline from "_components/Home/Headline";
 import Category from "_components/Home/Category";
 import { scaleSize } from "_styles/mixins";
 import { TOP_HEADLINES } from "_services/GraphQL/query";
+import { CARD_TYPE } from "_constants/Card";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -19,9 +20,29 @@ const wait = (timeout) => {
 const HomeScreen = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [category, setCategory] = useState("TECHNOLOGY");
-
   // TODO:replace with settings
-  const selectedTopic = ["playstation", "ign", "apple"];
+  const [list, setList] = useState([
+    {
+      id: "1",
+      type: "topHeadlines",
+      topic: "TECHNOLOGY",
+    },
+    {
+      id: "2",
+      type: "category",
+      topic: "playstation",
+    },
+    {
+      id: "3",
+      type: "category",
+      topic: "ign",
+    },
+    {
+      id: "4",
+      type: "category",
+      topic: "apple",
+    },
+  ]);
 
   let network = NetworkConnection();
 
@@ -64,15 +85,12 @@ const HomeScreen = () => {
     );
 
   const renderCategory = ({ item, index }) => {
-    return (
-      <Category
-        title={item}
-        key={item}
-        type={index - 1}
-        category={category}
-        // categoryData={categoryData.topHeadlines}
-      />
-    );
+    switch (item.type) {
+      case CARD_TYPE.topHeadlines:
+        return <Headline data={data.topHeadlines} title={"Top Headlines"} />;
+      case CARD_TYPE.category:
+        return <Category title={item.topic} type={index} category={category} />;
+    }
   };
 
   return (
@@ -84,13 +102,8 @@ const HomeScreen = () => {
           marginTop: scaleSize(10),
           paddingBottom: scaleSize(30),
         }}
-        ListHeaderComponent={
-          <>
-            <Topic />
-            <Headline data={data.topHeadlines} title={"Top Headlines"} />
-          </>
-        }
-        data={selectedTopic}
+        ListHeaderComponent={<Topic />}
+        data={list}
         renderItem={renderCategory}
         keyExtractor={(item, index) => String(index)}
         initialNumToRender={5}

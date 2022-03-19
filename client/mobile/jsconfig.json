@@ -8,6 +8,9 @@
             "_components": [
                 "src/components/*"
             ],
+            "_constants": [
+                "src/constants/*"
+            ],
             "_hooks":[
                 "src/hooks/*"
             ],

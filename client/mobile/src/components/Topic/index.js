@@ -2,37 +2,8 @@ import React from "react";
 import { View, FlatList } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import Tag from "_components/common/Tag";
-
 import { scaleSize } from "_styles/mixins";
-
-//TODO:backend
-const tagsData = [
-  {
-    id: 2,
-    topic: "Mobile",
-  },
-  { id: 3, topic: "Security" },
-  {
-    id: 4,
-    topic: "Data Breach",
-  },
-  {
-    id: 5,
-    topic: "hacker",
-  },
-  {
-    id: 6,
-    topic: "iPhone",
-  },
-  {
-    id: 7,
-    topic: "Macbook Pro",
-  },
-  {
-    id: 9,
-    topic: "Tech Crunch",
-  },
-];
+import { FAV_TAGS } from "_constants/FavTag";
 
 const Topic = () => {
   const navigation = useNavigation();
@@ -53,7 +24,7 @@ const Topic = () => {
       }}
       horizontal={true}
       showsHorizontalScrollIndicator={false}
-      data={tagsData}
+      data={FAV_TAGS}
       initialNumToRender={10}
       renderItem={renderTags}
       keyExtractor={(_, index) => index.toString()}

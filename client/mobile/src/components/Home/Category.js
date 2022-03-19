@@ -23,7 +23,7 @@ const Category = ({ type, title, category }) => {
   if (error) return <View />;
 
   const renderCard = ({ item }) => (
-    <ImageCard data={item} type={type % 3 == 0 ? "category2" : "category"} />
+    <ImageCard data={item} type={type % 2 == 0 ? "category2" : "category"} />
   );
 
   return (
