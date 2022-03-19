@@ -1,4 +1,4 @@
-import { Platform } from "react-native";
+import { Platform, StatusBar } from "react-native";
 import styled from "styled-components/native";
 import { BACKGROUND_COLOR } from "./colors";
 import { scaleSize } from "./mixins";
@@ -18,5 +18,7 @@ export const Container = styled.View`
 export const RootSafeArea = styled.SafeAreaView`
   flex: 1;
   background-color: ${BACKGROUND_COLOR};
-  padding-top: ${Platform.OS === "android" ? `${scaleSize(10)}px` : 0};
+  padding-top: ${Platform.OS === "android"
+    ? `${scaleSize(StatusBar.currentHeight)}px`
+    : 0};
 `;
