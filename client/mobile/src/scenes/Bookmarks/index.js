@@ -34,9 +34,25 @@ const BookmarksScreen = () => {
     return <Error network={true} />;
   }
 
-  if (loading) return <Loader />;
+  if (loading)
+    return (
+      <RootSafeArea>
+        <Container>
+          <Title title={"Bookmark"} type="title" />
+          <Loader />
+        </Container>
+      </RootSafeArea>
+    );
 
-  if (error) return <Error error={error} />;
+  if (error)
+    return (
+      <RootSafeArea>
+        <Container>
+          <Title title={"Bookmark"} type="title" />
+          <Error error={error} />
+        </Container>
+      </RootSafeArea>
+    );
 
   return (
     <RootSafeArea>
