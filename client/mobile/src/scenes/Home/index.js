@@ -66,15 +66,13 @@ const HomeScreen = () => {
   if (network === false) {
     return <Error network={true} />;
   }
-  // TODO:testing
+
   if (loading)
-    // if (true)
     return (
       <RootSafeArea>
         <View style={{ marginTop: scaleSize(10) }} />
         <Title title={"Home"} type="sub-title" paddingLeft={true} />
-        <Loader />
-        {/* <HomeLoader /> */}
+        <HomeLoader />
       </RootSafeArea>
     );
 

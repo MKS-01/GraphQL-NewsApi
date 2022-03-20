@@ -1,12 +1,15 @@
 import styled from "styled-components/native";
 import { FONT_FAMILY_SEMIBOLD, FONT_FAMILY_REGULAR } from "_styles/typography";
-import { BACKGROUND_COLOR, BACKGROUND_COLOR_SEC, TEXT_PRIMARY } from "./colors";
+import {
+  BACKGROUND_COLOR,
+  BACKGROUND_COLOR_SEC,
+  GRAY_DARK,
+  TEXT_PRIMARY,
+} from "./colors";
 import { scaleFont, scaleSize } from "./mixins";
 
 export const PressableContainer = styled.Pressable`
-  background-color: #8a8a8a;
-
-  /* height:   50px; */
+  background-color: ${GRAY_DARK};
   padding: ${scaleSize(12)}px 0px;
   border-radius: 5px;
   justify-content: center;

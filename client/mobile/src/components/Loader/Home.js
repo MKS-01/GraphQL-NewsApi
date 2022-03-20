@@ -1,10 +1,153 @@
-import ContentLoader, { Rect, Circle } from "react-content-loader/native";
+import ContentLoader, { Rect } from "react-content-loader/native";
+import { PLACEHOLDER, GRAY_DARK } from "_styles/colors";
+import { scaleSize } from "_styles/mixins";
 
-const HomeLoader = () => (
-  <ContentLoader viewBox="0 0 380 70">
-    <Circle cx="30" cy="30" r="30" />
-    <Rect x="80" y="17" rx="4" ry="4" width="300" height="13" />
-    <Rect x="80" y="40" rx="3" ry="3" width="250" height="10" />
+const HomeLoader = (props) => (
+  <ContentLoader
+    speed={2}
+    width="100%"
+    height="100%"
+    backgroundColor={PLACEHOLDER}
+    foregroundColor={GRAY_DARK}
+  >
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(20)}
+      rx={scaleSize(22)}
+      ry={scaleSize(22)}
+      width={scaleSize(92)}
+      height={scaleSize(35)}
+    />
+    <Rect
+      x={scaleSize(110)}
+      y={scaleSize(20)}
+      rx={scaleSize(22)}
+      ry={scaleSize(22)}
+      width={scaleSize(92)}
+      height={scaleSize(35)}
+    />
+    <Rect
+      x={scaleSize(210)}
+      y={scaleSize(20)}
+      rx={scaleSize(22)}
+      ry={scaleSize(22)}
+      width={scaleSize(92)}
+      height={scaleSize(35)}
+    />
+    <Rect
+      x={scaleSize(310)}
+      y={scaleSize(20)}
+      rx={scaleSize(22)}
+      ry={scaleSize(22)}
+      width={scaleSize(120)}
+      height={scaleSize(35)}
+    />
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(75)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(200)}
+      height={scaleSize(28)}
+    />
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(125)}
+      rx={scaleSize(7)}
+      ry={scaleSize(7)}
+      width={scaleSize(250)}
+      height={scaleSize(250)}
+    />
+    <Rect
+      x={scaleSize(270)}
+      y={scaleSize(125)}
+      rx={scaleSize(7)}
+      ry={scaleSize(7)}
+      width={scaleSize(250)}
+      height={scaleSize(250)}
+    />
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(400)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(170)}
+      height={scaleSize(22)}
+    />
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(440)}
+      rx={scaleSize(7)}
+      ry={scaleSize(7)}
+      width={scaleSize(170)}
+      height={scaleSize(170)}
+    />
+    <Rect
+      x={scaleSize(190)}
+      y={scaleSize(440)}
+      rx={scaleSize(7)}
+      ry={scaleSize(7)}
+      width={scaleSize(170)}
+      height={scaleSize(170)}
+    />
+    <Rect
+      x={scaleSize(370)}
+      y={scaleSize(440)}
+      rx={scaleSize(7)}
+      ry={scaleSize(7)}
+      width={scaleSize(170)}
+      height={scaleSize(170)}
+    />
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(620)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(170)}
+      height={scaleSize(10)}
+    />
+    <Rect
+      x={scaleSize(190)}
+      y={scaleSize(620)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(170)}
+      height={scaleSize(10)}
+    />
+
+    <Rect
+      x={scaleSize(370)}
+      y={scaleSize(620)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(170)}
+      height={scaleSize(10)}
+    />
+    <Rect
+      x={scaleSize(10)}
+      y={scaleSize(635)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(130)}
+      height={scaleSize(10)}
+    />
+    <Rect
+      x={scaleSize(190)}
+      y={scaleSize(635)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(130)}
+      height={scaleSize(10)}
+    />
+
+    <Rect
+      x={scaleSize(370)}
+      y={scaleSize(635)}
+      rx={scaleSize(3)}
+      ry={scaleSize(3)}
+      width={scaleSize(130)}
+      height={scaleSize(10)}
+    />
   </ContentLoader>
 );
 
