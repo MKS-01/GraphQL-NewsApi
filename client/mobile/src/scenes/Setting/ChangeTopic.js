@@ -56,7 +56,6 @@ const ChangeTopic = () => {
     //TODO:type === "TECHNOLOGY" replace with hook
     const topic = topics.filter(({ type }) => type === "TECHNOLOGY");
     setSelectedTopic(topic[0].topics);
-    console.log(topic[0].topics);
   }, []);
 
   const handleSelected = (value) => {
