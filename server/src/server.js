@@ -8,7 +8,6 @@ const { buildSchema } = require("./schema.js");
 const { SERVER_PORT } = require("../config");
 
 const { models, ConnectDB } = require("./dataSources/models");
-const mongoose = require("mongoose");
 
 async function startApolloServer() {
   const app = express();

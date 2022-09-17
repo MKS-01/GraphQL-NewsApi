@@ -13,6 +13,7 @@ import { scaleSize } from "_styles/mixins";
 import { TOP_HEADLINES } from "_services/GraphQL/query";
 import { CARD_TYPE } from "_constants/Card";
 import HomeLoader from "_components/Loader/Home";
+import { GRAY_LIGHT } from "_styles/colors";
 
 const wait = (timeout) => {
   return new Promise((resolve) => setTimeout(resolve, timeout));
@@ -31,12 +32,12 @@ const HomeScreen = () => {
     {
       id: "2",
       type: "category",
-      topic: "playstation",
+      topic: "gaming",
     },
     {
       id: "3",
       type: "category",
-      topic: "ign",
+      topic: "ps5",
     },
     {
       id: "4",
@@ -59,7 +60,7 @@ const HomeScreen = () => {
 
   const onRefresh = useCallback(() => {
     setRefreshing(true);
-    // refetch();
+    refetch();
     wait(500).then(() => setRefreshing(false));
   }, []);
 
@@ -72,7 +73,8 @@ const HomeScreen = () => {
       <RootSafeArea>
         <View style={{ marginTop: scaleSize(10) }} />
         <Title title={"Home"} type="sub-title" paddingLeft={true} />
-        <HomeLoader />
+        {/* <HomeLoader /> */}
+        <Loader />
       </RootSafeArea>
     );
 
@@ -108,6 +110,15 @@ const HomeScreen = () => {
         renderItem={renderCategory}
         keyExtractor={(item, index) => String(index)}
         initialNumToRender={5}
+        showsVerticalScrollIndicator={false}
+        refreshControl={
+          <RefreshControl
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+            tintColor={GRAY_LIGHT}
+            // colors={GRAY_LIGHT}
+          />
+        }
       />
     </RootSafeArea>
   );
